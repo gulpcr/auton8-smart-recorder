@@ -1,0 +1,6 @@
+module components
+FilterChip 1.0 FilterChip.qml
+IconButton 1.0 IconButton.qml
+TestCard 1.0 TestCard.qml
+TestLibrary 1.0 TestLibrary.qml
+NewTestWizard 1.0 NewTestWizard.qml

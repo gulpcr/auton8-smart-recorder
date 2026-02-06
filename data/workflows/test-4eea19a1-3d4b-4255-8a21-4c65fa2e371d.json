@@ -1,0 +1,553 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "baseUrl": "https://www.daraz.pk/#hp-flash-sale"
+  },
+  "steps": [
+    {
+      "id": "d6ee2e5f-ca54-4e70-9224-b816c36c0cee",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a#\\34 71469759 > div.common-img.fs-card-img > picture > img",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"471469759\"]/img/picture/div",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/section/div/div/div/div/div[2]/div/div[2]/div[2]/div[2]/a[4]/div/picture/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "img",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          631,
+          334,
+          188,
+          188
+        ],
+        "visual_hash": "f3a350ec9eb11538ac4eab42a9188f63a8bc36230b46fa5dcf9530d48f573a63",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\d6ee2e5f-ca54-4e70-9224-b816c36c0cee.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 16,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "image",
+        "framework": "react",
+        "attributes": {
+          "src": "https://img.drz.lazcdn.com/static/pk/p/e2fdaaac3da0c0ad837fdf5d71f3df77.jpg_400x400q80.jpg"
+        },
+        "semantic_intent": "Click on image"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/#hp-flash-sale",
+        "title": "Online Shopping in Pakistan: Fashion, Electronics & Groceries - Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 258}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "471469759",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#\\34 71469759",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#\\34 71469759",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"471469759\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"471469759\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All DevicesRs.777Rs.2,499-69%",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "a",
+        "id": "471469759",
+        "classes": [
+          "pc-custom-link",
+          "card-fs-content-body-unit",
+          "hp-mod-card-hover"
+        ],
+        "name": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices",
+        "bounding_box": [
+          631,
+          334,
+          188,
+          290
+        ],
+        "visual_hash": "a5c0da23120c05d0da2400df25d0da2f25df2fc0db7f24d9ffb2126fec913fe4",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\471469759.png",
+        "parent_path": "////",
+        "sibling_count": 6,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "link",
+        "framework": "react",
+        "attributes": {
+          "href": "//www.daraz.pk/products/50-i471469759-s2842773414.html?&scm=1007.51610.379274.0&pvid=7d9672ef-138d-45e1-903b-ff0c17f37712&search=flashsale?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.3552%3Bfs_item_discount_price%3A777%3Bitem_id%3A471469759%3Bpctr%3A0.0%3Bcalib_pctr%3A0.0%3Bvoucher_price%3A777%3Bmt%3Ahot%3Bpromo_price%3A777%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A25%3Babid%3A379274%3Bfs_item_price%3A2499%3Bpvid%3A7d9672ef-138d-45e1-903b-ff0c17f37712%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A7d9672ef-138d-45e1-903b-ff0c17f37712%3Btime%3A1769339539%3Bfs_biz_type%3Afs%3Bscm%3A1007.51610.379274.%3Bchannel_id%3A0000%3Bfs_item_discount%3A69%25%3Bcampaign_id%3A348881&scm=1007.51610.379274.0",
+          "name": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices"
+        },
+        "semantic_intent": "Fill \"AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super \" field"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/#hp-flash-sale",
+        "title": "Online Shopping in Pakistan: Fashion, Electronics & Groceries - Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 258}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "05831c76-9d10-4083-974f-43b012b30014",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_sku-select > div.sku-selector > div.sku-prop > div.pdp-mod-product-info-section.sku-prop-selection > div.section-content > div.sku-prop-content.sku-prop-content- > span.sku-variable-img-wrap > div.pdp-common-image.sku-variable-img > div.lazyload-wrapper",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_sku-select\"]/div/div/span[6]/div[2]/div/div/div/div",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[14]/div/div/div/div/div[2]/span[6]/div/div",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "div",
+        "id": null,
+        "classes": [
+          "lazyload-wrapper"
+        ],
+        "name": null,
+        "bounding_box": [
+          730,
+          527,
+          33,
+          33
+        ],
+        "visual_hash": "faba4a8ec0de1a531fd18465e526a5a9b5399c2e85ca34738f2639e4b86d4e0b",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\05831c76-9d10-4083-974f-43b012b30014.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 17,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Click on unknown"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/50-i471469759-s2842773414.html?scm=1007.51610.379274.0&pvid=7d9672ef-138d-45e1-903b-ff0c17f37712&search=flashsale&spm=a2a0e.tm80335142.FlashSale.d_471469759",
+        "title": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "9d2e467f-acb4-4715-99d6-25617d08a2f7",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_add_to_cart > div.pdp-cart-concern > button.add-to-cart-buy-now-btn.pdp-button > span.pdp-button-text > span",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_add_to_cart\"]/span/span/button[2]/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Add to Cart",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[17]/div/button[2]/span/span",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Add to Cart",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "span",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          703,
+          646,
+          81,
+          18
+        ],
+        "visual_hash": "e4ca5a201637b57f492581dfaea57e20d6da5214a59aa94902de76b57f2181de",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\9d2e467f-acb4-4715-99d6-25617d08a2f7.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 13,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Click on \"Add to Cart\""
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpods_pro-wireless-earbuds-bluetooth-50-super-sound-bass-extra-ear-buds-pop-up-feature-compatible-with-all-devices-i471469759-s3287087168.html?",
+        "title": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "656da06d-7449-41f3-a057-46f8e9a22899",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_add_to_cart > div.pdp-cart-concern > button.add-to-cart-buy-now-btn.pdp-button",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_add_to_cart\"]/button[2]/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Add to Cart",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[17]/div/button[2]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Add to Cart",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "button",
+        "id": null,
+        "classes": [
+          "add-to-cart-buy-now-btn",
+          "pdp-button",
+          "pdp-button_type_text",
+          "pdp-button_theme_orange",
+          "pdp-button_size_xl"
+        ],
+        "name": null,
+        "bounding_box": [
+          631,
+          633,
+          225,
+          44
+        ],
+        "visual_hash": "de7d649231921b6dce6d649231921b24e6cd1ccb9b366196e5991e699e6c6196",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\656da06d-7449-41f3-a057-46f8e9a22899.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 11,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "button",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Fill \"Add to Cart\" field"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpods_pro-wireless-earbuds-bluetooth-50-super-sound-bass-extra-ear-buds-pop-up-feature-compatible-with-all-devices-i471469759-s3287087168.html?",
+        "title": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "6d3bb94c-a69b-4746-a41d-d29d143cc4ff",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body.pdp-layout-column-2.i-overflow-hidden > div > div.iweb-mask.iweb-dialog-mask > div.iweb-dialog-container.iweb-dialog-container-enter > div.iweb-dialog-wrap.lzd-login-signup-popup-wrapper > div.iweb-dialog-body.lzd-login-signup-popup-body > div.iweb-dialog-body-content-wrapper > div.iweb-dialog-body-content > div.lzd-member-loginsign-popup > div.lzd-member-loginsign-popup-close-button > div > svg",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "svg/div/div/div/div/div/div/div/div/div/div[9]/body",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[9]/div/div/div/div/div/div/div/div/div/svg",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "svg",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          814,
+          156,
+          24,
+          24
+        ],
+        "visual_hash": "bc2c3869cb338c3ef2c0e38d2cf238c34b2d4f30b2cf67cc94b290b36b6ce62c",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\6d3bb94c-a69b-4746-a41d-d29d143cc4ff.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 13,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Click on unknown"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpods_pro-wireless-earbuds-bluetooth-50-super-sound-bass-extra-ear-buds-pop-up-feature-compatible-with-all-devices-i471469759-s3287087168.html?",
+        "title": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "6a45371a-f036-4b72-a968-d4e9b53834fe",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_add_to_cart > div.pdp-cart-concern > button.add-to-cart-buy-now-btn.pdp-button",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_add_to_cart\"]/button[2]/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Add to Cart",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[17]/div/button[2]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Add to Cart",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "button",
+        "id": null,
+        "classes": [
+          "add-to-cart-buy-now-btn",
+          "pdp-button",
+          "pdp-button_type_text",
+          "pdp-button_theme_orange",
+          "pdp-button_size_xl"
+        ],
+        "name": null,
+        "bounding_box": [
+          639,
+          633,
+          225,
+          44
+        ],
+        "visual_hash": "ce6d659231921b6dce6d649231925b24e6c91ccb9b366196e5991e699e6c619e",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\6a45371a-f036-4b72-a968-d4e9b53834fe.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 11,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "button",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Fill \"Add to Cart\" field"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpods_pro-wireless-earbuds-bluetooth-50-super-sound-bass-extra-ear-buds-pop-up-feature-compatible-with-all-devices-i471469759-s3287087168.html?",
+        "title": "AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Extra Ear-Buds, Pop-Up Feature Compatible with All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "Recording 2026-01-25 11:12",
+    "baseUrl": "https://www.daraz.pk/#hp-flash-sale",
+    "status": "ready",
+    "createdAt": "2026-01-25T11:12:02.740833Z",
+    "updatedAt": "2026-01-25T11:12:43.023601Z",
+    "version": 2,
+    "stepCount": 7,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  }
+}

@@ -1,0 +1,2640 @@
+{
+  "url": "https://tonerprice.com",
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:34.784605",
+      "url": "https://tonerprice.com/"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:50.256836",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-93257945@13/sandbox/modern/"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:50.268633",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-shopify-custom-pixel@0450/sandbox/modern/"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:50.927515",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:50.963062",
+      "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=28px&styleWidth=100%25"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:50.971551",
+      "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=28px&styleWidth=100%25"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:51.261826",
+      "url": "https://shop.app/pay/hop?analytics_trace_id=ebed7bee-34ef-4ed0-bb89-c70e73df80b8&target_origin=https%3A%2F%2Ftonerprice.com&client_handle=tonerprice.myshopify.com"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:51.508727",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:11:53.429952",
+      "url": "https://tonerprice.com"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:42.788451",
+      "url": "https://tonerprice.com/collections/bixolon"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:43.046968",
+      "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=28px&styleWidth=100%25"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:43.240051",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-shopify-custom-pixel@0450/sandbox/modern/collections/bixolon"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:43.276759",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-93257945@13/sandbox/modern/collections/bixolon"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:43.527993",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:43.634311",
+      "url": "https://shop.app/pay/hop?analytics_trace_id=fd410441-b431-45ec-88da-b6976cdff633&target_origin=https%3A%2F%2Ftonerprice.com&client_handle=tonerprice.myshopify.com"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:44.041682",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:45.912997",
+      "url": "https://tonerprice.com/collections/it-labels-bixolon-slp-srp-series-slp-dx220"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.212183",
+      "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=28px&styleWidth=100%25"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.326787",
+      "url": "https://widget.trustpilot.com/trustboxes/577258fb31f02306e4e3aaf9/index.html?templateId=577258fb31f02306e4e3aaf9&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-15PDT&noReviews=hide&scrollToList=true&styleAlignment=left"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.329842",
+      "url": "https://widget.trustpilot.com/trustboxes/577258fb31f02306e4e3aaf9/index.html?templateId=577258fb31f02306e4e3aaf9&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=hide&scrollToList=true&styleAlignment=left"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.332720",
+      "url": "https://widget.trustpilot.com/trustboxes/577258fb31f02306e4e3aaf9/index.html?templateId=577258fb31f02306e4e3aaf9&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT1251-15PDT&noReviews=hide&scrollToList=true&styleAlignment=left"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.336431",
+      "url": "https://widget.trustpilot.com/trustboxes/577258fb31f02306e4e3aaf9/index.html?templateId=577258fb31f02306e4e3aaf9&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT151-14PDT&noReviews=hide&scrollToList=true&styleAlignment=left"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.357673",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-shopify-custom-pixel@0450/sandbox/modern/collections/it-labels-bixolon-slp-srp-series-slp-dx220"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.361066",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-93257945@13/sandbox/modern/collections/it-labels-bixolon-slp-srp-series-slp-dx220"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.621417",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:46.767978",
+      "url": "https://shop.app/pay/hop?analytics_trace_id=ac8242b0-80a0-4f67-9b67-f903d8f612cc&target_origin=https%3A%2F%2Ftonerprice.com&client_handle=tonerprice.myshopify.com"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:47.193979",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:48.344233",
+      "url": "https://tonerprice.com/collections/it-labels-bixolon-slp-srp-series-slp-dx220/products/2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:48.641540",
+      "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=28px&styleWidth=100%25"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:48.644051",
+      "url": "https://widget.trustpilot.com/trustboxes/577258fb31f02306e4e3aaf9/index.html?templateId=577258fb31f02306e4e3aaf9&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=show&scrollToList=true&styleAlignment=left"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:48.763254",
+      "url": "https://widget.trustpilot.com/trustboxes/5763bccae0a06d08e809ecbb/index.html?templateId=5763bccae0a06d08e809ecbb&businessunitId=50b6501b00006400051f01f8#locale=en-US&styleHeight=300px&styleWidth=100%25&token=0a821e1e-4f7f-433e-b12c-89920ac0acce&sku=DT21-14PDT&name=2&reviewLanguages=en&noReviews=hide&fullwidth=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:48.767766",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-93257945@13/sandbox/modern/collections/it-labels-bixolon-slp-srp-series-slp-dx220/products/2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:49.001386",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:49.176370",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-shopify-custom-pixel@0450/sandbox/modern/collections/it-labels-bixolon-slp-srp-series-slp-dx220/products/2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:49.193970",
+      "url": "https://shop.app/pay/hop?analytics_trace_id=e3a7376a-8be8-4c7d-bc04-998195552439&target_origin=https%3A%2F%2Ftonerprice.com&client_handle=tonerprice.myshopify.com"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:49.818883",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:12:49.945969",
+      "url": "https://pay.shopify.com/pay/sdk-authorize?extend_buyer_identity_sdk=1&analytics_context=loginWithShopPrequal&analytics_trace_id=369d3dd3-7428-44a1-a3f0-25df65c057cf&avoid_sdk_session=false&compact_layout=false&flow=prequal&flow_version=prequalAmount&hide_copy=true&locale=en&preact=true&prompt=login&redirect_uri=https%3A%2F%2Ftonerprice.com%2Fservices%2Flogin_with_shop%2Fcallback&require_verification=false&response_mode=form_post&response_type=id_token&scope=openid+pay%3Asession_token+profile+shop%3Aaccount_uuid+email&sign_up_enabled=false&target_origin=https%3A%2F%2Ftonerprice.com&client_id=f0c66a4a-f692-4939-a66d-e74e50e8fc25&nonce=nIp-I72NxDzw405jxBvs5lws&state=hWN80CT812DSVZ8pJqsw6ZHd&storefront_domain=https%3A%2F%2Ftonerprice.com&uniq_token=5238eabd-6aad-4a35-9535-c751707d646c&visit_token=db81026f-29db-4530-8ea0-2b6cc35eee08&cross_domain_shopify=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:07.248732",
+      "url": "https://tonerprice.com/checkouts/cn/hWN80CTKKBnH8HpbY0QyebHI/en-us?_r=AQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4&auto_redirect=false&edge_redirect=true&skip_shop_pay=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:09.220564",
+      "url": "https://tonerprice.com/checkouts/cn/hWN80CTKKBnH8HpbY0QyebHI/en-us?_r=AQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4&auto_redirect=false&edge_redirect=true&skip_shop_pay=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:09.221429",
+      "url": "https://tonerprice.com/checkouts/cn/hWN80CTKKBnH8HpbY0QyebHI/en-us/information?_r=AQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4&auto_redirect=false&edge_redirect=true&skip_shop_pay=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:10.304625",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-shopify-custom-pixel@0450/sandbox/modern/checkouts/cn/hWN80CTKKBnH8HpbY0QyebHI/en-us/information?_r=AQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4&auto_redirect=false&edge_redirect=true&skip_shop_pay=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:10.307504",
+      "url": "https://tonerprice.com/web-pixels@fcfee988w5aeb613cpc8e4bc33m6693e112/custom/web-pixel-93257945@13/sandbox/modern/checkouts/cn/hWN80CTKKBnH8HpbY0QyebHI/en-us/information?_r=AQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4&auto_redirect=false&edge_redirect=true&skip_shop_pay=true"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:10.362008",
+      "url": "https://extensions.shopifycdn.com/shopifycloud/checkout-web/assets/c1/assets/load.Bw6vYUDr.html"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:10.949006",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:11.365546",
+      "url": "https://checkout.shopify.com/70578569433/sandboxes/wallets?shopHost=tonerprice.com&wallet=GOOGLE_PAY&hmac=cf82f0f36f47572d9c0340094f84f24a814da236090db6a6066ed0e6de959519"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:11.370546",
+      "url": "https://checkout.shopify.com/70578569433/sandboxes/wallets?shopHost=tonerprice.com&wallet=PAYPAL_EXPRESS&hmac=3a9784dc552d3ef6fde2ef38957422075467355e86d4a6089a6b94802af6b25e"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:11.979177",
+      "url": "https://shop.app/accounts/login/embedded?analytics_context=loginWithShopCheckoutModal&analytics_trace_id=2c4534f3-7eac-468e-942a-eed73297fd47&auth_state=x07gIBJG6UmuK5SIrrr8cQ&authentication_level=phone&avoid_sdk_session=true&checkout_redirect_url=YmQ5SHJoUSt3bkw0aUdUOWs1S3JvbERqbVhvU20wWVRidkZqOEFKVFhmS01IR1l1VThLYzJkMHlTYno1MjhUV1dGQjY4eE15ajNwUmF0WWRUeUhBSXhtUFMwZXBXcy85Z3VEZ0VnbmZ2RmhERUdhQVg2RlNzSXVWWGF1RFVwOUJpelFJbUdtUTdwNjRqYnJ6VjA1d0IxQ3RTSit6QnZEb0ZTOEhPNkYyczNrZTc0alp0QXUwQW5TQkV2MEhOL2l5QzJ6MTZVQ1FHYnBrQ3NGOGJxVW9wVmNtVlJuWFRxdU14UEtFUmY3YktkcnR4RVVqV01DU080ei93VE52OHVZVFJiT2dKQ1ZVWTRUK0N5MnB1eU42SUxyNWhwWXpnWHhzdHgyMFFQR0o2QVNHell6eXEzUzBxeEZwa3hodExlVnFSOWtHWWVSV0kwV2lpcnFVWWdOZG5meWwwVVNLTFhxRUROQjR5SEg0VTV4RnNQTzh6MHFIQ0d0UWh6bktBbWU4Q3Z4cGxLTXQwOCtvQlVqVGJQTDZLQUs0N25uMDVJV3RzYUFhMXg3SkpGVmRHM0VrYUZMQitnWlFCZEY0VXExbWdBNHRadUk3dEhkOHlQa2tRNHdzQmpTNi92SVYxS21yV1NQbTJxZ0hucFlWejhvdWdlb1dnUmpyK05zMVdzaTFaTkV4UDhLYWE3UUF2TkRUSmpXK01sNnBQWUFKM2hTNkxBcTJ3VWVNMUZBM2F3TVlhZ3ZNOGswdzY2aHJDU3ZMdkliL1dRaUE5MmhGUmRoKzBWdk9kaU9Ra25NQ1MzdlFIWkloSU5vZE9Sb3J2c2psSVhPTGRtTDhXS2xscFYra0xibWhrbzhQU0huWFdodER0NmRmRmlJZ1BPL0l1MVp1YS94NVV6MkFqWitSdlVhaDczbTRnRVdIOHNWbFdXajNwUUlJcUUxLzNHa3ZCNWFzZGVRdlJ2eG9mOXJ4V3BLUmQ4czBHVEpIRWY1SW8xM3VKb1FsVkNhdWZEN1N6MTl6bVZnL2R1L2VDa0NVSGYza3ZDZTUwbHVFT1Mwd0dEUklsdThqZUFyYnRpSlozcUZTaDBLdDFLT0NCL0Y2aFpub0ZQNkRaVWpkWVFCSk95c0FvYzZQVmIrMVU2VGpWdjRJTlRtV1RZdzVjZ3c5RTZMQzJ2ZWdVVlNDQ1pVOGhycXNtWVd1M1RaYi95RGZZVUtwOHFsVUpCM2luaEtNazhZSTRtUHZaU3pMZDcwVCtLdWNOVmdycnBjMmZ3ZUlWbnZNNUR0Qks2Y1N5dmJsYjVNUlBsb2dOOU5lbXNpMXV6eFlCYTdPeHlkTUdXZ1JIUWk4cGkwZVVWKzkzUUlTRk4xdC0tZXVTb29MRzJJOWZmSlpFM0ZpQ29Ldz09--50d6d403672da326ca0e6d9708a7040193c56f22&checkout_token=e5a69877bb9791069692e98653914a89&checkout_version=checkout_one&compact_layout=true&extend_buyer_identity_sdk=1&flow=checkout_modal&flow_version=unspecified&layout=embedded&locale=en&next=OAuthContinue&preact=true&redirect_type=iframe&require_verification=false&sign_up_enabled=false&storefront_domain=https%3A%2F%2Ftonerprice.com&transaction_params=encrypted_params%3DUGRpNk5HLzExRzJMbmpQQjBVQS9HRDNXc2dpWVp2N0kxc0JUb3V3RjhSa3F5R2kwQ3ZhejhUZGhKNWpUa0ZmQVYvemxsK0wvRGgzbWpMQmphM3UzakE9PS0tcWt5NnNGWGRsZ0htdzljTTlDTFgwUT09--fa6ff04f30fbace03604f8de34da5edc7785eb3b&uniq_token=5238eabd-6aad-4a35-9535-c751707d646c&ux_mode=iframe&visit_token=db81026f-29db-4530-8ea0-2b6cc35eee08"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:12.015342",
+      "url": "https://www.paypal.com/web-sdk/v6.45.0/pixel#origin=https://checkout.shopify.com&page-session-id=b43315b2-65e8-46cb-8de0-6987d240b882"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:12.132770",
+      "url": "about:blank"
+    },
+    {
+      "type": "navigate",
+      "timestamp": "2026-01-25T09:13:12.708148",
+      "url": "https://pay.google.com/gp/p/ui/payframe?origin=https%3A%2F%2Fcheckout.shopify.com&mid="
+    }
+  ],
+  "network_logs": [
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:36.037259"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:36.972490"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2024-04/graphql.json",
+      "timestamp": "2026-01-25T09:11:50.235857"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:11:50.277362"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:11:50.291557"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://shop.app/pay/session?v=1&token=5238eabd-6aad-4a35-9535-c751707d646c&shop_id=70578569433",
+      "timestamp": "2026-01-25T09:11:50.420142"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:11:50.420332"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js?ts=1769314310349",
+      "timestamp": "2026-01-25T09:11:50.420542"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:11:50.420872"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js?ts=1769314310349",
+      "timestamp": "2026-01-25T09:11:50.560903"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:11:50.577944"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://shop.app/pay/session?v=1&token=5238eabd-6aad-4a35-9535-c751707d646c&shop_id=70578569433",
+      "timestamp": "2026-01-25T09:11:50.603621"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/shopify_pay/accelerated_checkout",
+      "timestamp": "2026-01-25T09:11:50.604274"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=1313c262-2129-4154-97a5-3267e96b4bbd&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2F&r=&sw=1280&sh=720&rn=883585264&tl=Ink+Cartridges%2C+Toner+%26+Printer+Ink+Cartridges+%E2%80%93+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:11:50.746856"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:11:50.766232"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:11:50.924964"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:11:50.960561"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/",
+      "timestamp": "2026-01-25T09:11:50.961076"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:11:50.961920"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/shopify_pay/accelerated_checkout",
+      "timestamp": "2026-01-25T09:11:50.996277"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=1313c262-2129-4154-97a5-3267e96b4bbd&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2F&r=&sw=1280&sh=720&rn=883585264&tl=Ink+Cartridges%2C+Toner+%26+Printer+Ink+Cartridges+%E2%80%93+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:11:51.008529"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=1313c262-2129-4154-97a5-3267e96b4bbd&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2F&r=&sw=1280&sh=720&rn=810929037&tl=Ink+Cartridges%2C+Toner+%26+Printer+Ink+Cartridges+%E2%80%93+Tonerprice&lg=en-US&pagetype=home&evt=custom&ea=home&msclkid=N",
+      "timestamp": "2026-01-25T09:11:51.008962"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:51.051370"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:11:51.222753"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2024-04/graphql.json",
+      "timestamp": "2026-01-25T09:11:51.249668"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=1313c262-2129-4154-97a5-3267e96b4bbd&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2F&r=&sw=1280&sh=720&rn=810929037&tl=Ink+Cartridges%2C+Toner+%26+Printer+Ink+Cartridges+%E2%80%93+Tonerprice&lg=en-US&pagetype=home&evt=custom&ea=home&msclkid=N",
+      "timestamp": "2026-01-25T09:11:51.269526"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:11:51.278474"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:11:51.278696"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:11:51.278872"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:11:51.279005"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:11:51.279133"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/",
+      "timestamp": "2026-01-25T09:11:51.290401"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:11:51.296933"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314310447&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGA&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938468~116682876~116992598~117025848~117041587&dp=%2F&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2F&sid=1769314311&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&edid=dNzYwYj&tfd=17811",
+      "timestamp": "2026-01-25T09:11:51.655461"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&tid=AW-1072694270&en=page_view&dl=https%3A%2F%2Ftonerprice.com%2F&scrsrc=www.googletagmanager.com&rnd=117313964.1769314312&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116992598~117041587&tft=1769314311911&tfd=18073&apve=1&apvf=f",
+      "timestamp": "2026-01-25T09:11:51.932288"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314311924&cv=11&fst=1769314311924&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116992598~117041587&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2F&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=1~0&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:11:51.932478"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:11:52.031167"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314310447&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115616985~115938466~115938468~116682876~116992598~117041588&dp=%2F&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2F&sid=1769314312&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&tfd=18251",
+      "timestamp": "2026-01-25T09:11:52.093671"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:11:52.270978"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:11:52.279010"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:11:52.310983"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:11:52.311591"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314310447&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGA&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938468~116682876~116992598~117025848~117041587&dp=%2F&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2F&sid=1769314311&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&edid=dNzYwYj&tfd=17811",
+      "timestamp": "2026-01-25T09:11:52.656276"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.google.com/ccm/collect?frm=0&tid=AW-1072694270&en=page_view&dl=https%3A%2F%2Ftonerprice.com%2F&scrsrc=www.googletagmanager.com&rnd=117313964.1769314312&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116992598~117041587&tft=1769314311911&tfd=18073&apve=1&apvf=f",
+      "timestamp": "2026-01-25T09:11:52.657148"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314310447&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115616985~115938466~115938468~116682876~116992598~117041588&dp=%2F&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2F&sid=1769314312&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&tfd=18251",
+      "timestamp": "2026-01-25T09:11:52.657642"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314311924&cv=11&fst=1769314311924&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116992598~117041587&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2F&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=1~0&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:11:52.658034"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:52.680555"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:11:52.705201"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:53.008758"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:53.272050"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:53.482779"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:53.681000"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://developer.livehelpnow.net/oauth/token/?client_id=6dfaa5c9-d483-4ad7-ee24-c2ad253afa80&client_secret=hkAIdIsDLpGX6umSfedhbPgAXx2H0LqRL87GQPItckPzGREv%2Br&grant_type=client_credentials&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:11:54.108632"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/oauth/token/?client_id=6dfaa5c9-d483-4ad7-ee24-c2ad253afa80&client_secret=hkAIdIsDLpGX6umSfedhbPgAXx2H0LqRL87GQPItckPzGREv%2Br&grant_type=client_credentials&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:11:54.795980"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2F&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:11:54.796778"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2F&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:11:55.302416"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:11:55.303805"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:11:55.771950"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:56.437743"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:11:56.647882"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:00.480967"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:00.690873"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2024-04/graphql.json",
+      "timestamp": "2026-01-25T09:12:10.376852"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:10.612246"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:10.779695"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:12.360752"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:12.596036"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:18.844312"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:19.222137"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:25.806887"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:25.958770"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314310447&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938468~116682876~116992598~117025848~117041587&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2F&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&_tu=AAI&en=user_engagement&_et=51117&tfd=68933",
+      "timestamp": "2026-01-25T09:12:42.786364"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314310447&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115616985~115938466~115938468~116682876~116992598~117041588&sid=1769314312&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2F&dt=Ink%20Cartridges%2C%20Toner%20%26%20Printer%20Ink%20Cartridges%20%E2%80%93%20Tonerprice&_tu=AAI&en=user_engagement&_et=50684&tfd=68938",
+      "timestamp": "2026-01-25T09:12:42.786856"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:42.815592"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314362864&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~116992597~117025847~117041588~117223559~117223566&dp=%2Fcollections%2Fbixolon&dt=Bixolon%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&_et=5&tfd=188",
+      "timestamp": "2026-01-25T09:12:42.949749"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:12:42.958640"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:42.990217"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js?ts=1769314362987",
+      "timestamp": "2026-01-25T09:12:42.990380"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:43.033303"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:12:43.064704"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&referrer=https%3A%2F%2Ftonerprice.com%2F&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:43.064953"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&referrer=https%3A%2F%2Ftonerprice.com%2F&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:43.065147"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:12:43.066340"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314363112&cv=11&fst=1769314363112&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938465~115938468~116682875~116992597~117041588~117099528~117223559~117223566&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&ref=https%3A%2F%2Ftonerprice.com%2F&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Bixolon%20%E2%80%93%20Tonerprice&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=2~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcollections%2Fbixolon&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:43.118343"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&scrsrc=www.googletagmanager.com&rnd=662378399.1769314363&dt=Bixolon%20%E2%80%93%20Tonerprice&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938465~115938468~116682875~116992597~117041588~117099528~117223559~117223566&apve=1&apvf=f&apvc=1&tids=AW-1072694270&tid=AW-1072694270&tft=1769314363116&tfd=358",
+      "timestamp": "2026-01-25T09:12:43.118527"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314362864&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~116992597~117025847~117041588~117223559~117223566&dp=%2Fcollections%2Fbixolon&dt=Bixolon%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&_et=5&tfd=188",
+      "timestamp": "2026-01-25T09:12:43.151584"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=329f4d4e-defa-4abe-860c-1cce7244139e&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&r=https%3A%2F%2Ftonerprice.com%2F&sw=1280&sh=720&rn=534405664&tl=Bixolon+%E2%80%93+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:12:43.153275"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:12:43.204902"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:43.338042"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=329f4d4e-defa-4abe-860c-1cce7244139e&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&r=https%3A%2F%2Ftonerprice.com%2F&sw=1280&sh=720&rn=534405664&tl=Bixolon+%E2%80%93+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:12:43.341979"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:43.345507"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:43.345862"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js?ts=1769314362987",
+      "timestamp": "2026-01-25T09:12:43.351941"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:43.376697"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&referrer=https%3A%2F%2Ftonerprice.com%2F&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:43.397988"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&referrer=https%3A%2F%2Ftonerprice.com%2F&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:43.403135"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:12:43.406311"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/collections/bixolon",
+      "timestamp": "2026-01-25T09:12:43.408948"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314363112&cv=11&fst=1769314363112&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938465~115938468~116682875~116992597~117041588~117099528~117223559~117223566&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&ref=https%3A%2F%2Ftonerprice.com%2F&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Bixolon%20%E2%80%93%20Tonerprice&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=2~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcollections%2Fbixolon&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:43.449300"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&scrsrc=www.googletagmanager.com&rnd=662378399.1769314363&dt=Bixolon%20%E2%80%93%20Tonerprice&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938465~115938468~116682875~116992597~117041588~117099528~117223559~117223566&apve=1&apvf=f&apvc=1&tids=AW-1072694270&tid=AW-1072694270&tft=1769314363116&tfd=358",
+      "timestamp": "2026-01-25T09:12:43.521769"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:12:43.525332"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/collections/bixolon",
+      "timestamp": "2026-01-25T09:12:43.633650"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:12:43.641638"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:12:43.663406"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:43.783642"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:44.194557"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:12:44.233035"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:44.384173"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:44.410833"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:44.601043"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:12:44.900045"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:12:44.907883"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:12:45.158553"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314362864&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~116992597~117025847~117041588~117223559~117223566&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&dr=https%3A%2F%2Ftonerprice.com%2F&dt=Bixolon%20%E2%80%93%20Tonerprice&_tu=AAI&en=scroll&epn.percent_scrolled=90&_et=3&tfd=3132",
+      "timestamp": "2026-01-25T09:12:45.909864"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314362864&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&_s=3&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~116992597~117025847~117041588~117223559~117223566&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&dr=https%3A%2F%2Ftonerprice.com%2F&dt=Bixolon%20%E2%80%93%20Tonerprice&_tu=AAI&en=user_engagement&_et=2935&tfd=3134",
+      "timestamp": "2026-01-25T09:12:45.910278"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314362864&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938465~115938468~116682875~116992597~117041588~117223559~117223566&dt=Bixolon%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&sid=1769314312&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&_s=1&tfd=3137",
+      "timestamp": "2026-01-25T09:12:45.910575"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:45.951812"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314365964&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938466~115938469~116682876~116992598~117041588~117099529~117223558&dp=%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=SLP-DX220%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&_et=3&tfd=123",
+      "timestamp": "2026-01-25T09:12:46.004087"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&tid=AW-1072694270&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&scrsrc=www.googletagmanager.com&rnd=1474567650.1769314366&dt=SLP-DX220%20%E2%80%93%20Tonerprice&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115938466~115938469~116682876~116992598~117041588~117042505~117223558&tft=1769314366021&tfd=144&apve=1&apvf=f",
+      "timestamp": "2026-01-25T09:12:46.032715"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314366028&cv=11&fst=1769314366028&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115938466~115938469~116682876~116992598~117041588~117042505~117223558&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=SLP-DX220%20%E2%80%93%20Tonerprice&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=3~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:46.032954"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=5026c022-e0ae-4162-b255-8d4967b08699&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&sw=1280&sh=720&rn=353796667&tl=SLP-DX220+%E2%80%93+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:12:46.068717"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314365964&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938466~115938469~116682876~116992598~117041588~117099529~117223558&dp=%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=SLP-DX220%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&_et=3&tfd=123",
+      "timestamp": "2026-01-25T09:12:46.142809"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:12:46.149709"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:46.193286"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js?ts=1769314366172",
+      "timestamp": "2026-01-25T09:12:46.193424"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:46.193558"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:46.196104"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:46.222739"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.google.com/ccm/collect?frm=0&tid=AW-1072694270&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&scrsrc=www.googletagmanager.com&rnd=1474567650.1769314366&dt=SLP-DX220%20%E2%80%93%20Tonerprice&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115938466~115938469~116682876~116992598~117041588~117042505~117223558&tft=1769314366021&tfd=144&apve=1&apvf=f",
+      "timestamp": "2026-01-25T09:12:46.223387"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314366028&cv=11&fst=1769314366028&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115938466~115938469~116682876~116992598~117041588~117042505~117223558&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=SLP-DX220%20%E2%80%93%20Tonerprice&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=3~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:46.224469"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=5026c022-e0ae-4162-b255-8d4967b08699&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&sw=1280&sh=720&rn=353796667&tl=SLP-DX220+%E2%80%93+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:12:46.228839"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:12:46.244001"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:46.244214"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:46.244431"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:12:46.245705"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:12:46.266081"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:46.372675"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:46.378939"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js?ts=1769314366172",
+      "timestamp": "2026-01-25T09:12:46.426604"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:46.436221"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:12:46.457617"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/collections/it-labels-bixolon-slp-srp-series-slp-dx220",
+      "timestamp": "2026-01-25T09:12:46.459347"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:46.514227"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:46.514828"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT1251-15PDT",
+      "timestamp": "2026-01-25T09:12:46.524270"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT1251-15PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.524503"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-15PDT",
+      "timestamp": "2026-01-25T09:12:46.524722"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-15PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.525173"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-14PDT",
+      "timestamp": "2026-01-25T09:12:46.525363"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.525501"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT151-14PDT",
+      "timestamp": "2026-01-25T09:12:46.525642"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT151-14PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.525770"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:12:46.619437"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/collections/it-labels-bixolon-slp-srp-series-slp-dx220",
+      "timestamp": "2026-01-25T09:12:46.721188"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:12:46.725065"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:12:46.742001"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT151-14PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.803915"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT1251-15PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.804444"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-15PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.805044"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=hide&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:46.805715"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:12:46.834492"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-14PDT",
+      "timestamp": "2026-01-25T09:12:47.043786"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-15PDT",
+      "timestamp": "2026-01-25T09:12:47.051249"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT151-14PDT",
+      "timestamp": "2026-01-25T09:12:47.053020"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT1251-15PDT",
+      "timestamp": "2026-01-25T09:12:47.054423"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:47.114066"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:47.234482"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:12:47.293640"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:12:47.296043"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:47.331416"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:12:47.544114"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:47.665886"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314365964&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938466~115938469~116682876~116992598~117041588~117099529~117223558&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&dt=SLP-DX220%20%E2%80%93%20Tonerprice&_tu=AAI&en=scroll&epn.percent_scrolled=90&_et=5&tfd=2443",
+      "timestamp": "2026-01-25T09:12:48.340768"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314365964&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&_s=3&tag_exp=102015666~103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938466~115938469~116682876~116992598~117041588~117099529~117223558&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&dt=SLP-DX220%20%E2%80%93%20Tonerprice&_tu=AAI&en=user_engagement&_et=2308&tfd=2443",
+      "timestamp": "2026-01-25T09:12:48.341083"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314365964&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115495938~115938466~115938469~116682876~116992598~117025847~117041587~117223558&dt=SLP-DX220%20%E2%80%93%20Tonerprice&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sid=1769314312&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fbixolon&_tu=AAI&_s=1&tfd=2446",
+      "timestamp": "2026-01-25T09:12:48.341331"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:48.391207"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&dp=%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&_et=2&tfd=124",
+      "timestamp": "2026-01-25T09:12:48.438137"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=view_item&_ee=1&pr1=idshopify_US_9123778789593_46410477076697~nm2%22%20X%201%22%20Direct%20Thermal%20Labels%2C%201400%20Per%20Roll%2C%20%204%22%20OD%2C%201%22%20Core~brTonerprice~caLabels~pr26.19&edid=dNzYwYj&ep.ecomm_prodid=shopify_US_9123778789593_46410477076697&epn.ecomm_totalvalue=26.19&ep.ecomm_pagetype=product&_et=2&tfd=128",
+      "timestamp": "2026-01-25T09:12:48.438325"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314368451&cv=11&fst=1769314368451&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=4~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:48.457916"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314368453&cv=11&fst=1769314368453&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&label=A7omCLq_tNMaEP6HwP8D&capi=1&gtm_ee=1&frm=0&tiba=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=5~0&data=event%3Dview_item%3Becomm_prodid%3Dshopify_US_9123778789593_46410477076697%3Becomm_totalvalue%3D26.19%3Becomm_pagetype%3Dproduct&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:48.458119"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&scrsrc=www.googletagmanager.com&rnd=1737329001.1769314368&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&apve=1&apvf=f&apvc=1&tids=AW-1072694270&tid=AW-1072694270&tft=1769314368455&tfd=152",
+      "timestamp": "2026-01-25T09:12:48.458289"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7f52377c-5b16-4872-8ac9-241fb32c9b21&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sw=1280&sh=720&rn=118425737&tl=Buy+2%22+X+1%22+Direct+Thermal+Labels+DT21-1P%2C+1400+Per+Roll%2C+4%22+OD%2C+1%22+Core+at+Tonerprice.com&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:12:48.480531"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:12:48.579694"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&dp=%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&_et=2&tfd=124",
+      "timestamp": "2026-01-25T09:12:48.581108"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=view_item&_ee=1&pr1=idshopify_US_9123778789593_46410477076697~nm2%22%20X%201%22%20Direct%20Thermal%20Labels%2C%201400%20Per%20Roll%2C%20%204%22%20OD%2C%201%22%20Core~brTonerprice~caLabels~pr26.19&edid=dNzYwYj&ep.ecomm_prodid=shopify_US_9123778789593_46410477076697&epn.ecomm_totalvalue=26.19&ep.ecomm_pagetype=product&_et=2&tfd=128",
+      "timestamp": "2026-01-25T09:12:48.581626"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:48.590416"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:48.609593"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:48.609785"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js?ts=1769314368605",
+      "timestamp": "2026-01-25T09:12:48.609954"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:48.625423"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:48.632137"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7f52377c-5b16-4872-8ac9-241fb32c9b21&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sw=1280&sh=720&rn=118425737&tl=Buy+2%22+X+1%22+Direct+Thermal+Labels+DT21-1P%2C+1400+Per+Roll%2C+4%22+OD%2C+1%22+Core+at+Tonerprice.com&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:12:48.632718"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7f52377c-5b16-4872-8ac9-241fb32c9b21&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sw=1280&sh=720&rn=615228888&tl=Buy+2%22+X+1%22+Direct+Thermal+Labels+DT21-1P%2C+1400+Per+Roll%2C+4%22+OD%2C+1%22+Core+at+Tonerprice.com&lg=en-US&pagetype=product&evt=custom&prodid=9123778789593_46410477076697&gc=USD&gv=26.19&ea=view_item&msclkid=N",
+      "timestamp": "2026-01-25T09:12:48.633086"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/data/jsonld/business-unit/50b6501b00006400051f01f8/product-imported?sku=DT21-14PDT&numberOfReviews=10&productName=2&language=en&templateId=5763bccae0a06d08e809ecbb&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core",
+      "timestamp": "2026-01-25T09:12:48.638314"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&scrsrc=www.googletagmanager.com&rnd=1737329001.1769314368&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&apve=1&apvf=f&apvc=1&tids=AW-1072694270&tid=AW-1072694270&tft=1769314368455&tfd=152",
+      "timestamp": "2026-01-25T09:12:48.661967"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314368453&cv=11&fst=1769314368453&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&label=A7omCLq_tNMaEP6HwP8D&capi=1&gtm_ee=1&frm=0&tiba=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=5~0&data=event%3Dview_item%3Becomm_prodid%3Dshopify_US_9123778789593_46410477076697%3Becomm_totalvalue%3D26.19%3Becomm_pagetype%3Dproduct&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:48.662673"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314368451&cv=11&fst=1769314368451&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=4~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:48.663452"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:12:48.685858"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:48.686149"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:48.686401"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-14PDT",
+      "timestamp": "2026-01-25T09:12:48.686709"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=show&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:48.687071"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=show&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:48.687296"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50b6501b00006400051f01f8&locale=en-US",
+      "timestamp": "2026-01-25T09:12:48.687561"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/577258fb31f02306e4e3aaf9?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-14PDT",
+      "timestamp": "2026-01-25T09:12:48.691047"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:12:48.706455"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:48.773833"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js?ts=1769314368605",
+      "timestamp": "2026-01-25T09:12:48.779048"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7f52377c-5b16-4872-8ac9-241fb32c9b21&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sw=1280&sh=720&rn=615228888&tl=Buy+2%22+X+1%22+Direct+Thermal+Labels+DT21-1P%2C+1400+Per+Roll%2C+4%22+OD%2C+1%22+Core+at+Tonerprice.com&lg=en-US&pagetype=product&evt=custom&prodid=9123778789593_46410477076697&gc=USD&gv=26.19&ea=view_item&msclkid=N",
+      "timestamp": "2026-01-25T09:12:48.782311"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:48.786805"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:48.853276"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.json",
+      "timestamp": "2026-01-25T09:12:48.893955"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/collections/it-labels-bixolon-slp-srp-series-slp-dx220/products/2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core",
+      "timestamp": "2026-01-25T09:12:48.894440"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:48.952621"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=show&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:48.955752"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=24px&styleWidth=100%25&sku=DT21-14PDT&noReviews=show&scrollToList=true&styleAlignment=left&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=577258fb31f02306e4e3aaf9",
+      "timestamp": "2026-01-25T09:12:48.956382"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=28px&styleWidth=100%25&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5406e65db0d04a09e042d5fc",
+      "timestamp": "2026-01-25T09:12:48.956920"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:48.988416"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:48.988896"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/trustbox-data/5763bccae0a06d08e809ecbb?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-14PDT&reviewsPerPage=10&reviewLanguages=en&random=wc9wRdIZdQyf8Dyjtgxl",
+      "timestamp": "2026-01-25T09:12:48.996673"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=300px&styleWidth=100%25&token=0a821e1e-4f7f-433e-b12c-89920ac0acce&sku=DT21-14PDT&name=2&reviewLanguages=en&noReviews=hide&fullwidth=true&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5763bccae0a06d08e809ecbb",
+      "timestamp": "2026-01-25T09:12:48.996855"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/apps/loyalty/app-loyalty-version",
+      "timestamp": "2026-01-25T09:12:48.998680"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:49.046082"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://coupon-x.premio.io/front/couponxappfront?fullpathName=https://tonerprice.com/collections/it-labels-bixolon-slp-srp-series-slp-dx220/products/2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core",
+      "timestamp": "2026-01-25T09:12:49.128743"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:12:49.135167"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.cloudflare.com/cdn-cgi/trace",
+      "timestamp": "2026-01-25T09:12:49.149724"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:49.203236"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:12:49.219227"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=300px&styleWidth=100%25&token=0a821e1e-4f7f-433e-b12c-89920ac0acce&sku=DT21-14PDT&name=2&reviewLanguages=en&noReviews=hide&fullwidth=true&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&referrer=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.0.0%20Safari%2F537.36&language=en-US&platform=Win32&nosettings=1&businessUnitId=50b6501b00006400051f01f8&widgetId=5763bccae0a06d08e809ecbb",
+      "timestamp": "2026-01-25T09:12:49.255802"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/data/jsonld/business-unit/50b6501b00006400051f01f8/product-imported?sku=DT21-14PDT&numberOfReviews=10&productName=2&language=en&templateId=5763bccae0a06d08e809ecbb&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core",
+      "timestamp": "2026-01-25T09:12:49.476058"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:49.478023"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://widget.trustpilot.com/trustbox-data/5763bccae0a06d08e809ecbb?businessUnitId=50b6501b00006400051f01f8&locale=en-US&sku=DT21-14PDT&reviewsPerPage=10&reviewLanguages=en&random=wc9wRdIZdQyf8Dyjtgxl",
+      "timestamp": "2026-01-25T09:12:49.594356"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:49.599365"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+      "timestamp": "2026-01-25T09:12:49.635193"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:49.691467"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+      "timestamp": "2026-01-25T09:12:49.816165"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:49.835619"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+      "timestamp": "2026-01-25T09:12:49.869876"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+      "timestamp": "2026-01-25T09:12:49.870644"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:12:50.437427"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:50.602644"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js",
+      "timestamp": "2026-01-25T09:12:50.633009"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js",
+      "timestamp": "2026-01-25T09:12:50.802889"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/cart/add",
+      "timestamp": "2026-01-25T09:12:50.806464"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:50.813246"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/ui/hoc/e41338d0-a494-45bd-7d0d-ec5b22020323/init/?current_url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&page_host=tonerprice.com",
+      "timestamp": "2026-01-25T09:12:50.917335"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:12:50.919885"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://developer.livehelpnow.net/api/visitor/init/",
+      "timestamp": "2026-01-25T09:12:51.165835"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart/add",
+      "timestamp": "2026-01-25T09:12:51.915700"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js?ts=1769314371913",
+      "timestamp": "2026-01-25T09:12:51.916764"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cart.js",
+      "timestamp": "2026-01-25T09:12:51.921176"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAGQ&_s=3&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=scroll&epn.percent_scrolled=90&_et=3&tfd=3629",
+      "timestamp": "2026-01-25T09:12:51.945867"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=4&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&cu=USD&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=add_to_cart&_ee=1&pr1=idshopify_US_9123778789593_46410477076697~nm2%22%20X%201%22%20Direct%20Thermal%20Labels%2C%201400%20Per%20Roll%2C%20%204%22%20OD%2C%201%22%20Core~brTonerprice~caLabels~pr26.19~qt1&edid=dNzYwYj&ep.ecomm_prodid=shopify_US_9123778789593_46410477076697&epn.ecomm_totalvalue=26.19&ep.ecomm_pagetype=cart&epn.value=26.19&_et=3491&tfd=3631",
+      "timestamp": "2026-01-25T09:12:51.946436"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314371936&cv=11&fst=1769314371936&bg=ffffff&guid=ON&async=1&en=add_to_cart&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&label=1_lOCK68tNMaEP6HwP8D&capi=1&gtm_ee=1&frm=0&tiba=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=26.19&currency_code=USD&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=6~0&data=event%3Dadd_to_cart%3Becomm_prodid%3Dshopify_US_9123778789593_46410477076697%3Becomm_totalvalue%3D26.19%3Becomm_pagetype%3Dcart&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:51.947185"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7f52377c-5b16-4872-8ac9-241fb32c9b21&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sw=1280&sh=720&rn=942974&tl=Buy+2%22+X+1%22+Direct+Thermal+Labels+DT21-1P%2C+1400+Per+Roll%2C+4%22+OD%2C+1%22+Core+at+Tonerprice.com&lg=en-US&evt=custom&ea=add_to_cart&prodid=9123778789593_46410477076697&gc=USD&gv=26.19&msclkid=N",
+      "timestamp": "2026-01-25T09:12:51.947579"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=EAAAAGQ&_s=4&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&cu=USD&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=add_to_cart&_ee=1&pr1=idshopify_US_9123778789593_46410477076697~nm2%22%20X%201%22%20Direct%20Thermal%20Labels%2C%201400%20Per%20Roll%2C%20%204%22%20OD%2C%201%22%20Core~brTonerprice~caLabels~pr26.19~qt1&edid=dNzYwYj&ep.ecomm_prodid=shopify_US_9123778789593_46410477076697&epn.ecomm_totalvalue=26.19&ep.ecomm_pagetype=cart&epn.value=26.19&_et=3491&tfd=3631",
+      "timestamp": "2026-01-25T09:12:52.073645"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAGQ&_s=3&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=scroll&epn.percent_scrolled=90&_et=3&tfd=3629",
+      "timestamp": "2026-01-25T09:12:52.074307"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js",
+      "timestamp": "2026-01-25T09:12:52.108119"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314371936&cv=11&fst=1769314371936&bg=ffffff&guid=ON&async=1&en=add_to_cart&gtm=45be61m0v9179857860za200zb891055130zd891055130xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115938465~115938469~116682875~117025848~117041588~117099529&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&ref=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&label=1_lOCK68tNMaEP6HwP8D&capi=1&gtm_ee=1&frm=0&tiba=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=26.19&currency_code=USD&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=6~0&data=event%3Dadd_to_cart%3Becomm_prodid%3Dshopify_US_9123778789593_46410477076697%3Becomm_totalvalue%3D26.19%3Becomm_pagetype%3Dcart&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:12:52.109022"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cart.js?ts=1769314371913",
+      "timestamp": "2026-01-25T09:12:52.121285"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7f52377c-5b16-4872-8ac9-241fb32c9b21&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&r=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&sw=1280&sh=720&rn=942974&tl=Buy+2%22+X+1%22+Direct+Thermal+Labels+DT21-1P%2C+1400+Per+Roll%2C+4%22+OD%2C+1%22+Core+at+Tonerprice.com&lg=en-US&evt=custom&ea=add_to_cart&prodid=9123778789593_46410477076697&gc=USD&gv=26.19&msclkid=N",
+      "timestamp": "2026-01-25T09:12:52.122685"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:52.123142"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.myshopify.com/api/2025-07/graphql.json",
+      "timestamp": "2026-01-25T09:12:52.337147"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:52.966322"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/recommendations/products?section_id=sections--18110618108121__cart-drawer&product_id=9123778789593&limit=12&intent=related&product_id=9123778789593",
+      "timestamp": "2026-01-25T09:12:53.064241"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:53.194595"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616986~115938465~115938469~116682875~117041587&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&sid=1769314312&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&_tu=AAI&_s=1&tfd=5160",
+      "timestamp": "2026-01-25T09:12:53.465731"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/recommendations/products?section_id=sections--18110618108121__cart-drawer&product_id=9123778789593&limit=12&intent=related&product_id=9123778789593",
+      "timestamp": "2026-01-25T09:12:53.505804"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+      "timestamp": "2026-01-25T09:12:53.573710"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+      "timestamp": "2026-01-25T09:12:53.574295"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616986~115938465~115938469~116682875~117041587&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&sid=1769314312&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&_tu=AAI&_s=1&tfd=5160",
+      "timestamp": "2026-01-25T09:12:53.621196"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:53.625541"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:53.795000"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:53.867692"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:12:53.946392"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:57.930510"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:12:58.166581"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&_s=5&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938465~115938468~116682875~117041587&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=user_engagement&_et=15297&tfd=18929",
+      "timestamp": "2026-01-25T09:13:07.242364"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb891055130zd891055130&_p=1769314368397&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616986~115938465~115938469~116682875~117041587&sid=1769314312&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220%2Fproducts%2F2-x-1-direct-thermal-labels-dt21-1p-1400-per-roll-4-od-1-core&dr=https%3A%2F%2Ftonerprice.com%2Fcollections%2Fit-labels-bixolon-slp-srp-series-slp-dx220&dt=Buy%202%22%20X%201%22%20Direct%20Thermal%20Labels%20DT21-1P%2C%201400%20Per%20Roll%2C%204%22%20OD%2C%201%22%20Core%20at%20Tonerprice.com&_tu=AAI&en=user_engagement&_et=18770&tfd=18930",
+      "timestamp": "2026-01-25T09:13:07.242489"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/observeonly",
+      "timestamp": "2026-01-25T09:13:09.222074"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://extensions.shopifycdn.com/partners-extensions-scripts-bucket/ui_extension/handle/checkout-ui/version/appstle-loyalty-1207/745ab07e-94f8-496a-ab6a-aa5e89acdc2f/f25406c70e78745fefdae1458efcfa4c.js",
+      "timestamp": "2026-01-25T09:13:09.261228"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/cdn/shopifycloud/checkout-web/assets/c1/sandbox-2025-07.8nsEyU_2.worker.js",
+      "timestamp": "2026-01-25T09:13:09.261479"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://extensions.shopifycdn.com/partners-extensions-scripts-bucket/ui_extension/handle/customer-account-ui/version/appstle-loyalty-1207/20adda4d-7de9-4845-9d15-1d84c5b58808/abae74b9ccffe895b75af4af59766422.js",
+      "timestamp": "2026-01-25T09:13:09.295316"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://extensions.shopifycdn.com/partners-extensions-scripts-bucket/ui_extension/handle/manage-loyalty-button/version/appstle-loyalty-1207/7ff57797-d8b8-429f-b1e6-b67a2a839a7a/2b85013a873cd08e1a469447e8c1dea6.js",
+      "timestamp": "2026-01-25T09:13:09.295530"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/shopify_pay/accelerated_checkout",
+      "timestamp": "2026-01-25T09:13:09.295727"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/checkouts/internal/graphql/persisted?operationName=CountryDetails&variables=%7B%22country%22%3A%22US%22%7D&id=2e979b03224e51a016da42301f0f9066c27c1a1cc904a33a858531afeda7beb5",
+      "timestamp": "2026-01-25T09:13:09.295945"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:13:09.320367"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/cdn/shopifycloud/checkout-web/assets/c1/sandbox-2025-07.8nsEyU_2.worker.js",
+      "timestamp": "2026-01-25T09:13:09.483959"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://tonerprice.com/private_access_tokens?id=e5a69877bb9791069692e98653914a89&checkout_type=c1",
+      "timestamp": "2026-01-25T09:13:09.494982"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&tid=AW-1072694270&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&scrsrc=www.googletagmanager.com&rnd=1117023959.1769314390&dt=Information%20-%20Tonerprice%20-%20Checkout&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zd9179857860xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115938466~115938468~116682876~117025848~117041587~117042505~117223558&tft=1769314389569&tfd=3348&apve=1&apvf=f",
+      "timestamp": "2026-01-25T09:13:09.580052"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314389574&cv=11&fst=1769314389574&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zd9179857860xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115938466~115938468~116682876~117025848~117041587~117042505~117223558&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&ref=https%3A%2F%2Ftonerprice.com%2F&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Information%20-%20Tonerprice%20-%20Checkout&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=7~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:13:09.580396"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314389576&cv=11&fst=1769314389576&bg=ffffff&guid=ON&async=1&en=begin_checkout&gtm=45be61m0v9179857860za200zd9179857860xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115938466~115938468~116682876~117025848~117041587~117042505~117223558&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&ref=https%3A%2F%2Ftonerprice.com%2F&label=1hxQCKu8tNMaEP6HwP8D&capi=1&gtm_ee=1&frm=0&tiba=Information%20-%20Tonerprice%20-%20Checkout&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=26.19&currency_code=USD&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=8~0&data=event%3Dbegin_checkout%3Becomm_prodid%3Dshopify_US_9123778789593_46410477076697%3Becomm_totalvalue%3D26.19%3Becomm_pagetype%3Dcart&gap.lineItemValue=26.19&gap.totalPriceValue=26.19&em=tv.1~co0.US&fmt=7",
+      "timestamp": "2026-01-25T09:13:09.580566"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zb9179857860zd9179857860&_p=1769314389480&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ir=true&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=AAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938466~115938468~116682876~117041587~117223558&dp=%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&dt=Checkout%20-%20Contact%20Information&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&tfd=3380",
+      "timestamp": "2026-01-25T09:13:09.606664"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zb9179857860zd9179857860&_p=1769314389480&em=tv.1~co0.US&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ir=true&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=AAAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938466~115938468~116682876~117041587~117223558&cu=USD&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&dr=https%3A%2F%2Ftonerprice.com%2F&dt=Information%20-%20Tonerprice%20-%20Checkout&_tu=AAI&en=begin_checkout&_ee=1&pr1=idshopify_US_9123778789593_46410477076697~nm2%22%20X%201%22%20Direct%20Thermal%20Labels%2C%201400%20Per%20Roll%2C%20%204%22%20OD%2C%201%22%20Core~brTonerprice~caLabels~pr26.19~qt1&edid=dNzYwYj&gap.lineItemValue=26.19&gap.totalPriceValue=26.19&ep.ecomm_prodid=shopify_US_9123778789593_46410477076697&epn.ecomm_totalvalue=26.19&ep.ecomm_pagetype=cart&epn.value=26.19&_et=1&tfd=3383",
+      "timestamp": "2026-01-25T09:13:09.606848"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7867c99c-8170-47b5-afea-fa2e140d5c3a&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&r=https%3A%2F%2Ftonerprice.com%2F&sw=1280&sh=720&rn=496841804&tl=Checkout+-+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:13:09.609674"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.google.com/ccm/collect?frm=0&tid=AW-1072694270&en=page_view&dr=tonerprice.com&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&scrsrc=www.googletagmanager.com&rnd=1117023959.1769314390&dt=Information%20-%20Tonerprice%20-%20Checkout&auid=388698282.1769314312&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be61m0v9179857860za200zd9179857860xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115938466~115938468~116682876~117025848~117041587~117042505~117223558&tft=1769314389569&tfd=3348&apve=1&apvf=f",
+      "timestamp": "2026-01-25T09:13:09.731194"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314389574&cv=11&fst=1769314389574&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be61m0v9179857860za200zd9179857860xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115938466~115938468~116682876~117025848~117041587~117042505~117223558&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&ref=https%3A%2F%2Ftonerprice.com%2F&label=W0nlCL--tNMaEP6HwP8D&capi=1&gtm_ee=1&tiba=Information%20-%20Tonerprice%20-%20Checkout&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=7~0&data=event%3Dpage_view%3Bpage_path%3D%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&em=tv.1&fmt=7",
+      "timestamp": "2026-01-25T09:13:09.778208"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.googleadservices.com/pagead/conversion/1072694270/?random=1769314389576&cv=11&fst=1769314389576&bg=ffffff&guid=ON&async=1&en=begin_checkout&gtm=45be61m0v9179857860za200zd9179857860xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115938466~115938468~116682876~117025848~117041587~117042505~117223558&u_w=1280&u_h=720&url=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&ref=https%3A%2F%2Ftonerprice.com%2F&label=1hxQCKu8tNMaEP6HwP8D&capi=1&gtm_ee=1&frm=0&tiba=Information%20-%20Tonerprice%20-%20Checkout&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=26.19&currency_code=USD&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=388698282.1769314312&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=c&_tu=AAI&gcl_ctr=8~0&data=event%3Dbegin_checkout%3Becomm_prodid%3Dshopify_US_9123778789593_46410477076697%3Becomm_totalvalue%3D26.19%3Becomm_pagetype%3Dcart&gap.lineItemValue=26.19&gap.totalPriceValue=26.19&em=tv.1~co0.US&fmt=7",
+      "timestamp": "2026-01-25T09:13:09.779790"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zb9179857860zd9179857860&_p=1769314389480&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ir=true&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=AAAAAGQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938466~115938468~116682876~117041587~117223558&dp=%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&dt=Checkout%20-%20Contact%20Information&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&sid=1769314311&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&tfd=3380",
+      "timestamp": "2026-01-25T09:13:09.792093"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WRTNXN6JWX&gtm=45je61m0v891055130za200zb9179857860zd9179857860&_p=1769314389480&em=tv.1~co0.US&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ir=true&cid=1758664341.1769314312&ecid=1650315050&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&_eu=AAAAAGQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938466~115938468~116682876~117041587~117223558&cu=USD&sid=1769314311&sct=1&seg=1&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&dr=https%3A%2F%2Ftonerprice.com%2F&dt=Information%20-%20Tonerprice%20-%20Checkout&_tu=AAI&en=begin_checkout&_ee=1&pr1=idshopify_US_9123778789593_46410477076697~nm2%22%20X%201%22%20Direct%20Thermal%20Labels%2C%201400%20Per%20Roll%2C%20%204%22%20OD%2C%201%22%20Core~brTonerprice~caLabels~pr26.19~qt1&edid=dNzYwYj&gap.lineItemValue=26.19&gap.totalPriceValue=26.19&ep.ecomm_prodid=shopify_US_9123778789593_46410477076697&epn.ecomm_totalvalue=26.19&ep.ecomm_pagetype=cart&epn.value=26.19&_et=1&tfd=3383",
+      "timestamp": "2026-01-25T09:13:09.792547"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7867c99c-8170-47b5-afea-fa2e140d5c3a&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&r=https%3A%2F%2Ftonerprice.com%2F&sw=1280&sh=720&rn=496841804&tl=Checkout+-+Tonerprice&lg=en-US&evt=pageLoad&msclkid=N",
+      "timestamp": "2026-01-25T09:13:09.837093"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7867c99c-8170-47b5-afea-fa2e140d5c3a&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&r=https%3A%2F%2Ftonerprice.com%2F&sw=1280&sh=720&rn=277322335&tl=Checkout+-+Tonerprice&lg=en-US&evt=custom&ea=begin_checkout&prodid=9123778789593_46410477076697&gc=USD&gv=26.19&msclkid=N",
+      "timestamp": "2026-01-25T09:13:09.837384"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://bat.bing.com/action/0?ti=271008263&Ver=2&vid=f95fb570f9a311f09abbb9e9ac338673&mid=7867c99c-8170-47b5-afea-fa2e140d5c3a&et=shop-wpa&sid=f960edf0f9a311f09abbb9e9ac338673&uid=5238eabd6aad4a359535c751707d646c&p=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&r=https%3A%2F%2Ftonerprice.com%2F&sw=1280&sh=720&rn=277322335&tl=Checkout+-+Tonerprice&lg=en-US&evt=custom&ea=begin_checkout&prodid=9123778789593_46410477076697&gc=USD&gv=26.19&msclkid=N",
+      "timestamp": "2026-01-25T09:13:10.043523"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:10.063647"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:10.064449"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/api/collect",
+      "timestamp": "2026-01-25T09:13:10.077344"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/checkouts/internal/graphql/persisted?operationName=Proposal",
+      "timestamp": "2026-01-25T09:13:10.102162"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:10.145704"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:10.145915"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://tonerprice.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:10.146048"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:10.282818"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/shopify_pay/accelerated_checkout",
+      "timestamp": "2026-01-25T09:13:10.303400"
+    },
+    {
+      "type": "response",
+      "status": 401,
+      "url": "https://tonerprice.com/private_access_tokens?id=e5a69877bb9791069692e98653914a89&checkout_type=c1",
+      "timestamp": "2026-01-25T09:13:10.303771"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/checkouts/internal/graphql/persisted?operationName=CountryDetails&variables=%7B%22country%22%3A%22US%22%7D&id=2e979b03224e51a016da42301f0f9066c27c1a1cc904a33a858531afeda7beb5",
+      "timestamp": "2026-01-25T09:13:10.304189"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://extensions.shopifycdn.com/partners-extensions-scripts-bucket/ui_extension/handle/manage-loyalty-button/version/appstle-loyalty-1207/7ff57797-d8b8-429f-b1e6-b67a2a839a7a/2b85013a873cd08e1a469447e8c1dea6.js",
+      "timestamp": "2026-01-25T09:13:10.398923"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://extensions.shopifycdn.com/partners-extensions-scripts-bucket/ui_extension/handle/customer-account-ui/version/appstle-loyalty-1207/20adda4d-7de9-4845-9d15-1d84c5b58808/abae74b9ccffe895b75af4af59766422.js",
+      "timestamp": "2026-01-25T09:13:10.608202"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://extensions.shopifycdn.com/partners-extensions-scripts-bucket/ui_extension/handle/checkout-ui/version/appstle-loyalty-1207/745ab07e-94f8-496a-ab6a-aa5e89acdc2f/f25406c70e78745fefdae1458efcfa4c.js",
+      "timestamp": "2026-01-25T09:13:10.608562"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:10.760352"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:10.848908"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:10.850232"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:10.858911"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:10.860261"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:10.863106"
+    },
+    {
+      "type": "response",
+      "status": 202,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/observeonly",
+      "timestamp": "2026-01-25T09:13:11.124707"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://tonerprice.com/checkouts/internal/graphql/persisted?operationName=Proposal",
+      "timestamp": "2026-01-25T09:13:11.319007"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:11.418488"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:11.684752"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:11.685080"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:11.685422"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:11.685627"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:13:11.893663"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://www.paypal.com/web-sdk/locales/en-US/web-sdk-ui.json",
+      "timestamp": "2026-01-25T09:13:11.923794"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:11.958028"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://k.clarity.ms/collect",
+      "timestamp": "2026-01-25T09:13:12.105269"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://www.paypal.com/web-sdk/locales/en-US/web-sdk-ui.json",
+      "timestamp": "2026-01-25T09:13:12.123197"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:12.196556"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:12.454005"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/",
+      "timestamp": "2026-01-25T09:13:12.794337"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://shop.app/pay/collect",
+      "timestamp": "2026-01-25T09:13:12.819669"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:12.853726"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://cdn.shopify.com/shopifycloud/arrive-server/assets/countryschemas.en-00536d934bf5467dff1ffeba1672524fb69272f3fba88baee656b7b8ae91631c.json",
+      "timestamp": "2026-01-25T09:13:12.915694"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:12.954036"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:13.032883"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.073056"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.073329"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.073454"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://server.shop.app/accounts/authentication/graphql",
+      "timestamp": "2026-01-25T09:13:13.073524"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://cdn.shopify.com/shopifycloud/arrive-server/assets/countryschemas.en-00536d934bf5467dff1ffeba1672524fb69272f3fba88baee656b7b8ae91631c.json",
+      "timestamp": "2026-01-25T09:13:13.074627"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.076341"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.076438"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://shop.app/pay/collect",
+      "timestamp": "2026-01-25T09:13:13.077254"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://pay.google.com/gp/p/ui/pay",
+      "timestamp": "2026-01-25T09:13:13.146642"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.161391"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.161510"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.161579"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.161858"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.163165"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:13.181548"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.280330"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.280454"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.280535"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.280606"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.290439"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.290561"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.293517"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.293615"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.323798"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.324253"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://pay.google.com/gp/p/ui/pay",
+      "timestamp": "2026-01-25T09:13:13.342131"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.433913"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.434341"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.592769"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.595470"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:13.652966"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.653813"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+      "timestamp": "2026-01-25T09:13:13.666932"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.692429"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.714756"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://server.shop.app/accounts/authentication/graphql",
+      "timestamp": "2026-01-25T09:13:13.727473"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.757019"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.779924"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.855926"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+      "timestamp": "2026-01-25T09:13:13.878832"
+    },
+    {
+      "type": "response",
+      "status": 202,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/",
+      "timestamp": "2026-01-25T09:13:13.888307"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.941518"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.941972"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.942375"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.942668"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "timestamp": "2026-01-25T09:13:13.942915"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.946269"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.946610"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+      "timestamp": "2026-01-25T09:13:13.947065"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:13.959152"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:14.381267"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "timestamp": "2026-01-25T09:13:14.574280"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb9179857860zd9179857860&_p=1769314389480&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ir=true&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938468~116682876~117041588~117223558&dp=%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&dt=Checkout%20-%20Contact%20Information&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&sid=1769314312&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&tfd=8367",
+      "timestamp": "2026-01-25T09:13:14.590836"
+    },
+    {
+      "type": "response",
+      "status": 204,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-97FGW7V24Y&gtm=45Pe61m0v9220461714za200zb9179857860zd9179857860&_p=1769314389480&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ir=true&cid=1758664341.1769314312&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938468~116682876~117041588~117223558&dp=%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation&dt=Checkout%20-%20Contact%20Information&dl=https%3A%2F%2Ftonerprice.com%2Fcheckouts%2Fcn%2FhWN80CTKKBnH8HpbY0QyebHI%2Fen-us%2Finformation%3F_r%3DAQABnWcH8rd7OaLfQ_GI8Z0VNSduowxdsiqjyUv6WAb4%26auto_redirect%3Dfalse%26edge_redirect%3Dtrue%26skip_shop_pay%3Dtrue&sid=1769314312&sct=1&seg=1&dr=https%3A%2F%2Ftonerprice.com%2F&_tu=AAI&en=page_view&_ee=1&edid=dNzYwYj&tfd=8367",
+      "timestamp": "2026-01-25T09:13:14.779946"
+    }
+  ],
+  "recorded_at": "2026-01-25T09:13:21.649726"
+}

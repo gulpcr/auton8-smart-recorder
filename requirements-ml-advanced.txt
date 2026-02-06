@@ -1,0 +1,27 @@
+# Advanced ML dependencies (Stage 2)
+# Install after requirements-core.txt
+
+# PyTorch (will use latest compatible version)
+torch>=2.6.0
+transformers>=4.36.2
+accelerate>=0.25.0
+sentencepiece>=0.1.99
+
+# Embeddings & NLP
+sentence-transformers>=2.3.1
+spacy>=3.7.2
+
+# LLM
+llama-cpp-python>=0.2.27; platform_system != "Windows"
+
+# Vector DB
+faiss-cpu>=1.7.4
+chromadb>=0.4.22
+rank-bm25>=0.2.2
+
+# API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+httpx>=0.26.0
+aiohttp>=3.9.1
+pydantic-settings>=2.1.0

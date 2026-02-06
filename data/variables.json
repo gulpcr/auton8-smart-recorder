@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-02-06T22:20:24.957509",
+  "variables": {
+    "test_var": {
+      "name": "test_var",
+      "value": "hello",
+      "type": "string",
+      "group": "default",
+      "description": null,
+      "createdAt": "2026-02-06T22:20:09.414149",
+      "updatedAt": "2026-02-06T22:20:24.957345",
+      "createdBy": null,
+      "readonly": false,
+      "persistent": true,
+      "masked": false
+    }
+  }
+}

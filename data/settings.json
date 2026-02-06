@@ -1,0 +1,19 @@
+{
+  "maxTier": 3,
+  "pageLoadTimeout": 60,
+  "stepTimeout": 5,
+  "stabilityTimeout": 3,
+  "headlessMode": false,
+  "browserType": "chromium",
+  "keepBrowserOpen": false,
+  "ollamaModel": "ministral-3:latest",
+  "llmTimeout": 30,
+  "cvThreshold": 75,
+  "healingThreshold": 80,
+  "websocketPort": 8765,
+  "autoCaptureScreenshots": true,
+  "autoSaveOnStop": false,
+  "workflowsDirectory": "data/workflows",
+  "screenshotsDirectory": "data/screenshots",
+  "showTierBadges": true
+}

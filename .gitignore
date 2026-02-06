@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.cursor/
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+nul
+
+# Logs
+*.log
+stderr.log
+stdout.log
+
+# Data (large/generated files)
+data/rag_index/
+data/executions/
+data/screenshots/
+*.gguf
+
+# Models
+models/

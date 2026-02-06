@@ -1,0 +1,2791 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "baseUrl": "https://tonerprice.com/"
+  },
+  "steps": [
+    {
+      "id": "dropdown-1",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Brand\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-1",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-1",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Brand\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-1",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "ink-toner-brother",
+        "type": "select-one",
+        "name": ""
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-2",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Series\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-2",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-2",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-2\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Select SeriesBrother DCPBrother HLBrother IntellifaxBrother MFC",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-2\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-1",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Brand\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-1",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-2",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Series\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-2",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-2",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-2\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Select SeriesBrother DCPBrother HLBrother IntellifaxBrother MFC",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-2\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "it-ink-toner-brother-brother-hl",
+        "type": "select-one",
+        "name": ""
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-3",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Model\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-3",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-3",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-3\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-3\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-2",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Series\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-2",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-2",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-2\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Select SeriesBrother DCPBrother HLBrother IntellifaxBrother MFC",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-2\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-3",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Model\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-3",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-3",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-3\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-3\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "it-ink-toner-brother-brother-hl-hl-1850",
+        "type": "select-one",
+        "name": ""
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "search-link",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#search-link",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#search-link",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search-link\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Search",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search-link\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "dropdown-3",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Model\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-3",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-3",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-3\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-3\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "911fbbac-7383-42c7-80cc-142e6266cfe4",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#filter-results > ul.grid.mb-8 > li.js-pagination-result > product-card.card.card--product > div.card__media.relative > a.media.block > img.img-fit.img-fit--contain",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"filter-results\"]/img/a/div/product-card/li[3]/ul",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/main/div[3]/div/custom-pagination/div/ul/li[3]/product-card/div/a/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850",
+        "title": "HL-1850 – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 178}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "c6b22091-7c8a-48fe-ad4b-c58eec9c326c",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black\"]",
+            "score": 0.9
+          },
+          {
+            "type": "css",
+            "value": "div#filter-results > ul.grid.mb-8 > li.js-pagination-result > product-card.card.card--product > div.card__media.relative > a.media.block",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"filter-results\"]/a/div/product-card/li[3]/ul",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/main/div[3]/div/custom-pagination/div/ul/li[3]/product-card/div/a",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850",
+        "title": "HL-1850 – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 178}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "409b9fda-a320-426c-8f0f-50179cd52dcf",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "name",
+            "value": "[name=\"add\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "form#\\[object\\ HTMLInputElement\\] > div.product-info__add-to-cart.flex > div.product-info__add-button > button.btn.btn--primary",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"[object HTMLInputElement]\"]/button/div/div[2]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Add to cart",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/main/div[2]/div/div/div[2]/div[6]/product-form/form/div[2]/div/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "ea0321d9-41c5-4cce-84a0-1721a564a1dd",
+      "name": "submit",
+      "type": "submit",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#\\[object\\ HTMLInputElement\\]",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#\\[object\\ HTMLInputElement\\]",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"[object HTMLInputElement]\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Qty\n  \n    \n      -\n    \n    \n    \n      +\n    \n  \n\n\nAdd to cart",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"[object HTMLInputElement]\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "0fd119b4-f979-4565-a100-3bb54f0add62",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "name",
+            "value": "[name=\"add\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "form#\\[object\\ HTMLInputElement\\] > div.product-info__add-to-cart.flex > div.product-info__add-button > button.btn.btn--primary",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"[object HTMLInputElement]\"]/button/div/div[2]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Add to cart",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/main/div[2]/div/div/div[2]/div[6]/product-form/form/div[2]/div/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "cart-drawer",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Your cart\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#cart-drawer",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#cart-drawer",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "65249954-1c84-45fb-9eb0-b96dc6aab931",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "name",
+            "value": "[name=\"checkout\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "cart-drawer#cart-drawer > div.cart-drawer__summary.relative > div.cart-drawer__checkout-buttons > button.btn.btn--primary",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer\"]/button/div[2]/div[2]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Proceed to Checkout - $111.99 USD",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[4]/cart-drawer/div[2]/div[2]/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "cart-drawer",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Your cart\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#cart-drawer",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#cart-drawer",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "cart-drawer-form",
+      "name": "submit",
+      "type": "submit",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#cart-drawer-form",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#cart-drawer-form",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer-form\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"cart-drawer-form\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/collections/it-ink-toner-brother-brother-hl-hl-1850/products/tn560-high-yield-toner-6500-page-yield-black-html",
+        "title": "Order Brother TN560 OEM HY Toner Cartridge, 6500 pages, Black at Tonerprice.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "marketing_opt_in",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#marketing_opt_in",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"marketing_opt_in\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#marketing_opt_in",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"marketing_opt_in\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"marketing_opt_in\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "email",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"email-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#email",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"email\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#email",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"email\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "gul.pcr@gmail.com",
+        "type": "email",
+        "name": "email"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "Select5712",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#Select5712",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"countryCode\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#Select5712",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Select5712\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "United States",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Select5712\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "marketing_opt_in",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#marketing_opt_in",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"marketing_opt_in\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#marketing_opt_in",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"marketing_opt_in\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"marketing_opt_in\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "Select5712",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#Select5712",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"countryCode\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#Select5712",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Select5712\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "United States",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Select5712\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28917",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28917-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28917",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"firstName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28917",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28917\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28917\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28917",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28917-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28917",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"firstName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28917",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28917\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28917\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28918",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28918-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28918",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"lastName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28918",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28918\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28918\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28918",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28918-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28918",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"lastName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28918",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28918\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28918\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28919",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28919-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28919",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"company\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28919",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28918",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28918-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28918",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"lastName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28918",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28918\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28918\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "Mohd",
+        "type": "text",
+        "name": "lastName"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28919",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28919-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28919",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"company\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28919",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28919",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28919-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28919",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"company\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28919",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "shipping-address1",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"shipping-address1-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#shipping-address1",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"address1\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#shipping-address1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28919",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28919-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28919",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"company\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28919",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28919\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "sistems",
+        "type": "text",
+        "name": "company"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "shipping-address1",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"shipping-address1-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#shipping-address1",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"address1\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#shipping-address1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 132}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "aa1a916b-268e-41e8-a03e-dba1ea8b4846",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "li#shipping-address1-option-0 > span > span",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1-option-0\"]/span/span",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "kafe 🇵🇰, East Evesham Road, Voorhees Township, NJ, USA",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div/div/div/div[2]/div/div/div/ul/li/span/span",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 346}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "604999d5-c7ea-4aa5-9bca-318db436f2e3",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#shippingAddressForm > div.r62YW > div.r0qqvk1.r0qqvk0",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shippingAddressForm\"]/div/div",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div/div/div/div/div/div/div/div/div/main/div/div/div/div/form/div/div/div/div[2]/div/div/div/div/div/div/div/div/div",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 346}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "56b92526-40ba-4206-8331-75fcb1b14b9a",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "form#Form8054 > div.km09ry1 > div > div > div > div.r0qqvk1.r0qqvk0 > div.MV9Am > div > button",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Form8054\"]/button/div/div[2]/div/div[2]/div/div/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Continue to shipping",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div/div/div/div/div/div/div/div/div/main/div/div/div/div/form/div/div/div/div[2]/div/div[2]/div/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "shipping-address1",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"shipping-address1-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#shipping-address1",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"address1\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#shipping-address1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"shipping-address1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "2999 East Evesham Road",
+        "type": "text",
+        "name": "address1"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "Form8054",
+      "name": "submit",
+      "type": "submit",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#Form8054",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#Form8054",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Form8054\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Form8054\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28923",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28923-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28923",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"phone\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28923",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28923",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28923-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28923",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"phone\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28923",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28923",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28923-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28923",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"phone\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28923",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "22b29370-97a6-45ca-a0df-56013519438b",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "form#Form8054 > div.km09ry1 > div > div > div > div.r0qqvk1.r0qqvk0 > div.MV9Am > div > button",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Form8054\"]/button/div/div[2]/div/div[2]/div/div/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Continue to shipping",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div/div/div/div/div/div/div/div/div/main/div/div/div/div/form/div/div/div/div[2]/div/div[2]/div/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "TextField28923",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-labelledby=\"TextField28923-label\"]",
+            "score": 0.88
+          },
+          {
+            "type": "id",
+            "value": "#TextField28923",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"phone\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#TextField28923",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"TextField28923\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "33434343434",
+        "type": "tel",
+        "name": "phone"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "Form8054",
+      "name": "submit",
+      "type": "submit",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#Form8054",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#Form8054",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Form8054\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"Form8054\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://tonerprice.com/checkouts/cn/hWN7z6YByRkidmIxT5c4UMM7/en-us/information?_r=AQABFalB6gRUFqThKncC0tTHkA34Jf1vRZNefE1eJQrB&auto_redirect=false&edge_redirect=true&skip_shop_pay=true",
+        "title": "Information - Tonerprice - Checkout",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 484.6666564941406}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "Recording 2026-01-24 17:01",
+    "baseUrl": "https://tonerprice.com/",
+    "status": "ready",
+    "createdAt": "2026-01-24T17:01:08.657388Z",
+    "updatedAt": "2026-01-24T17:03:26.024559Z",
+    "version": 2,
+    "stepCount": 52,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  }
+}

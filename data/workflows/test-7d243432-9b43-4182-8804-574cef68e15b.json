@@ -1,0 +1,301 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "baseUrl": "https://noritakechina.com/"
+  },
+  "steps": [
+    {
+      "id": "8f4d8de2-4eca-4840-b49b-3d524278ba5d",
+      "name": "click",
+      "description": "",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body#html-body > div.page-wrapper > header.header-container > div.header-container-wrap > div.header.content > div.navigation.custommenu > ul > li.ui-menu-item.level0 > div.level0.submenu > div.row > ul.subchildmenu.col-sm-12 > li.ui-menu-item.nav-1-1 > div.menu-thumb-img > a.menu-thumb-link > img",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]/img/a/div/li/ul/div/div[2]/li/ul/div/div/div[3]/header/div[3]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[3]/header/div[3]/div/div/ul/li/div[2]/div/ul/li/div/a/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {},
+      "config": {
+        "execution": null,
+        "conditions": null,
+        "stability": null,
+        "healingHints": {
+          "disableHealing": false,
+          "preferVisualHealing": true
+        },
+        "evidence": {
+          "screenshotOnFail": true,
+          "screenshotOnSuccess": true,
+          "highlightElement": true,
+          "logSelectorResolution": true
+        },
+        "postStep": null,
+        "click": {
+          "clickCount": 1,
+          "button": "left",
+          "modifiers": [],
+          "position": null,
+          "force": true,
+          "noWaitAfter": true
+        },
+        "hover": null,
+        "scroll": null,
+        "drag": null,
+        "inputConfig": null,
+        "select": null,
+        "waitConfig": null,
+        "assertConfig": null,
+        "dialog": null,
+        "frame": null,
+        "window": null,
+        "variable": null,
+        "screenshot": null,
+        "calculate": null
+      }
+    },
+    {
+      "id": "af8ad6aa-2685-4996-94f0-f23b06a3af0e",
+      "name": "assertText",
+      "description": "",
+      "type": "assertText",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "dddd",
+            "score": 1.0
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {},
+      "page": null,
+      "healing": null,
+      "timing": null,
+      "metadata": null,
+      "enhancements": {},
+      "config": {
+        "execution": {
+          "timeoutMs": 30000,
+          "retryCount": 0,
+          "retryDelayMs": 1000,
+          "continueOnFail": false
+        },
+        "conditions": null,
+        "stability": null,
+        "healingHints": null,
+        "evidence": null,
+        "postStep": null,
+        "click": null,
+        "hover": null,
+        "scroll": null,
+        "drag": null,
+        "inputConfig": null,
+        "select": null,
+        "waitConfig": null,
+        "assertConfig": null,
+        "dialog": null,
+        "frame": null,
+        "window": null,
+        "variable": null,
+        "screenshot": null,
+        "calculate": null
+      }
+    },
+    {
+      "id": "ca31c505-49e7-4685-a31e-64cc71fd433e",
+      "name": "storeVariable",
+      "description": "",
+      "type": "storeVariable",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "",
+            "score": 1.0
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {},
+      "page": null,
+      "healing": null,
+      "timing": null,
+      "metadata": null,
+      "enhancements": {},
+      "config": null
+    },
+    {
+      "id": "95d0122c-f860-4291-92f7-f529eb3bb438",
+      "name": "input",
+      "description": null,
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body#html-body > div.page-wrapper > header.header-container > div.header-container-wrap > div.header.content > div.navigation.custommenu > ul > li.ui-menu-item.level0 > div.level0.submenu > div.row > ul.subchildmenu.col-sm-12 > li.ui-menu-item.nav-1-1 > div.menu-thumb-img > a.menu-thumb-link",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]/a/div/li/ul/div/div[2]/li/ul/div/div/div[3]/header/div[3]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[3]/header/div[3]/div/div/ul/li/div[2]/div/ul/li/div/a",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {},
+      "config": null
+    },
+    {
+      "id": "7d738169-105d-4721-b120-ff69e56a39f9",
+      "name": "click",
+      "description": null,
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#amasty-shopby-product-list > div.products.wrapper > div.row > ol.products.list > li.item.product > div.product-item-info > div.product-photo > a.product.photo > span.image0.image-switch > span.product-image-container.product-image-container-1338 > span.product-image-wrapper > img.product-image-photo",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"amasty-shopby-product-list\"]/img/span/span/span/a/div/div/li[7]/ol/div/div[2]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[3]/main/div[2]/div/div[5]/div[2]/div/ol/li[7]/div/div/a/span/span/span/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": null,
+      "page": {
+        "url": "https://noritakechina.com/collections/colorwave.html",
+        "title": "Colorwave by Noritake",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 1158}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {},
+      "config": null
+    },
+    {
+      "id": "050f9cef-0b80-47ae-821f-405837327177",
+      "name": "assertText",
+      "description": null,
+      "type": "assertText",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "dfdfdfd",
+            "score": 1.0
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {},
+      "page": null,
+      "healing": null,
+      "timing": null,
+      "metadata": null,
+      "enhancements": {},
+      "config": null
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "Recording 2026-01-23 23:32",
+    "baseUrl": "https://noritakechina.com/",
+    "status": "ready",
+    "createdAt": "2026-01-23T23:32:20.594567Z",
+    "updatedAt": "2026-01-30T13:23:41.295059Z",
+    "version": 2,
+    "stepCount": 6,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  },
+  "variables": null
+}

@@ -1,0 +1,481 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "baseUrl": "https://www.daraz.pk/#?"
+  },
+  "steps": [
+    {
+      "id": "7a12f5dc-d42c-4f85-923a-ede8ff28e85e",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a#\\32 71814546 > div.common-img.fs-card-img > picture > img",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"271814546\"]/img/picture/div",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/section/div/div/div/div/div[2]/div/div[2]/div[2]/div[2]/a[3]/div/picture/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "img",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          431,
+          595,
+          188,
+          188
+        ],
+        "visual_hash": "f8a4d2a3527944acc78e2d6fb94ba31aa86dba61ccb37870b8c8d308fd8a678a",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\7a12f5dc-d42c-4f85-923a-ede8ff28e85e.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 16,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "image",
+        "framework": "react",
+        "attributes": {
+          "src": "https://img.drz.lazcdn.com/static/pk/p/ab5135ffd822bd086e8360e0693ef300.png_400x400q80.png"
+        },
+        "semantic_intent": "Click on image"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/#?",
+        "title": "Online Shopping in Pakistan: Fashion, Electronics & Groceries - Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "271814546",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#\\32 71814546",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"Airpod Pro Air Pro TWS Airpods  Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#\\32 71814546",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"271814546\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"271814546\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Airpod Pro Air Pro TWS Airpods  Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All DevicesRs.645Rs.1,999-68%",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "a",
+        "id": "271814546",
+        "classes": [
+          "pc-custom-link",
+          "card-fs-content-body-unit",
+          "hp-mod-card-hover"
+        ],
+        "name": "Airpod Pro Air Pro TWS Airpods  Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices",
+        "bounding_box": [
+          431,
+          595,
+          188,
+          290
+        ],
+        "visual_hash": "8000000000000000000000000000000000000000000000000000000000000000",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\271814546.png",
+        "parent_path": "////",
+        "sibling_count": 6,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "link",
+        "framework": "react",
+        "attributes": {
+          "href": "//www.daraz.pk/products/airpod-pro-air-pro-tws-airpods-wireless-earbuds-bluetooth-double-earphones-headphone-charging-power-bank-case-compatible-for-all-devices-i271814546-s3987542155.html?&scm=1007.51610.379274.0&pvid=de36ca4a-03a8-4fe3-b72c-d4173a82ae94&search=flashsale?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.5808%3Bfs_item_discount_price%3A645%3Bitem_id%3A271814546%3Bpctr%3A0.0%3Bcalib_pctr%3A0.0%3Bvoucher_price%3A645.00%3Bmt%3Ahot%3Bpromo_price%3A645.00%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A100%3Babid%3A379274%3Bfs_item_price%3A1999%3Bpvid%3Ade36ca4a-03a8-4fe3-b72c-d4173a82ae94%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3Ade36ca4a-03a8-4fe3-b72c-d4173a82ae94%3Btime%3A1769340506%3Bfs_biz_type%3Afs%3Bscm%3A1007.51610.379274.%3Bchannel_id%3A0000%3Bfs_item_discount%3A68%25%3Bcampaign_id%3A348881&scm=1007.51610.379274.0",
+          "name": "Airpod Pro Air Pro TWS Airpods  Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices"
+        },
+        "semantic_intent": "Fill \"Airpod Pro Air Pro TWS Airpods  Wireless Earbuds B\" field"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/#?",
+        "title": "Online Shopping in Pakistan: Fashion, Electronics & Groceries - Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "515de74d-937a-4cd1-95d8-43832cc9c42c",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_sku-select > div.sku-selector > div.sku-prop > div.pdp-mod-product-info-section.sku-prop-selection > div.section-content > div.sku-prop-content.sku-prop-content- > span.sku-variable-img-wrap > div.pdp-common-image.sku-variable-img > div.lazyload-wrapper > img.image",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_sku-select\"]/img/div/div/span[5]/div[2]/div/div/div/div",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[14]/div/div/div/div/div[2]/span[5]/div/div/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "img",
+        "id": null,
+        "classes": [
+          "image"
+        ],
+        "name": null,
+        "bounding_box": [
+          682,
+          549,
+          33,
+          33
+        ],
+        "visual_hash": "f19a74cee9a1d8e558dd21b599a31c7ab626a7a18687a056a25d23969ccdf521",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\515de74d-937a-4cd1-95d8-43832cc9c42c.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 18,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "image",
+        "framework": "react",
+        "attributes": {
+          "src": "https://img.drz.lazcdn.com/static/pk/p/d40e2c59eda3d1bd3da3568f6bb46c30.jpg_80x80q80.jpg_.webp"
+        },
+        "semantic_intent": "Click on image"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpod-pro-air-pro-tws-airpods-wireless-earbuds-bluetooth-double-earphones-headphone-charging-power-bank-case-compatible-for-all-devices-i271814546-s3987542155.html?scm=1007.51610.379274.0&pvid=de36ca4a-03a8-4fe3-b72c-d4173a82ae94&search=flashsale&spm=a2a0e.tm80335142.FlashSale.d_271814546",
+        "title": "Airpod Pro Air Pro TWS Airpods Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "96bbd429-0796-46e7-861a-7a097fad3d91",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_add_to_cart > div.pdp-cart-concern > button.add-to-cart-buy-now-btn.pdp-button",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_add_to_cart\"]/button/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Buy Now",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[17]/div/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Buy Now",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "button",
+        "id": null,
+        "classes": [
+          "add-to-cart-buy-now-btn",
+          "pdp-button",
+          "pdp-button_type_text",
+          "pdp-button_theme_bluedaraz",
+          "pdp-button_size_xl"
+        ],
+        "name": null,
+        "bounding_box": [
+          396,
+          450,
+          225,
+          44
+        ],
+        "visual_hash": "dd77a39966cc98669933e699e6d89b669966e498cc31a299a64c99269986e499",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\96bbd429-0796-46e7-861a-7a097fad3d91.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 11,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "button",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Click \"Buy Now\" button"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpod-pro-air-pro-tws-airpods-wireless-earbuds-bluetooth-double-earphones-headphone-charging-power-bank-case-compatible-for-all-devices-i271814546-s3993373443.html?",
+        "title": "Airpod Pro Air Pro TWS Airpods Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 252}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "56109ffc-8456-47bf-bed2-668bc65c61b6",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body.pdp-layout-column-2.i-overflow-hidden > div > div.iweb-mask.iweb-dialog-mask > div.iweb-dialog-container.iweb-dialog-container-enter > div.iweb-dialog-wrap.lzd-login-signup-popup-wrapper > div.iweb-dialog-body.lzd-login-signup-popup-body > div.iweb-dialog-body-content-wrapper > div.iweb-dialog-body-content > div.lzd-member-loginsign-popup > div.lzd-member-loginsign-popup-close-button > div > svg",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "svg/div/div/div/div/div/div/div/div/div/div[9]/body",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[9]/div/div/div/div/div/div/div/div/div/svg",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "svg",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          814,
+          156,
+          24,
+          24
+        ],
+        "visual_hash": "bc2c3869cb338c3ef2c0e38d2cf238c34b2d4f30b2cf67cc94b290b36b6ce62c",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\56109ffc-8456-47bf-bed2-668bc65c61b6.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 13,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Click on unknown"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpod-pro-air-pro-tws-airpods-wireless-earbuds-bluetooth-double-earphones-headphone-charging-power-bank-case-compatible-for-all-devices-i271814546-s3993373443.html?",
+        "title": "Airpod Pro Air Pro TWS Airpods Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 252}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "95555054-285d-462d-8035-e1ba1a47392f",
+      "name": "input",
+      "type": "input",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#module_add_to_cart > div.pdp-cart-concern > button.add-to-cart-buy-now-btn.pdp-button",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"module_add_to_cart\"]/button/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Buy Now",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[6]/div/div[3]/div[2]/div/div/div[17]/div/button",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Buy Now",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "button",
+        "id": null,
+        "classes": [
+          "add-to-cart-buy-now-btn",
+          "pdp-button",
+          "pdp-button_type_text",
+          "pdp-button_theme_bluedaraz",
+          "pdp-button_size_xl"
+        ],
+        "name": null,
+        "bounding_box": [
+          404,
+          450,
+          225,
+          44
+        ],
+        "visual_hash": "8000ff80ff80ff80ff80ff80ff80ff00ff80ff00ff80ff00ff00ff00ff00fe00",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\95555054-285d-462d-8035-e1ba1a47392f.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 11,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "button",
+        "framework": "react",
+        "attributes": {},
+        "semantic_intent": "Fill \"Buy Now\" field"
+      },
+      "page": {
+        "url": "https://www.daraz.pk/products/airpod-pro-air-pro-tws-airpods-wireless-earbuds-bluetooth-double-earphones-headphone-charging-power-bank-case-compatible-for-all-devices-i271814546-s3993373443.html?",
+        "title": "Airpod Pro Air Pro TWS Airpods Wireless Earbuds Bluetooth Double Earphones Headphone, Charging power bank Case Compatible for All Devices | Daraz.pk",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 252}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "Recording 2026-01-25 11:28",
+    "baseUrl": "https://www.daraz.pk/#?",
+    "status": "ready",
+    "createdAt": "2026-01-25T11:28:19.337798Z",
+    "updatedAt": "2026-01-25T11:28:52.457110Z",
+    "version": 2,
+    "stepCount": 6,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  }
+}

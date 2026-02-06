@@ -1,0 +1,36 @@
+# Core ML dependencies (Stage 1)
+# Install these first for basic ML functionality
+
+# Core UI Framework
+PySide6>=6.10.1
+websockets>=12.0
+pydantic>=2.10.0
+playwright>=1.47.0
+
+# Data Processing
+numpy>=1.26.3
+pandas>=2.1.4
+scipy>=1.13.0
+
+# Traditional ML
+scikit-learn>=1.4.0
+xgboost>=2.0.3
+lightgbm>=4.2.0
+joblib>=1.3.2
+
+# Computer Vision
+opencv-python>=4.9.0
+Pillow>=10.2.0
+pytesseract>=0.3.10
+imagehash>=4.3.1
+scikit-image>=0.22.0
+
+# NLP Basics
+nltk>=3.8.1
+langdetect>=1.0.9
+rapidfuzz>=3.6.1
+
+# Utilities
+tqdm>=4.66.1
+loguru>=0.7.2
+tenacity>=8.2.3

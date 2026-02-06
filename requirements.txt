@@ -1,0 +1,112 @@
+# Core UI Framework
+PySide6==6.10.1
+PySide6-Addons==6.10.1
+PySide6-Essentials==6.10.1
+
+# Web & Networking
+websockets==12.0
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+httpx==0.26.0
+aiohttp==3.9.1
+
+# Data & Schema
+pydantic>=2.10.0
+pydantic-settings==2.1.0
+
+# Browser Automation
+playwright==1.40.0
+selenium==4.16.0
+pyppeteer==2.0.0
+
+# ML/AI - Local LLM
+llama-cpp-python>=0.2.27; platform_system != "Windows"
+transformers>=4.36.2
+torch>=2.6.0
+accelerate>=0.25.0
+bitsandbytes==0.41.3; platform_system != "Windows"
+sentencepiece>=0.1.99
+protobuf>=4.25.1
+
+# ML/AI - NLP & Embeddings
+sentence-transformers>=2.3.1
+InstructorEmbedding>=1.0.1
+nltk>=3.8.1
+spacy>=3.7.2
+langdetect>=1.0.9
+rapidfuzz>=3.6.1
+
+# ML/AI - Computer Vision
+opencv-python==4.9.0.80
+opencv-contrib-python==4.9.0.80
+Pillow>=10.2.0
+pytesseract==0.3.10
+imagehash==4.3.1
+scikit-image==0.22.0
+
+# ML/AI - Traditional ML
+scikit-learn==1.4.0
+xgboost==2.0.3
+lightgbm==4.2.0
+joblib==1.3.2
+numpy==1.26.3
+pandas==2.1.4
+
+# Vector Database & RAG
+faiss-cpu==1.7.4
+chromadb==0.4.22
+rank-bm25==0.2.2
+pymilvus==2.3.5
+
+# Audio Processing & Transcription
+openai-whisper==20231117
+whisperx @ git+https://github.com/m-bain/whisperX.git
+pyannote.audio==3.1.1
+librosa==0.10.1
+soundfile==0.12.1
+noisereduce==3.0.0
+pydub==0.25.1
+
+# Data Processing
+lxml==5.1.0
+beautifulsoup4==4.12.3
+cssselect==1.2.0
+parsel==1.8.1
+
+# Storage & Serialization
+orjson==3.9.12
+msgpack==1.0.7
+pyarrow==14.0.2
+h5py==3.10.0
+
+# Monitoring & Performance
+psutil==5.9.7
+py-cpuinfo==9.0.0
+GPUtil==1.4.0; platform_system != "Windows"
+memory-profiler==0.61.0
+
+# Image Processing
+imagehash==4.3.1
+dhash==1.4
+
+# Async & Concurrency
+uvloop==0.19.0; platform_system != "Windows"
+aiofiles==23.2.1
+
+# Testing & Quality
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-playwright==0.4.4
+
+# Utilities
+python-dotenv==1.0.0
+tenacity==8.2.3
+tqdm==4.66.1
+click==8.1.7
+rich==13.7.0
+loguru==0.7.2
+
+# Cryptography & Security
+cryptography==42.0.0
+

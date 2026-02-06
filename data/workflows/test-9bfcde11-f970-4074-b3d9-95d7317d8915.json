@@ -1,0 +1,819 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "baseUrl": "https://noritakechina.com/"
+  },
+  "steps": [
+    {
+      "id": "search",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#search",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"q\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#search",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": "combobox",
+        "placeholder": "SEARCH",
+        "title": null,
+        "tag_name": "input",
+        "id": "search",
+        "classes": [
+          "input-text"
+        ],
+        "name": "q",
+        "bounding_box": [
+          293,
+          70,
+          850,
+          38
+        ],
+        "visual_hash": "d55a2aa05552017f2abd2aa0550001ff2fff2aab2abf7fd555500abf2aab7a80",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\search.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "combobox",
+        "framework": "unknown",
+        "attributes": {
+          "type": "text",
+          "name": "q",
+          "value": ""
+        },
+        "semantic_intent": "Click on SEARCH field"
+      },
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "search",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#search",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"q\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#search",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": "combobox",
+        "placeholder": "SEARCH",
+        "title": null,
+        "tag_name": "input",
+        "id": "search",
+        "classes": [
+          "input-text"
+        ],
+        "name": "q",
+        "bounding_box": [
+          293,
+          70,
+          850,
+          38
+        ],
+        "visual_hash": "d5522aad557a001f2aad2aa855022f552fff2aaa2abd2bf555502aab2aab7aaa",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\search.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "combobox",
+        "framework": "unknown",
+        "attributes": {
+          "type": "text",
+          "name": "q",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on SEARCH field"
+      },
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "search",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#search",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"q\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#search",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": "combobox",
+        "placeholder": "SEARCH",
+        "title": null,
+        "tag_name": "input",
+        "id": "search",
+        "classes": [
+          "input-text"
+        ],
+        "name": "q",
+        "bounding_box": [
+          293,
+          70,
+          850,
+          38
+        ],
+        "visual_hash": "d55a6aa05552007f2abf7aa0550001ff2fff2aab2aad7fc0555602bf2aa87fa0",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\search.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "combobox",
+        "framework": "unknown",
+        "attributes": {
+          "type": "text",
+          "name": "q",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on SEARCH field"
+      },
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "47d6db13-4593-47fd-abff-04955b94f52c",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body#html-body > div.nxt-ac-main > div.nxt-ac-products-container > div.nxt-ac-item.nxt-ac-selected > span.nxt-item-txt > b",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]/b/span/div[2]/div/div[7]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Plates",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[7]/div/div[2]/span/b",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Plates",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "b",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          365,
+          152,
+          38,
+          17
+        ],
+        "visual_hash": "a02f8ed4dfd0783bcbf22389b40d8e760abdf1077522cba98ed49456492b6af0",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\47d6db13-4593-47fd-abff-04955b94f52c.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 7,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "unknown",
+        "attributes": {},
+        "semantic_intent": "Click on \"Plates\""
+      },
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "search",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#search",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"q\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#search",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"search\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "plates",
+        "type": "text",
+        "name": "q"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": "combobox",
+        "placeholder": "SEARCH",
+        "title": null,
+        "tag_name": "input",
+        "id": "search",
+        "classes": [
+          "input-text"
+        ],
+        "name": "q",
+        "bounding_box": [
+          293,
+          70,
+          850,
+          38
+        ],
+        "visual_hash": "d55afe805540007faabffe805500c57fbfff80aaaaadff00555600ffaaa0f500",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\search.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "combobox",
+        "framework": "unknown",
+        "attributes": {
+          "type": "text",
+          "name": "q",
+          "value": ""
+        },
+        "semantic_intent": "Enter 'plates' into SEARCH field"
+      },
+      "page": {
+        "url": "https://noritakechina.com/",
+        "title": "Noritake (Official Site) | Elegant and Casual Dinnerware, Giftware, and More | NoritakeChina.com",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "9dab1b41-9164-43f5-b81c-fb6a1bc3e6de",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body#html-body > div.page-wrapper > header.header-container > div.header-container-wrap > div.header.content > div.navigation.custommenu > ul > li.ui-menu-item.level0 > div.level0.submenu > div.row > ul.subchildmenu.col-sm-12 > li.ui-menu-item.nav-3-4 > div.menu-thumb-img > a.menu-thumb-link > img",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]/img/a/div/li[4]/ul/div/div[2]/li[3]/ul/div/div/div[3]/header/div[3]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[3]/header/div[3]/div/div/ul/li[3]/div[2]/div/ul/li[4]/div/a/img",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "img",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          643,
+          247,
+          128,
+          104
+        ],
+        "visual_hash": "d3c8f92fa275d4988f8b2255fd9c0fe0b8d75a28b5600ea7c464a7db942c3345",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\9dab1b41-9164-43f5-b81c-fb6a1bc3e6de.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 16,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "image",
+        "framework": "unknown",
+        "attributes": {
+          "src": "/media/catalog/category/Service_for_12.jpg"
+        },
+        "semantic_intent": "Click on image"
+      },
+      "page": {
+        "url": "https://noritakechina.com/plates-floral-appetizer-6-1-4-set-of-4-5815",
+        "title": "Noritake Colorwave Graphite Set of 4 Floral Mini Plates",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "58e10fae-61b1-4117-954f-5da3d4cae6f8",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#rich-text-01JKRD40N0RGD8SFTXNWGYWF74 > h1 > span > span",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"rich-text-01JKRD40N0RGD8SFTXNWGYWF74\"]/span[3]/span/h1",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Save 20%",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[9]/div[2]/div[2]/div/div/div/div/div/form/div/div[2]/div/div/h1/span/span[3]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Save 20%",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "span",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          648,
+          317,
+          196,
+          59
+        ],
+        "visual_hash": "fea2805c856d7e821d65807d7f8288d8d575e68a3d1088b4774b83dd78b487af",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\58e10fae-61b1-4117-954f-5da3d4cae6f8.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 18,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "unknown",
+        "attributes": {},
+        "semantic_intent": "Click on \"Save 20%\""
+      },
+      "page": {
+        "url": "https://noritakechina.com/plates-floral-appetizer-6-1-4-set-of-4-5815",
+        "title": "Noritake Colorwave Graphite Set of 4 Floral Mini Plates",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "html-body",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#html-body",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#html-body",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Press Alt+1 for screen-reader mode, Alt+0 to cancelAccessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window\n        window.authenticationPopup = {\"autocomplete\":\"off\",\"customerReg",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "body",
+        "id": "html-body",
+        "classes": [
+          "outstock-page-preloader",
+          "catalog-product-view",
+          "product-plates-floral-appetizer-6-1-4-set-of-4-5815",
+          "page-layout-1column",
+          "preloaded",
+          "klaviyo-prevent-body-scrolling"
+        ],
+        "name": null,
+        "bounding_box": [
+          0,
+          0,
+          1280,
+          4729
+        ],
+        "visual_hash": "90b947a17e67021d01f07f42395e64677f0b3d5807f0381f672358e44f9d38f5",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\html-body.png",
+        "parent_path": "",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "submit-button",
+        "framework": "unknown",
+        "attributes": {},
+        "semantic_intent": "Click \"Press Alt+1 for screen-reader mode, Alt+0 to cance\" button"
+      },
+      "page": {
+        "url": "https://noritakechina.com/plates-floral-appetizer-6-1-4-set-of-4-5815",
+        "title": "Noritake Colorwave Graphite Set of 4 Floral Mini Plates",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "b179ccea-7649-444f-9a51-1438f00ff7f9",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "body#html-body > div > div.needsclick.kl-private-reset-css-Xuajs1 > div.needsclick.kl-private-reset-css-Xuajs1 > div.needsclick.kl-private-reset-css-Xuajs1 > div.needsclick.kl-private-reset-css-Xuajs1 > div.needsclick.go249761392 > div.needsclick.kl-private-reset-css-Xuajs1 > div.needsclick.kl-private-reset-css-Xuajs1 > button.needsclick.klaviyo-close-form > svg.needsclick.kl-private-reset-css-Xuajs1 > circle",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"html-body\"]/circle/svg/button/div/div/div/div/div/div[2]/div/div[9]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[9]/div/div[2]/div/div/div/div/div/button/svg/circle",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "circle",
+        "id": null,
+        "classes": [],
+        "name": null,
+        "bounding_box": [
+          903,
+          87,
+          29,
+          29
+        ],
+        "visual_hash": "abffdc37f4408ab3ccbacb51c35d2c02ccc00d2acd2274adcf0f34f4cc2d34f0",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\b179ccea-7649-444f-9a51-1438f00ff7f9.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 13,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "unknown",
+        "framework": "unknown",
+        "attributes": {},
+        "semantic_intent": "Click on unknown"
+      },
+      "page": {
+        "url": "https://noritakechina.com/plates-floral-appetizer-6-1-4-set-of-4-5815",
+        "title": "Noritake Colorwave Graphite Set of 4 Floral Mini Plates",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "tab-label-bv_reviews-title",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#tab-label-bv_reviews-title",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#tab-label-bv_reviews-title",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"tab-label-bv_reviews-title\"]",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Reviews",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"tab-label-bv_reviews-title\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Reviews",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "a",
+        "id": "tab-label-bv_reviews-title",
+        "classes": [
+          "data",
+          "switch"
+        ],
+        "name": null,
+        "bounding_box": [
+          663,
+          488,
+          66,
+          20
+        ],
+        "visual_hash": "864f83b1fbb47d4e7ca05c88015f81f702bbfb717e0b7e8a89f481440c9f02bb",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\tab-label-bv_reviews-title.png",
+        "parent_path": "////",
+        "sibling_count": 1,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "link",
+        "framework": "unknown",
+        "attributes": {
+          "href": "#bv_reviews"
+        },
+        "semantic_intent": "Navigate to \"Reviews\""
+      },
+      "page": {
+        "url": "https://noritakechina.com/plates-floral-appetizer-6-1-4-set-of-4-5815",
+        "title": "Noritake Colorwave Graphite Set of 4 Floral Mini Plates",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 449.3333435058594}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "Noritakechina - 2026-01-25 16:20",
+    "baseUrl": "https://noritakechina.com/",
+    "status": "ready",
+    "createdAt": "2026-01-25T16:20:37.024636Z",
+    "updatedAt": "2026-01-25T16:21:46.927463Z",
+    "version": 2,
+    "stepCount": 10,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  }
+}

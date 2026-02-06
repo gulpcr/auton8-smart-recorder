@@ -1,0 +1,958 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "name": "first model bank",
+    "baseUrl": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet"
+  },
+  "steps": [
+    {
+      "id": "signOnName",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#signOnName",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"signOnName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#signOnName",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "signOnName",
+        "classes": [
+          "input_user"
+        ],
+        "name": "signOnName",
+        "bounding_box": [
+          458,
+          259,
+          205,
+          19
+        ],
+        "visual_hash": "800080007fff80007fff00007fff00007fff2affaaaa7fffaaaa7fff80002aaa",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\signOnName.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "name": "signOnName",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "signOnName",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#signOnName",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"signOnName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#signOnName",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "signOnName",
+        "classes": [
+          "input_user"
+        ],
+        "name": "signOnName",
+        "bounding_box": [
+          458,
+          259,
+          205,
+          19
+        ],
+        "visual_hash": "800080007fffd5407fff55552aaa00002aaa0000ffff7ffffffa7fff80002aaa",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\signOnName.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "name": "signOnName",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "signOnName",
+      "name": "keyup",
+      "type": "keyup",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#signOnName",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"signOnName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#signOnName",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "signOnName",
+        "classes": [
+          "input_user"
+        ],
+        "name": "signOnName",
+        "bounding_box": [
+          458,
+          259,
+          205,
+          19
+        ],
+        "visual_hash": "815081747e0afc007abf7c000baa007f0ffe03fefa0f7e82faaa7e0bf8002aff",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\signOnName.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "name": "signOnName",
+          "value": ""
+        },
+        "semantic_intent": "Keyup on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "password",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#password",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"password\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#password",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "password",
+        "classes": [
+          "input_box"
+        ],
+        "name": "password",
+        "bounding_box": [
+          456,
+          281,
+          205,
+          19
+        ],
+        "visual_hash": "80007fff7fffffff7fff80007fff80007fff8000ffff8000aaaa800080005550",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\password.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        "semantic_intent": "Click on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "signOnName",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#signOnName",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"signOnName\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#signOnName",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"signOnName\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "INPUTT",
+        "type": "text",
+        "name": "signOnName"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "signOnName",
+        "classes": [
+          "input_user"
+        ],
+        "name": "signOnName",
+        "bounding_box": [
+          458,
+          259,
+          205,
+          19
+        ],
+        "visual_hash": "878f8f0f7820f0e060f8f0f007800f0f0fbf0f8f7e0f70f0e0f870f8f0c01fbf",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\signOnName.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "name": "signOnName",
+          "value": ""
+        },
+        "semantic_intent": "Enter 'INPUTT' into input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "password",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#password",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"password\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#password",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "password",
+        "classes": [
+          "input_box"
+        ],
+        "name": "password",
+        "bounding_box": [
+          456,
+          281,
+          205,
+          19
+        ],
+        "visual_hash": "80007fff7fffffff2aaad5557fff80002aaa8000ffff800080028000d5407fff",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\password.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "password",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#password",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"password\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#password",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "password",
+        "classes": [
+          "input_box"
+        ],
+        "name": "password",
+        "bounding_box": [
+          456,
+          281,
+          205,
+          19
+        ],
+        "visual_hash": "80057fff7ffaffff00bf95557ffa800000bf8000ffea8000803f8000fd007fff",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\password.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "password",
+      "name": "keydown",
+      "type": "keydown",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#password",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"password\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#password",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "password",
+        "classes": [
+          "input_box"
+        ],
+        "name": "password",
+        "bounding_box": [
+          456,
+          281,
+          205,
+          19
+        ],
+        "visual_hash": "80557fff7f80ffff03ffd5557f82800003ff8000ff80800080ff8015fc007fff",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\password.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        "semantic_intent": "Keydown on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "sign-in",
+      "name": "click",
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#sign-in",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#sign-in",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"sign-in\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"sign-in\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "sign-in",
+        "classes": [
+          "sign_in"
+        ],
+        "name": null,
+        "bounding_box": [
+          457,
+          317,
+          54,
+          19
+        ],
+        "visual_hash": "bb018c6685be703b6afe739c2ee099f81c2f3b0fe2f0629e90b884f23b8d6a60",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\sign-in.png",
+        "parent_path": "////",
+        "sibling_count": 3,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "type": "submit",
+          "value": "Sign in"
+        },
+        "semantic_intent": "Click on input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "password",
+      "name": "change",
+      "type": "change",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#password",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"password\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#password",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"password\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": {
+        "value": "123456",
+        "type": "password",
+        "name": "password"
+      },
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "input",
+        "id": "password",
+        "classes": [
+          "input_box"
+        ],
+        "name": "password",
+        "bounding_box": [
+          456,
+          281,
+          205,
+          19
+        ],
+        "visual_hash": "81fc2abf7e012abf01fe2aff7e01d55501fed5507e01d54003fed5407e0bd540",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\password.png",
+        "parent_path": "////",
+        "sibling_count": 2,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "input",
+        "framework": "unknown",
+        "attributes": {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        "semantic_intent": "Enter '123456' into input"
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    },
+    {
+      "id": "0ab631cc-c176-4b36-9ecd-55e843cee468",
+      "name": "submit",
+      "type": "submit",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "name",
+            "value": "[name=\"login\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "div#middle > form",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"middle\"]/form",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div/div[2]/form",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Transact Sign in\n\n\nUsernames and passwords are case sensitive.\n\n\n\n\n\n\n\n\nUsername\n\n\n\nPassword \n\n\n\nUsername\n\n\nAbout Temenos\n\n            Copyright © Temenos Headquarters SA. All rights reserved.",
+        "aria_label": null,
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "form",
+        "id": null,
+        "classes": [],
+        "name": "login",
+        "bounding_box": [
+          145,
+          161,
+          990,
+          304
+        ],
+        "visual_hash": "8000000000000000000000000000000000000000000000000000000000000000",
+        "screenshot_path": "F:\\auton8\\recorder\\data\\screenshots\\0ab631cc-c176-4b36-9ecd-55e843cee468.png",
+        "parent_path": "///",
+        "sibling_count": 1,
+        "depth": 5,
+        "is_in_iframe": false,
+        "has_stable_attributes": true,
+        "has_dynamic_id": false,
+        "semantic_role": "form",
+        "framework": "unknown",
+        "attributes": {
+          "name": "login"
+        },
+        "semantic_intent": "Submit \"Transact Sign in\n\n\nUsernames and passwords are cas\""
+      },
+      "page": {
+        "url": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+        "title": "Transact Sign in",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {}
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "first model bank",
+    "description": null,
+    "status": "ready",
+    "tags": [],
+    "createdAt": "2026-01-26T08:40:43.916685Z",
+    "updatedAt": "2026-01-26T08:44:30.508985Z",
+    "lastRunAt": null,
+    "version": 2,
+    "baseUrl": "http://transact.auton8.io:9089/BrowserWeb/servlet/BrowserServlet",
+    "author": null,
+    "totalRuns": 0,
+    "successfulRuns": 0,
+    "failedRuns": 0,
+    "avgDuration": 0.0,
+    "portalId": null,
+    "portalUrl": null,
+    "lastPublishedAt": null,
+    "stepCount": 11,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  }
+}

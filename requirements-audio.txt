@@ -1,0 +1,14 @@
+# Audio processing dependencies (Stage 3 - Optional)
+# These are large and can be installed separately if needed
+
+# Audio Processing
+librosa>=0.10.1
+soundfile>=0.12.1
+noisereduce>=3.0.0
+
+# Whisper (use standard whisper, not whisperx for easier install)
+openai-whisper>=20231117
+
+# For full WhisperX with diarization (advanced users):
+# git+https://github.com/m-bain/whisperX.git
+# pyannote.audio>=3.1.1

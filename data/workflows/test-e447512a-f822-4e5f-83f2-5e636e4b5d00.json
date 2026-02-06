@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "name": "llll",
+    "baseUrl": "https://www.google.com"
+  },
+  "steps": [],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "llll",
+    "description": null,
+    "status": "draft",
+    "tags": [],
+    "createdAt": "2026-01-29T00:21:41.956608Z",
+    "updatedAt": "2026-01-29T00:21:41.956608Z",
+    "lastRunAt": null,
+    "version": 2,
+    "baseUrl": "https://www.google.com",
+    "author": null,
+    "totalRuns": 0,
+    "successfulRuns": 0,
+    "failedRuns": 0,
+    "avgDuration": 0.0,
+    "portalId": null,
+    "portalUrl": null,
+    "lastPublishedAt": null
+  }
+}

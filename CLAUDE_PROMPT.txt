@@ -1,0 +1,84 @@
+# Auton8 Recorder Enhancement Request
+
+## CRITICAL CONTEXT - READ FIRST
+
+You are enhancing the Auton8 Recorder, a test automation tool with ML-powered self-healing. **DO NOT BREAK existing functionality.**
+
+### Core Architecture (MUST PRESERVE)
+
+**Tiered Execution Engine** - The heart of the system:
+```
+Tier 0 (Deterministic) → Tier 1 (Heuristic) → Tier 2 (Vision) → Tier 3 (LLM)
+         80%                   15%                  4%              1%
+```
+- 80% of actions MUST complete at Tier 0 (no AI)
+- AI is a SAFETY NET, not a crutch
+- Never add AI/ML to Tier 0
+
+**ML Engines** (DO NOT MODIFY without explicit approval):
+- `ml/selector_engine.py` - Ranks/generates selector strategies
+- `ml/healing_engine.py` - Self-heals broken selectors
+- `ml/vision_engine.py` - CV-based element detection (OpenCV)
+- `ml/ollama_engine.py` - LLM recovery (last resort)
+
+### Key Files & Their Roles
+
+| File | Purpose |
+|------|---------|
+| `tiered_executor.py` | Core execution engine - tiered approach |
+| `variable_store.py` | Cross-test variables (scopes: step/test/suite/env) |
+| `frame_handler.py` | FrameHandler, WindowHandler, DialogHandler |
+| `schema/workflow.py` | Pydantic models (Step, Workflow, Locator) |
+| `app_enhanced.py` | Main controller, event recording |
+| `StepDetailPanel.qml` | UI for step list & add step dialog |
+
+### When Adding New Action Types
+
+Add to ALL these locations:
+1. `schema/workflow.py` → Step.type Literal
+2. `app_enhanced.py` → VALID_TYPES set
+3. `tiered_executor.py` → `_perform_action()` or `NO_LOCATOR_ACTIONS`
+4. `StepDetailPanel.qml` → Add Step menu category
+
+### Variable System
+
+Syntax: `${varName}`, `${scope.varName}`, `${varName:default}`
+Scopes: step → test → suite → env (most to least specific)
+
+### Existing Action Types (DO NOT REMOVE)
+
+**Interactions**: click, dblclick, contextmenu, hover, scroll, dragTo, dragByOffset
+**Input**: input, type, change, press, selectOption, check, uncheck, submit
+**Frames**: switchFrame, switchFrameByName, switchFrameByIndex, switchMainFrame, switchParentFrame
+**Windows**: switchWindow, switchWindowByIndex, switchNewWindow, closeWindow
+**Dialogs**: handleAlert, handleConfirm, handlePrompt, setDialogHandler
+**Variables**: storeVariable, storeText, storeValue, storeAttribute, storeCount, assertVariable
+**Waits**: wait, waitForElement, waitForNavigation, waitForUrl
+**Asserts**: assertText, assertVisible, assertNotVisible, assertEnabled, assertChecked
+**Other**: screenshot, custom
+
+### Rules for Enhancement
+
+DO:
+- Follow existing patterns exactly
+- Use existing handlers (FrameHandler, WindowHandler, VariableStore)
+- Record ML training data via `_record_selector_attempt()`
+- Test with existing workflows
+
+DO NOT:
+- Modify tiered execution flow
+- Change ML engine interfaces
+- Add AI to Tier 0
+- Skip stability checks
+- Break backward compatibility
+- Remove existing action types
+
+---
+
+## YOUR ENHANCEMENT REQUEST:
+
+[Describe what you want to add/change here]
+
+---
+
+Refer to CLAUDE_ENHANCEMENT_PROMPT.md for full technical details.

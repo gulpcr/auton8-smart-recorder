@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "project": {},
+  "meta": {
+    "baseUrl": "https://tonerprice.com/"
+  },
+  "steps": [
+    {
+      "id": "dropdown-1",
+      "name": "click",
+      "description": null,
+      "type": "click",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Brand\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#dropdown-1",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dropdown-1",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dropdown-1\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {
+        "text_content": "Select Brand\n              AbilityOneBrotherCanonCopystarDellEpsonGestetnerHPImagisticsKonica-MinoltaKyoceraLanierLexmarkMuratecOkidataPanasonicPrintronixRicohRisographSamsungSavinSharpStar MicronicsT",
+        "aria_label": "Brand",
+        "aria_role": null,
+        "placeholder": null,
+        "title": null,
+        "tag_name": "select",
+        "id": "dropdown-1",
+        "classes": [
+          "w-full",
+          "mb-4"
+        ],
+        "name": null,
+        "bounding_box": [
+          470,
+          352,
+          324,
+          46
+        ],
+        "visual_hash": "4671d105",
+        "screenshot_path": null,
+        "parent_path": "////",
+        "sibling_count": 6,
+        "depth": 2,
+        "is_in_iframe": false,
+        "has_stable_attributes": false,
+        "has_dynamic_id": false,
+        "semantic_role": "select",
+        "framework": "unknown",
+        "attributes": {},
+        "semantic_intent": "Open Brand dropdown"
+      },
+      "page": {
+        "url": "https://tonerprice.com/",
+        "title": "Ink Cartridges, Toner & Printer Ink Cartridges – Tonerprice",
+        "viewport": "{\"width\": 1280, \"height\": 720, \"scrollX\": 0, \"scrollY\": 0}"
+      },
+      "healing": null,
+      "timing": null,
+      "metadata": {},
+      "enhancements": {},
+      "config": null
+    },
+    {
+      "id": "b8e2e199-a595-411b-8dce-e25bb444d291",
+      "name": "handleAlert",
+      "description": null,
+      "type": "handleAlert",
+      "semantic": null,
+      "framePath": [],
+      "shadowPath": [],
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "",
+            "score": 1.0
+          }
+        ]
+      },
+      "input": null,
+      "waits": [],
+      "assertions": [],
+      "artifacts": null,
+      "domContext": {},
+      "page": null,
+      "healing": null,
+      "timing": null,
+      "metadata": null,
+      "enhancements": null,
+      "config": null
+    }
+  ],
+  "assets": {},
+  "replay": {},
+  "metadata": {
+    "name": "Tonerprice - 2026-01-25 14:27",
+    "baseUrl": "https://tonerprice.com/",
+    "status": "ready",
+    "createdAt": "2026-01-25T14:27:33.888573Z",
+    "updatedAt": "2026-01-28T00:21:24.854468Z",
+    "version": 2,
+    "stepCount": 2,
+    "successRate": 0.0,
+    "successProjection": "unknown"
+  }
+}

@@ -1,0 +1,19 @@
+# Minimal requirements to run the basic recorder app
+# For full ML features, install: pip install -r requirements.txt
+
+# Core UI Framework
+PySide6==6.10.1
+PySide6-Addons==6.10.1
+PySide6-Essentials==6.10.1
+
+# Web & Networking
+websockets==12.0
+
+# Data & Schema
+pydantic>=2.10.0
+
+# Browser Automation
+playwright>=1.47.0
+
+# Basic utilities
+numpy>=1.26.3
