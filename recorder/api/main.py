@@ -1070,6 +1070,170 @@ async def upload_training_data(data: List[Dict[str, Any]]):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-if __name__ == "__main__":
+# ============================================================================
+# Skills & Vision/NLP/LLM Endpoints (for remote recorder clients)
+# ============================================================================
+
+# Lazy-loaded engines for new endpoints
+vision_engine = None
+nlp_engine = None
+
+
+def _get_vision_engine():
+    global vision_engine
+    if vision_engine is None:
+        try:
+            from recorder.ml.vision_engine import VisualElementMatcher
+            vision_engine = VisualElementMatcher()
+        except ImportError:
+            pass
+    return vision_engine
+
+
+def _get_nlp_engine():
+    global nlp_engine
+    if nlp_engine is None:
+        try:
+            from recorder.ml.nlp_engine import NLPEngine
+            nlp_engine = NLPEngine()
+        except ImportError:
+            pass
+    return nlp_engine
+
+
+class VisionMatchRequest(BaseModel):
+    screenshot_path: str
+    template_path: str
+    threshold: float = 0.75
+
+
+class NLPSimilarityRequest(BaseModel):
+    text_a: str
+    text_b: str
+
+
+class LLMRecoverRequest(BaseModel):
+    step: Dict[str, Any]
+    page_context: Dict[str, Any]
+
+
+@app.post("/api/vision/match")
+async def vision_match(request: VisionMatchRequest):
+    """Match an element using computer vision."""
+    engine = _get_vision_engine()
+    if not engine:
+        raise HTTPException(status_code=503, detail="Vision engine not available")
+
+    try:
+        match = engine.find_element_by_template(
+            request.screenshot_path, request.template_path, request.threshold
+        )
+        return {"found": match is not None, "match": match}
+    except Exception as e:
+        logger.error(f"Vision match failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/nlp/similarity")
+async def nlp_similarity(request: NLPSimilarityRequest):
+    """Compute text similarity between two strings."""
+    engine = _get_nlp_engine()
+    if not engine:
+        raise HTTPException(status_code=503, detail="NLP engine not available")
+
+    try:
+        score = engine.compute_similarity(request.text_a, request.text_b)
+        return {"similarity": score, "text_a": request.text_a, "text_b": request.text_b}
+    except Exception as e:
+        logger.error(f"NLP similarity failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/llm/classify-intent")
+async def llm_classify_intent(segments: List[Dict[str, Any]]):
+    """Classify intent from conversation segments."""
+    if not llm_engine:
+        raise HTTPException(status_code=503, detail="LLM engine not available")
+
+    try:
+        result = llm_engine.classify_intent(segments)
+        return {
+            "primary_intent": result.primary_intent,
+            "secondary_intents": result.secondary_intents,
+        }
+    except Exception as e:
+        logger.error(f"Intent classification failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/llm/recover")
+async def llm_recover(request: LLMRecoverRequest):
+    """Generate recovery plan for a failed step using LLM."""
+    if not llm_engine:
+        raise HTTPException(status_code=503, detail="LLM engine not available")
+
+    try:
+        result = llm_engine.generate_recovery_plan(request.step, request.page_context)
+        return {"recovery_plan": result}
+    except Exception as e:
+        logger.error(f"LLM recovery failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/skills/status")
+async def get_skills_status():
+    """Get status of all skills/engines available on this server."""
+    return {
+        "skills": [
+            {
+                "name": "healing",
+                "available": healing_engine is not None,
+                "description": "Selector healing (XGBoost)",
+            },
+            {
+                "name": "selector_gen",
+                "available": selector_engine is not None,
+                "description": "ML selector generation",
+            },
+            {
+                "name": "vision",
+                "available": _get_vision_engine() is not None,
+                "description": "CV template matching (OpenCV)",
+            },
+            {
+                "name": "llm",
+                "available": llm_engine is not None,
+                "description": "LLM intent/recovery (Ollama/llama-cpp)",
+            },
+            {
+                "name": "nlp",
+                "available": _get_nlp_engine() is not None,
+                "description": "NLP similarity (BERT/spaCy)",
+            },
+            {
+                "name": "rag",
+                "available": rag_engine is not None,
+                "description": "RAG knowledge verification (FAISS)",
+            },
+            {
+                "name": "audio",
+                "available": transcription_engine is not None,
+                "description": "Audio transcription (WhisperX)",
+            },
+            {
+                "name": "analytics",
+                "available": DB_AVAILABLE,
+                "description": "Execution analytics & dashboard",
+            },
+        ]
+    }
+
+
+def start():
+    """Entry point for `auton8-server` console script."""
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
+if __name__ == "__main__":
+    start()

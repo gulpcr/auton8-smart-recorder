@@ -1,65 +1,72 @@
-"""Setup script for Call Intelligence System."""
+"""Setup script for Auton8 Recorder (backward compat with pyproject.toml)."""
 
 from setuptools import setup, find_packages
 from pathlib import Path
 
-# Read README
-readme_file = Path(__file__).parent / "README_PRODUCTION.md"
+readme_file = Path(__file__).parent / "README.md"
 long_description = readme_file.read_text(encoding="utf-8") if readme_file.exists() else ""
 
-# Read requirements
-requirements_file = Path(__file__).parent / "requirements.txt"
-requirements = []
-if requirements_file.exists():
-    requirements = [
-        line.strip()
-        for line in requirements_file.read_text(encoding="utf-8").splitlines()
-        if line.strip() and not line.startswith("#")
-    ]
+# Minimal requirements only - tester machines
+minimal_requirements = [
+    "PySide6>=6.6.0",
+    "websockets>=12.0",
+    "pydantic>=2.10.0",
+    "playwright>=1.47.0",
+    "numpy>=1.26.3",
+]
 
 setup(
-    name="call-intelligence-system",
+    name="auton8-recorder",
     version="1.0.0",
-    description="Enterprise-grade browser automation and call analysis with advanced ML/AI",
+    description="Browser automation recorder with ML-powered self-healing replay",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourorg/call-intelligence",
     packages=find_packages(exclude=["tests", "tests.*"]),
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=minimal_requirements,
     extras_require={
+        "ml-core": [
+            "scikit-learn>=1.4.0",
+            "xgboost>=2.0.3",
+            "opencv-python>=4.9.0",
+            "nltk>=3.8.1",
+            "rapidfuzz>=3.6.1",
+            "imagehash>=4.3.1",
+        ],
+        "ml-advanced": [
+            "torch>=2.1.0",
+            "transformers>=4.36.2",
+            "sentence-transformers>=2.3.1",
+            "faiss-cpu>=1.7.4",
+            "spacy>=3.7.2",
+        ],
+        "server": [
+            "fastapi>=0.109.0",
+            "uvicorn>=0.25.0",
+            "sqlalchemy>=2.0.25",
+        ],
         "dev": [
             "pytest>=7.4.4",
             "pytest-asyncio>=0.23.3",
             "pytest-cov>=4.1.0",
-            "pytest-playwright>=0.4.4",
             "black>=23.12.0",
             "flake8>=7.0.0",
-            "mypy>=1.8.0"
+            "mypy>=1.8.0",
         ],
-        "gpu": [
-            "llama-cpp-python[cuda]"
-        ]
     },
     entry_points={
         "console_scripts": [
-            "call-intelligence=recorder.app_ml_integrated:main",
-            "call-intelligence-api=recorder.api.main:main",
+            "auton8-recorder=recorder.app_enhanced:main",
+            "auton8-server=recorder.api.main:start",
         ]
     },
     classifiers=[
         "Development Status :: 4 - Beta",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Topic :: Software Development :: Testing",
-        "Topic :: Scientific/Engineering :: Artificial Intelligence",
     ],
     python_requires=">=3.10",
-    keywords="browser automation, ml, ai, llm, rag, transcription, call-intelligence",
 )

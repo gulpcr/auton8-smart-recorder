@@ -39,7 +39,10 @@ from recorder.services.stable_replay import StableReplayer, StepResult
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("recorder")
 
-# ML/AI Components (import from existing integration)
+# Skills system (client-server architecture)
+from recorder.skills import create_default_registry, create_context, SkillRegistry, SkillMode
+
+# ML/AI Components - loaded via skills, direct imports only for type hints
 try:
     from recorder.ml.selector_engine import (
         MultiDimensionalSelectorEngine,
@@ -61,6 +64,34 @@ except Exception as e:
     logger.debug(f"Ollama engine not available: {e}")
     OLLAMA_AVAILABLE = False
 
+# Playwright auto-install check
+def _ensure_playwright_browsers():
+    """Check if Playwright browsers are installed, install if missing."""
+    try:
+        from pathlib import Path
+        import subprocess
+        # Quick check: see if chromium exists in the expected location
+        result = subprocess.run(
+            [sys.executable, "-m", "playwright", "install", "--dry-run", "chromium"],
+            capture_output=True, text=True, timeout=10
+        )
+        if "chromium" in result.stdout and "already installed" in result.stdout.lower():
+            return  # Already installed
+    except Exception:
+        pass  # dry-run not supported or failed, try install anyway
+
+    try:
+        logger.info("Installing Playwright browsers (first run)...")
+        import subprocess
+        subprocess.run(
+            [sys.executable, "-m", "playwright", "install", "chromium"],
+            capture_output=True, timeout=120
+        )
+        logger.info("Playwright browsers installed")
+    except Exception as e:
+        logger.warning(f"Could not auto-install Playwright browsers: {e}")
+        logger.warning("Run manually: python -m playwright install chromium")
+
 
 class EnhancedRecordingController(QObject):
     """
@@ -78,6 +109,9 @@ class EnhancedRecordingController(QObject):
     mlStatusChanged = Signal(dict)
     workflowCreated = Signal(str)  # New: emits workflow path when created
     workflowLoadedForEdit = Signal(str, str, int)  # path, baseUrl, stepCount - for editing mode
+
+    # Portal signals
+    portalLoginResult = Signal(bool, str)  # success flag + message
 
     # Internal signals for thread-safe updates
     _stepResultReady = Signal()
@@ -109,77 +143,81 @@ class EnhancedRecordingController(QObject):
         self._step_result_queue = Queue()
         self._pending_steps = None
 
-        # ML/AI components (optional)
-        self.selector_engine: Optional[MultiDimensionalSelectorEngine] = None
-        self.healing_engine: Optional[SelectorHealingEngine] = None
-        self.vision_matcher: Optional[VisualElementMatcher] = None
-        self.nlp_engine: Optional[NLPEngine] = None
-        self.llm_engine: Optional[Any] = None  # Ollama LLM engine
+        # Skills system - centralized capability registry
+        self.skill_registry: SkillRegistry = create_default_registry()
+        self.skill_ctx = create_context(
+            settings=self.settings_model.to_dict(),
+            portal_url=self.settings_model.portalUrl,
+            portal_token=self.settings_model.portalAccessToken,
+            skill_mode=self.settings_model.get("skillMode", "hybrid"),
+        )
+        logger.info(
+            f"Skills: {len(self.skill_registry.skill_names)} registered, "
+            f"mode={self.skill_ctx.skill_mode.value}"
+        )
 
-        # Initialize
+        # ML/AI components (optional) - loaded via skills or directly
+        self.selector_engine = None
+        self.healing_engine = None
+        self.vision_matcher = None
+        self.nlp_engine: Optional[Any] = None
+        self.llm_engine: Optional[Any] = None
+
+        # Initialize ML (direct local engines) + attach to replayer
         self._initialize_ml_components()
         self._setup_connections()
-
-        # Pass ML engines to replayer for tiered execution
-        if self.healing_engine:
-            self.replayer.set_healing_engine(self.healing_engine)
-            logger.info("✓ Healing engine connected to replay (Tier 1)")
-
-        if self.llm_engine and self.llm_engine.available:
-            self.replayer.set_llm_engine(self.llm_engine)
-            logger.info("✓ LLM engine connected to replay (Tier 3 recovery)")
-
-        if self.vision_matcher:
-            self.replayer.set_cv_engine(self.vision_matcher)
-            logger.info("✓ CV engine connected to replay (Tier 2)")
-
-        if self.selector_engine:
-            self.replayer.set_selector_engine(self.selector_engine)
-            logger.info("✓ Selector engine connected to replay (ML ranking)")
+        self._attach_engines_to_replayer()
 
         self.refresh_workflow_list()
-        
+
         logger.info("Enhanced recording controller initialized")
     
     def _initialize_ml_components(self):
-        """Initialize ML/AI components if available."""
+        """
+        Initialize ML/AI components.
+
+        Strategy:
+        - If ML libs are installed locally, use them directly (fastest).
+        - If not, skills will delegate to the central server automatically
+          when execute() is called in hybrid mode.
+        """
         if not ML_AVAILABLE:
-            logger.info("ML components not available, running in basic mode")
+            logger.info("ML libs not installed locally - will use server via skills")
             return
-        
+
         try:
             self.selector_engine = MultiDimensionalSelectorEngine()
             self.healing_engine = SelectorHealingEngine()
-            logger.info("✓ Selector and healing engines initialized")
-            
+            logger.info("Selector and healing engines initialized (local)")
+
             self.vision_matcher = VisualElementMatcher()
-            logger.info("✓ Computer vision engine initialized")
-            
+            logger.info("Computer vision engine initialized (local)")
+
             self.nlp_engine = NLPEngine()
-            logger.info("✓ NLP engine initialized")
-            
+            logger.info("NLP engine initialized (local)")
+
         except Exception as e:
             logger.error(f"ML component initialization error: {e}")
-        
+
         # Initialize Ollama LLM engine (optional)
         if OLLAMA_AVAILABLE:
             try:
+                model_name = self.settings_model.get("ollamaModel", "ministral-3:latest")
                 config = OllamaConfig(
-                    model_name="ministral-3:latest",
+                    model_name=model_name,
                     base_url="http://localhost:11434",
                     temperature=0.7,
                     max_tokens=512
                 )
                 self.llm_engine = OllamaLLMEngine(config)
                 if self.llm_engine.available:
-                    logger.info("✓ Ollama LLM engine initialized (ministral-3:latest)")
-                    # Emit status to UI
+                    logger.info(f"Ollama LLM initialized (local: {model_name})")
                     self.mlStatusChanged.emit({
                         "llm_available": True,
-                        "llm_model": "ministral-3:latest"
+                        "llm_model": model_name
                     })
                 else:
-                    logger.warning("⚠ Ollama server running but model not available")
+                    logger.warning("Ollama server running but model not available")
                     self.llm_engine = None
             except Exception as e:
                 logger.warning(f"Failed to initialize Ollama LLM: {e}")
@@ -187,6 +225,42 @@ class EnhancedRecordingController(QObject):
 
         # Initial ML stats update
         self.update_ml_stats()
+
+    def _attach_engines_to_replayer(self):
+        """
+        Connect ML engines to the replayer for tiered execution.
+
+        If local engines exist, use them directly.
+        If not but portal is connected, attach server-backed proxies via skills.
+        """
+        # Direct local engines (fastest path)
+        if self.healing_engine:
+            self.replayer.set_healing_engine(self.healing_engine)
+            logger.info("Healing engine -> replayer (local, Tier 1)")
+        elif self.skill_ctx.skill_mode != SkillMode.LOCAL:
+            # Attach server proxy via healing skill
+            healing_skill = self.skill_registry.get("healing")
+            if healing_skill:
+                try:
+                    from recorder.skills.healing import ServerHealingProxy
+                    if self.skill_ctx.portal_client and self.skill_ctx.portal_client.is_connected:
+                        proxy = ServerHealingProxy(self.skill_ctx.portal_client)
+                        self.replayer.set_healing_engine(proxy)
+                        logger.info("Healing engine -> replayer (server proxy, Tier 1)")
+                except Exception as e:
+                    logger.debug(f"Could not attach server healing proxy: {e}")
+
+        if self.llm_engine and self.llm_engine.available:
+            self.replayer.set_llm_engine(self.llm_engine)
+            logger.info("LLM engine -> replayer (local, Tier 3)")
+
+        if self.vision_matcher:
+            self.replayer.set_cv_engine(self.vision_matcher)
+            logger.info("CV engine -> replayer (local, Tier 2)")
+
+        if self.selector_engine:
+            self.replayer.set_selector_engine(self.selector_engine)
+            logger.info("Selector engine -> replayer (local, ML ranking)")
 
     @Slot()
     def update_ml_stats(self):
@@ -246,6 +320,10 @@ class EnhancedRecordingController(QObject):
                     }
                     tier_value = tier_map.get(result.tier_used, 0)
 
+                # Serialize tier attempts and healing details as JSON strings for QML
+                tier_attempts_json = json.dumps(result.tier_attempts) if result.tier_attempts else ""
+                healing_details_json = json.dumps(result.healing_details) if result.healing_details else ""
+
                 # Update the model with full result data including recovery tier
                 self.replay_results_model.update_status(
                     result.index,
@@ -254,7 +332,10 @@ class EnhancedRecordingController(QObject):
                     result.error,
                     result.locator_used,
                     result.timestamp,
-                    tier_value
+                    tier_value,
+                    result.original_selector,
+                    tier_attempts_json,
+                    healing_details_json
                 )
 
                 # Emit signal for QML
@@ -277,7 +358,7 @@ class EnhancedRecordingController(QObject):
                             "tier_name": result.tier_used if result.tier_used else "Tier 0",
                             "was_healed": was_healed,
                             "healing_strategy": result.tier_used if was_healed else None,
-                            "original_selector": None,  # Not tracked in current StepResult
+                            "original_selector": result.original_selector or None,
                             "healed_selector": result.locator_used if was_healed else None,
                             "error_message": result.error if result.error else None,
                         }
@@ -1026,6 +1107,100 @@ Complexity: {analysis.complexity.upper()}
             logger.error(f"Failed to delete workflow: {e}")
             self.statusMessage.emit(f"Delete failed: {str(e)}")
     
+    # ==================== Portal Login/Logout ====================
+
+    @Slot(str, str, str)
+    def portal_login(self, portal_url: str, email: str, password: str):
+        """Login to portal. Runs HTTP request in background thread."""
+        import threading
+
+        def _do_login():
+            try:
+                import urllib.request
+                import urllib.error
+
+                # Normalize URL
+                url = portal_url.rstrip("/")
+                endpoint = f"{url}/api/auth/login"
+
+                body = json.dumps({"email": email, "password": password}).encode("utf-8")
+                req = urllib.request.Request(
+                    endpoint,
+                    data=body,
+                    headers={"Content-Type": "application/json"},
+                    method="POST",
+                )
+
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+
+                if data.get("status"):
+                    token = data.get("data", {}).get("accessToken", "")
+                    message = data.get("message", "Login successful")
+                    result = json.dumps({
+                        "success": True,
+                        "message": message,
+                        "token": token,
+                        "email": email,
+                        "portalUrl": url,
+                    })
+                else:
+                    result = json.dumps({
+                        "success": False,
+                        "message": data.get("message", "Login failed"),
+                    })
+
+            except urllib.error.HTTPError as e:
+                try:
+                    err_body = json.loads(e.read().decode("utf-8"))
+                    msg = err_body.get("message", f"HTTP {e.code}")
+                except Exception:
+                    msg = f"HTTP error {e.code}"
+                result = json.dumps({"success": False, "message": msg})
+            except urllib.error.URLError as e:
+                result = json.dumps({"success": False, "message": f"Connection failed: {e.reason}"})
+            except Exception as e:
+                result = json.dumps({"success": False, "message": str(e)})
+
+            # Marshal back to main thread
+            from PySide6.QtCore import QMetaObject, Qt, Q_ARG
+            QMetaObject.invokeMethod(
+                self, "_handle_portal_login_result",
+                Qt.QueuedConnection,
+                Q_ARG(str, result),
+            )
+
+        thread = threading.Thread(target=_do_login, daemon=True)
+        thread.start()
+        logger.info(f"Portal login started for {email} at {portal_url}")
+
+    @Slot(str)
+    def _handle_portal_login_result(self, result_json: str):
+        """Process portal login result on main thread."""
+        result = json.loads(result_json)
+        success = result.get("success", False)
+        message = result.get("message", "")
+
+        if success:
+            self.settings_model.portalUrl = result["portalUrl"]
+            self.settings_model.portalAccessToken = result["token"]
+            self.settings_model.portalUserEmail = result["email"]
+            self.settings_model.portalConnected = True
+            logger.info(f"Portal login successful: {result['email']}")
+        else:
+            logger.warning(f"Portal login failed: {message}")
+
+        self.portalLoginResult.emit(success, message)
+
+    @Slot()
+    def portal_logout(self):
+        """Logout from portal - clear stored credentials."""
+        self.settings_model.portalAccessToken = ""
+        self.settings_model.portalUserEmail = ""
+        self.settings_model.portalConnected = False
+        self.statusMessage.emit("Logged out from portal")
+        logger.info("Portal logout")
+
     def _generate_semantic_intent(self, event_type: str, dom_context: dict, payload: dict) -> str:
         """
         Generate human-readable semantic intent for the step.
@@ -1223,10 +1398,11 @@ Complexity: {analysis.complexity.upper()}
             # #endregion
             
             if self.selector_engine and "element" in payload:
+                # Fast path: local ML selector generation
                 try:
                     fingerprint = create_fingerprint_from_dom(payload)
                     selector_strategies = self.selector_engine.generate_selectors(fingerprint)
-                    
+
                     locators = [
                         Locator(
                             type=sel.type.value,
@@ -1235,10 +1411,27 @@ Complexity: {analysis.complexity.upper()}
                         )
                         for sel in selector_strategies
                     ]
-                    
-                    logger.debug(f"Generated {len(locators)} selector strategies")
+
+                    logger.debug(f"Generated {len(locators)} selector strategies (local ML)")
                 except Exception as e:
                     logger.error(f"Selector generation failed: {e}")
+            elif "element" in payload and self.skill_ctx.skill_mode != SkillMode.LOCAL:
+                # Slow path: delegate to server via skills
+                try:
+                    result = self.skill_registry.execute(
+                        "selector_gen", self.skill_ctx,
+                        element_data=payload.get("element", payload)
+                    )
+                    if result.success and result.data:
+                        for sel in result.data.get("selectors", []):
+                            locators.append(Locator(
+                                type=sel.get("type", "css"),
+                                value=sel.get("value", ""),
+                                score=sel.get("score", 0.5)
+                            ))
+                        logger.debug(f"Generated {len(locators)} selectors (server)")
+                except Exception as e:
+                    logger.debug(f"Server selector generation failed: {e}")
             
             # Fallback to basic locators from browser
             if not locators:
@@ -1450,16 +1643,19 @@ Complexity: {analysis.complexity.upper()}
 
 def main():
     """Main application entry point with enhanced UI."""
+    # Ensure Playwright browsers are installed
+    _ensure_playwright_browsers()
+
     QQuickStyle.setStyle("Fusion")
     app = QApplication(sys.argv)
-    app.setApplicationName("Test Recorder - Professional")
-    app.setOrganizationName("TestAutomation")
-    
+    app.setApplicationName("Auton8 Recorder")
+    app.setOrganizationName("Auton8")
+
     engine = QQmlApplicationEngine()
-    
+
     # Create controller
     controller = EnhancedRecordingController()
-    
+
     # Register with QML
     engine.rootContext().setContextProperty("controller", controller)
     engine.rootContext().setContextProperty("timelineModel", controller.timeline_model)
@@ -1471,29 +1667,37 @@ def main():
     engine.rootContext().setContextProperty("executionHistoryModel", controller.execution_history_model)
     engine.rootContext().setContextProperty("mlStatsModel", controller.ml_stats_model)
 
+    # Expose skill registry status to QML
+    engine.rootContext().setContextProperty(
+        "skillCount", len(controller.skill_registry.skill_names)
+    )
+    engine.rootContext().setContextProperty(
+        "skillMode", controller.skill_ctx.skill_mode.value
+    )
+
     # Load enhanced UI
     qml_file = os.path.join(os.path.dirname(__file__), "..", "ui", "main_enhanced.qml")
-    
+
     if not os.path.exists(qml_file):
         logger.error(f"QML file not found: {qml_file}")
         sys.exit(-1)
-    
+
     engine.load(QUrl.fromLocalFile(os.path.abspath(qml_file)))
-    
+
     if not engine.rootObjects():
         logger.error("Failed to load QML!")
         sys.exit(-1)
-    
-    logger.info(f"Application started with enhanced UI: {qml_file}")
-    
+
+    logger.info(f"Application started | Skills: {len(controller.skill_registry.skill_names)} | Mode: {controller.skill_ctx.skill_mode.value}")
+
     # Run application
     ret = app.exec()
-    
+
     # Cleanup
     controller.browser.stop()
     controller.server.stop()
     QCoreApplication.quit()
-    
+
     sys.exit(ret)
 
 

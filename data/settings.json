@@ -15,5 +15,12 @@
   "autoSaveOnStop": false,
   "workflowsDirectory": "data/workflows",
   "screenshotsDirectory": "data/screenshots",
-  "showTierBadges": true
+  "showTierBadges": true,
+  "portalUrl": "",
+  "portalAccessToken": "",
+  "portalUserEmail": "",
+  "portalConnected": false,
+  "skillMode": "hybrid",
+  "serverFallback": true,
+  "serverTimeout": 30
 }
