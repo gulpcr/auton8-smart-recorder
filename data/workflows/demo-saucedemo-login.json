@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "name": "SauceDemo Login & Browse",
+    "description": "End-to-end test: login, verify products, add to cart, verify cart. Demonstrates healing tiers with intentionally imperfect primary selectors.",
+    "baseUrl": "https://www.saucedemo.com",
+    "version": 1
+  },
+  "steps": [
+    {
+      "id": "step-001",
+      "name": "Type username",
+      "type": "input",
+      "target": {
+        "locators": [
+          {"type": "id", "value": "user-name", "score": 0.95},
+          {"type": "css", "value": "input[data-test='username']", "score": 0.85},
+          {"type": "aria", "value": "Username", "score": 0.7},
+          {"type": "name", "value": "user-name", "score": 0.6}
+        ]
+      },
+      "input": {"value": "standard_user"},
+      "domContext": {
+        "tag_name": "INPUT",
+        "text_content": "",
+        "aria_label": "Username"
+      }
+    },
+    {
+      "id": "step-002",
+      "name": "Type password",
+      "type": "input",
+      "target": {
+        "locators": [
+          {"type": "id", "value": "password", "score": 0.95},
+          {"type": "css", "value": "input[data-test='password']", "score": 0.85},
+          {"type": "aria", "value": "Password", "score": 0.7},
+          {"type": "name", "value": "password", "score": 0.6}
+        ]
+      },
+      "input": {"value": "secret_sauce"},
+      "domContext": {
+        "tag_name": "INPUT",
+        "text_content": "",
+        "aria_label": "Password"
+      }
+    },
+    {
+      "id": "step-003",
+      "name": "Click Login button",
+      "type": "click",
+      "target": {
+        "locators": [
+          {"type": "id", "value": "login-button", "score": 0.95},
+          {"type": "css", "value": "input[data-test='login-button']", "score": 0.85},
+          {"type": "css", "value": ".submit-button", "score": 0.7},
+          {"type": "text", "value": "Login", "score": 0.6}
+        ]
+      },
+      "domContext": {
+        "tag_name": "INPUT",
+        "text_content": "Login",
+        "aria_label": ""
+      }
+    },
+    {
+      "id": "step-004",
+      "name": "Wait for products page",
+      "type": "waitForElement",
+      "target": {
+        "locators": [
+          {"type": "css", "value": ".title", "score": 0.9},
+          {"type": "css", "value": "[data-test='title']", "score": 0.85},
+          {"type": "text", "value": "Products", "score": 0.7}
+        ]
+      },
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "Products"
+      }
+    },
+    {
+      "id": "step-005",
+      "name": "Assert Products title visible",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "[data-test='title']", "score": 0.9},
+          {"type": "css", "value": ".title", "score": 0.85},
+          {"type": "xpath", "value": "//span[@class='title']", "score": 0.7}
+        ]
+      },
+      "input": {"value": "Products"},
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "Products"
+      }
+    },
+    {
+      "id": "step-006",
+      "name": "Click first Add to Cart button",
+      "type": "click",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "[data-test='add-to-cart-sauce-labs-backpack']", "score": 0.9},
+          {"type": "css", "value": ".inventory_item:first-child .btn_inventory", "score": 0.8},
+          {"type": "text", "value": "Add to cart", "score": 0.7},
+          {"type": "id", "value": "add-to-cart-sauce-labs-backpack", "score": 0.85}
+        ]
+      },
+      "domContext": {
+        "tag_name": "BUTTON",
+        "text_content": "Add to cart"
+      }
+    },
+    {
+      "id": "step-007",
+      "name": "Assert cart badge shows 1",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": ".shopping_cart_badge", "score": 0.9},
+          {"type": "css", "value": "[data-test='shopping-cart-badge']", "score": 0.85},
+          {"type": "xpath", "value": "//span[@class='shopping_cart_badge']", "score": 0.7}
+        ]
+      },
+      "input": {"value": "1"},
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "1"
+      }
+    },
+    {
+      "id": "step-008",
+      "name": "Click shopping cart",
+      "type": "click",
+      "target": {
+        "locators": [
+          {"type": "css", "value": ".shopping_cart_link", "score": 0.9},
+          {"type": "css", "value": "[data-test='shopping-cart-link']", "score": 0.85},
+          {"type": "aria", "value": "shopping cart", "score": 0.7}
+        ]
+      },
+      "domContext": {
+        "tag_name": "A",
+        "text_content": "1"
+      }
+    },
+    {
+      "id": "step-009",
+      "name": "Assert cart page title",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "[data-test='title']", "score": 0.9},
+          {"type": "css", "value": ".title", "score": 0.85}
+        ]
+      },
+      "input": {"value": "Your Cart"},
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "Your Cart"
+      }
+    },
+    {
+      "id": "step-010",
+      "name": "Assert Backpack in cart",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "[data-test='inventory-item-name']", "score": 0.9},
+          {"type": "css", "value": ".inventory_item_name", "score": 0.85},
+          {"type": "text", "value": "Sauce Labs Backpack", "score": 0.7}
+        ]
+      },
+      "input": {"value": "Sauce Labs Backpack"},
+      "domContext": {
+        "tag_name": "DIV",
+        "text_content": "Sauce Labs Backpack"
+      }
+    }
+  ]
+}

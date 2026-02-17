@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "name": "SauceDemo - Healing Demo",
+    "description": "Same test but with broken primary selectors to demonstrate self-healing at Tier 1/2/3",
+    "baseUrl": "https://www.saucedemo.com",
+    "version": 1
+  },
+  "steps": [
+    {
+      "id": "step-001",
+      "name": "Type username (broken primary)",
+      "type": "input",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-username-field-2024", "score": 0.95},
+          {"type": "css", "value": ".legacy-login-input", "score": 0.85},
+          {"type": "id", "value": "user-name", "score": 0.7},
+          {"type": "aria", "value": "Username", "score": 0.6}
+        ]
+      },
+      "input": {"value": "standard_user"},
+      "domContext": {
+        "tag_name": "INPUT",
+        "text_content": "",
+        "aria_label": "Username"
+      }
+    },
+    {
+      "id": "step-002",
+      "name": "Type password (broken primary)",
+      "type": "input",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#legacy-pwd-field", "score": 0.95},
+          {"type": "css", "value": "input.old-password-class", "score": 0.85},
+          {"type": "id", "value": "password", "score": 0.7},
+          {"type": "aria", "value": "Password", "score": 0.6}
+        ]
+      },
+      "input": {"value": "secret_sauce"},
+      "domContext": {
+        "tag_name": "INPUT",
+        "text_content": "",
+        "aria_label": "Password"
+      }
+    },
+    {
+      "id": "step-003",
+      "name": "Click Login (broken primary)",
+      "type": "click",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-submit-btn", "score": 0.95},
+          {"type": "css", "value": "button.legacy-login", "score": 0.85},
+          {"type": "id", "value": "login-button", "score": 0.7},
+          {"type": "text", "value": "Login", "score": 0.6}
+        ]
+      },
+      "domContext": {
+        "tag_name": "INPUT",
+        "text_content": "Login"
+      }
+    },
+    {
+      "id": "step-004",
+      "name": "Wait for products page",
+      "type": "waitForElement",
+      "target": {
+        "locators": [
+          {"type": "css", "value": ".title", "score": 0.9},
+          {"type": "text", "value": "Products", "score": 0.7}
+        ]
+      },
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "Products"
+      }
+    },
+    {
+      "id": "step-005",
+      "name": "Assert Products (broken primary)",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-page-header", "score": 0.95},
+          {"type": "css", "value": ".legacy-title-class", "score": 0.85},
+          {"type": "css", "value": ".title", "score": 0.7}
+        ]
+      },
+      "input": {"value": "Products"},
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "Products"
+      }
+    },
+    {
+      "id": "step-006",
+      "name": "Add to Cart (broken primary)",
+      "type": "click",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-add-cart-btn-2024", "score": 0.95},
+          {"type": "css", "value": "button.legacy-add-cart", "score": 0.85},
+          {"type": "text", "value": "Add to cart", "score": 0.7},
+          {"type": "css", "value": ".btn_inventory", "score": 0.65}
+        ]
+      },
+      "domContext": {
+        "tag_name": "BUTTON",
+        "text_content": "Add to cart"
+      }
+    },
+    {
+      "id": "step-007",
+      "name": "Assert cart badge (broken primary)",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-cart-count", "score": 0.95},
+          {"type": "css", "value": ".legacy-badge", "score": 0.85},
+          {"type": "css", "value": ".shopping_cart_badge", "score": 0.7}
+        ]
+      },
+      "input": {"value": "1"},
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "1"
+      }
+    },
+    {
+      "id": "step-008",
+      "name": "Click cart (broken primary)",
+      "type": "click",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-shopping-cart-icon", "score": 0.95},
+          {"type": "css", "value": "a.legacy-cart", "score": 0.85},
+          {"type": "css", "value": ".shopping_cart_link", "score": 0.7}
+        ]
+      },
+      "domContext": {
+        "tag_name": "A",
+        "text_content": "1"
+      }
+    },
+    {
+      "id": "step-009",
+      "name": "Assert Your Cart (broken primary)",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-cart-header", "score": 0.95},
+          {"type": "css", "value": ".title", "score": 0.7}
+        ]
+      },
+      "input": {"value": "Your Cart"},
+      "domContext": {
+        "tag_name": "SPAN",
+        "text_content": "Your Cart"
+      }
+    },
+    {
+      "id": "step-010",
+      "name": "Assert Backpack in cart (broken primary)",
+      "type": "assertText",
+      "target": {
+        "locators": [
+          {"type": "css", "value": "#old-item-name-2024", "score": 0.95},
+          {"type": "css", "value": ".inventory_item_name", "score": 0.7}
+        ]
+      },
+      "input": {"value": "Sauce Labs Backpack"},
+      "domContext": {
+        "tag_name": "DIV",
+        "text_content": "Sauce Labs Backpack"
+      }
+    }
+  ]
+}

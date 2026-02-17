@@ -138,6 +138,48 @@ ApplicationWindow {
                 }
             }
 
+            // Portal Status Pill
+            Rectangle {
+                width: portalPillRow.width + 24
+                height: 36
+                radius: 18
+                color: "#0f3460"
+
+                Row {
+                    id: portalPillRow
+                    anchors.centerIn: parent
+                    spacing: 8
+
+                    Rectangle {
+                        width: 8
+                        height: 8
+                        radius: 4
+                        color: appSettings.portalConnected ? "#4ecca3" : "#e94560"
+                        anchors.verticalCenter: parent.verticalCenter
+                    }
+
+                    Text {
+                        text: appSettings.portalConnected ? appSettings.portalUserEmail : "Portal"
+                        font.pixelSize: 12
+                        color: "#aaa"
+                        anchors.verticalCenter: parent.verticalCenter
+                    }
+                }
+
+                MouseArea {
+                    anchors.fill: parent
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: {
+                        if (appSettings.portalConnected) {
+                            window.currentTab = 5  // Go to Settings
+                        } else {
+                            portalLoginDialog.open()
+                        }
+                    }
+                }
+            }
+
             // Status message
             Text {
                 id: statusLabel
@@ -1566,8 +1608,16 @@ ApplicationWindow {
                                         delegate: Rectangle {
                                             id: resultDelegate
                                             width: replayResultsView.width - 16
-                                            height: status === "failed" && error && error.length > 0 ? Math.max(90, 60 + Math.ceil(error.length / 50) * 14) : 52
+                                            property bool expanded: false
+                                            property int baseHeight: status === "failed" && error && error.length > 0 ? Math.max(90, 60 + Math.ceil(error.length / 50) * 14) : 52
+                                            property int detailHeight: detailPanel.visible ? detailPanel.implicitHeight + 8 : 0
+                                            height: baseHeight + detailHeight
                                             radius: 6
+                                            clip: true
+
+                                            Behavior on height {
+                                                NumberAnimation { duration: 200; easing.type: Easing.OutCubic }
+                                            }
                                             color: {
                                                 if (status === "passed") return "#152a22"
                                                 if (status === "failed") return "#2a1515"
@@ -1601,9 +1651,23 @@ ApplicationWindow {
                                                 }
                                             }
 
-                                            ColumnLayout {
+                                            // Click area for expand/collapse
+                                            MouseArea {
                                                 anchors.fill: parent
+                                                onClicked: {
+                                                    if (status !== "pending" && status !== "running") {
+                                                        resultDelegate.expanded = !resultDelegate.expanded
+                                                    }
+                                                }
+                                                cursorShape: (status !== "pending" && status !== "running") ? Qt.PointingHandCursor : Qt.ArrowCursor
+                                            }
+
+                                            ColumnLayout {
+                                                anchors.left: parent.left
+                                                anchors.right: parent.right
+                                                anchors.top: parent.top
                                                 anchors.margins: 10
+                                                height: resultDelegate.baseHeight - 20
                                                 spacing: 4
 
                                                 RowLayout {
@@ -1874,6 +1938,312 @@ ApplicationWindow {
                                                         }
                                                     }
                                                 }
+                                            }
+
+                                            // Expandable detail panel
+                                            Rectangle {
+                                                id: detailPanel
+                                                visible: resultDelegate.expanded && status !== "pending" && status !== "running"
+                                                anchors.left: parent.left
+                                                anchors.right: parent.right
+                                                anchors.top: parent.top
+                                                anchors.topMargin: resultDelegate.baseHeight
+                                                anchors.leftMargin: 10
+                                                anchors.rightMargin: 10
+                                                implicitHeight: detailColumn.implicitHeight + 16
+                                                radius: 4
+                                                color: "#0d1117"
+                                                border.color: "#2a2a3a"
+                                                border.width: 1
+
+                                                Column {
+                                                    id: detailColumn
+                                                    anchors.fill: parent
+                                                    anchors.margins: 8
+                                                    spacing: 8
+
+                                                    // Section: Selector Comparison
+                                                    Column {
+                                                        visible: originalSelector && originalSelector.length > 0
+                                                        width: parent.width
+                                                        spacing: 4
+
+                                                        Text {
+                                                            text: "SELECTOR"
+                                                            font.pixelSize: 9
+                                                            font.bold: true
+                                                            font.letterSpacing: 1
+                                                            color: "#666"
+                                                        }
+
+                                                        // Original selector
+                                                        Row {
+                                                            width: parent.width
+                                                            spacing: 6
+
+                                                            Text {
+                                                                text: "Original:"
+                                                                font.pixelSize: 10
+                                                                color: "#888"
+                                                                width: 55
+                                                            }
+
+                                                            Rectangle {
+                                                                width: parent.width - 61
+                                                                height: origSelectorText.implicitHeight + 6
+                                                                radius: 3
+                                                                color: "#161b22"
+
+                                                                Text {
+                                                                    id: origSelectorText
+                                                                    anchors.left: parent.left
+                                                                    anchors.right: parent.right
+                                                                    anchors.verticalCenter: parent.verticalCenter
+                                                                    anchors.margins: 4
+                                                                    text: originalSelector || ""
+                                                                    font.pixelSize: 10
+                                                                    font.family: "Consolas"
+                                                                    color: "#e06c75"
+                                                                    wrapMode: Text.WrapAnywhere
+                                                                }
+                                                            }
+                                                        }
+
+                                                        // Healed selector (only when healed)
+                                                        Row {
+                                                            visible: status === "passed" && recoveryTier > 0 && locator && locator.length > 0
+                                                            width: parent.width
+                                                            spacing: 6
+
+                                                            Text {
+                                                                text: "Healed:"
+                                                                font.pixelSize: 10
+                                                                color: "#888"
+                                                                width: 55
+                                                            }
+
+                                                            Rectangle {
+                                                                width: parent.width - 61
+                                                                height: healedSelectorText.implicitHeight + 6
+                                                                radius: 3
+                                                                color: "#161b22"
+
+                                                                Text {
+                                                                    id: healedSelectorText
+                                                                    anchors.left: parent.left
+                                                                    anchors.right: parent.right
+                                                                    anchors.verticalCenter: parent.verticalCenter
+                                                                    anchors.margins: 4
+                                                                    text: locator || ""
+                                                                    font.pixelSize: 10
+                                                                    font.family: "Consolas"
+                                                                    color: "#98c379"
+                                                                    wrapMode: Text.WrapAnywhere
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    // Separator
+                                                    Rectangle {
+                                                        visible: tierAttempts && tierAttempts.length > 2
+                                                        width: parent.width
+                                                        height: 1
+                                                        color: "#2a2a3a"
+                                                    }
+
+                                                    // Section: Tier Attempts
+                                                    Column {
+                                                        visible: tierAttempts && tierAttempts.length > 2
+                                                        width: parent.width
+                                                        spacing: 4
+
+                                                        Text {
+                                                            text: "TIER ATTEMPTS"
+                                                            font.pixelSize: 9
+                                                            font.bold: true
+                                                            font.letterSpacing: 1
+                                                            color: "#666"
+                                                        }
+
+                                                        Repeater {
+                                                            id: tierAttemptsRepeater
+                                                            model: {
+                                                                try {
+                                                                    return tierAttempts && tierAttempts.length > 2 ? JSON.parse(tierAttempts) : []
+                                                                } catch (e) {
+                                                                    return []
+                                                                }
+                                                            }
+
+                                                            Rectangle {
+                                                                required property var modelData
+                                                                required property int index
+                                                                width: detailColumn.width
+                                                                height: tierAttemptRow.implicitHeight + 8
+                                                                radius: 3
+                                                                color: modelData.success ? "#0d2818" : "#280d0d"
+                                                                border.color: modelData.success ? "#4ecca340" : "#e9456040"
+                                                                border.width: 1
+
+                                                                Row {
+                                                                    id: tierAttemptRow
+                                                                    anchors.left: parent.left
+                                                                    anchors.right: parent.right
+                                                                    anchors.verticalCenter: parent.verticalCenter
+                                                                    anchors.margins: 6
+                                                                    spacing: 8
+
+                                                                    // Status dot
+                                                                    Rectangle {
+                                                                        width: 8
+                                                                        height: 8
+                                                                        radius: 4
+                                                                        color: modelData.success ? "#4ecca3" : "#e94560"
+                                                                        anchors.verticalCenter: parent.verticalCenter
+                                                                    }
+
+                                                                    // Tier name
+                                                                    Text {
+                                                                        text: {
+                                                                            var name = modelData.tier || ""
+                                                                            if (name === "TIER_0_DETERMINISTIC") return "Tier 0: Direct"
+                                                                            if (name === "TIER_1_HEURISTIC") return "Tier 1: Heuristic"
+                                                                            if (name === "TIER_2_VISION") return "Tier 2: Vision"
+                                                                            if (name === "TIER_3_LLM") return "Tier 3: LLM"
+                                                                            return name
+                                                                        }
+                                                                        font.pixelSize: 10
+                                                                        font.bold: true
+                                                                        color: modelData.success ? "#4ecca3" : "#e94560"
+                                                                        width: 100
+                                                                    }
+
+                                                                    // Result
+                                                                    Text {
+                                                                        text: modelData.success ? "PASS" : "FAIL"
+                                                                        font.pixelSize: 9
+                                                                        font.bold: true
+                                                                        font.family: "Consolas"
+                                                                        color: modelData.success ? "#4ecca3" : "#e94560"
+                                                                        width: 30
+                                                                    }
+
+                                                                    // Error or locator info
+                                                                    Text {
+                                                                        text: {
+                                                                            if (modelData.success && modelData.locator_tried) {
+                                                                                return modelData.locator_tried.substring(0, 60) + (modelData.locator_tried.length > 60 ? "..." : "")
+                                                                            }
+                                                                            if (!modelData.success && modelData.error) {
+                                                                                return modelData.error.substring(0, 80) + (modelData.error.length > 80 ? "..." : "")
+                                                                            }
+                                                                            return ""
+                                                                        }
+                                                                        font.pixelSize: 10
+                                                                        font.family: "Consolas"
+                                                                        color: modelData.success ? "#668" : "#a55"
+                                                                        width: parent.width - 170
+                                                                        elide: Text.ElideRight
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    // Separator
+                                                    Rectangle {
+                                                        visible: healingDetails && healingDetails.length > 2
+                                                        width: parent.width
+                                                        height: 1
+                                                        color: "#2a2a3a"
+                                                    }
+
+                                                    // Section: Healing Strategy
+                                                    Column {
+                                                        id: healingSection
+                                                        visible: healingDetails && healingDetails.length > 2
+                                                        width: parent.width
+                                                        spacing: 4
+
+                                                        property var details: {
+                                                            try {
+                                                                return healingDetails && healingDetails.length > 2 ? JSON.parse(healingDetails) : null
+                                                            } catch (e) {
+                                                                return null
+                                                            }
+                                                        }
+
+                                                        Text {
+                                                            text: "HEALING STRATEGY"
+                                                            font.pixelSize: 9
+                                                            font.bold: true
+                                                            font.letterSpacing: 1
+                                                            color: "#666"
+                                                        }
+
+                                                        Row {
+                                                            visible: healingSection.details !== null
+                                                            spacing: 8
+
+                                                            Rectangle {
+                                                                width: strategyText.implicitWidth + 12
+                                                                height: 20
+                                                                radius: 3
+                                                                color: "#1a2a40"
+                                                                border.color: "#4a9eff"
+                                                                border.width: 1
+
+                                                                Text {
+                                                                    id: strategyText
+                                                                    anchors.centerIn: parent
+                                                                    text: healingSection.details ? healingSection.details.strategy || "unknown" : ""
+                                                                    font.pixelSize: 10
+                                                                    font.bold: true
+                                                                    color: "#4a9eff"
+                                                                }
+                                                            }
+
+                                                            Text {
+                                                                visible: healingSection.details && healingSection.details.confidence
+                                                                text: "Confidence: " + (healingSection.details ? Math.round((healingSection.details.confidence || 0) * 100) + "%" : "")
+                                                                font.pixelSize: 10
+                                                                color: "#888"
+                                                                anchors.verticalCenter: parent.verticalCenter
+                                                            }
+                                                        }
+
+                                                        Text {
+                                                            visible: healingSection.details && healingSection.details.reason
+                                                            text: healingSection.details ? healingSection.details.reason || "" : ""
+                                                            font.pixelSize: 10
+                                                            color: "#778"
+                                                            wrapMode: Text.WordWrap
+                                                            width: parent.width
+                                                        }
+                                                    }
+
+                                                    // Expand hint
+                                                    Text {
+                                                        visible: !tierAttempts || tierAttempts.length <= 2
+                                                        text: status === "passed" && recoveryTier === 0 ? "Direct execution - no healing needed" : "No detailed tier data available"
+                                                        font.pixelSize: 10
+                                                        color: "#555"
+                                                        font.italic: true
+                                                    }
+                                                }
+                                            }
+
+                                            // Expand indicator arrow
+                                            Text {
+                                                visible: status !== "pending" && status !== "running"
+                                                anchors.right: parent.right
+                                                anchors.top: parent.top
+                                                anchors.rightMargin: 8
+                                                anchors.topMargin: 6
+                                                text: resultDelegate.expanded ? "▾" : "▸"
+                                                font.pixelSize: 10
+                                                color: "#555"
                                             }
                                         }
 
@@ -3205,6 +3575,197 @@ ApplicationWindow {
                         }
                     }
 
+                    // Portal Connection Section
+                    Rectangle {
+                        Layout.fillWidth: true
+                        implicitHeight: portalSettingsContent.height + 40
+                        radius: 12
+                        color: "#16213e"
+
+                        ColumnLayout {
+                            id: portalSettingsContent
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.top: parent.top
+                            anchors.margins: 20
+                            spacing: 16
+
+                            RowLayout {
+                                spacing: 10
+
+                                Text {
+                                    text: "🌐"
+                                    font.pixelSize: 16
+                                }
+
+                                Text {
+                                    text: "Portal Connection"
+                                    font.pixelSize: 16
+                                    font.bold: true
+                                    color: "#e0e0e0"
+                                }
+
+                                Item { Layout.fillWidth: true }
+
+                                // Connection status badge
+                                Rectangle {
+                                    width: portalBadgeText.width + 20
+                                    height: 24
+                                    radius: 12
+                                    color: appSettings.portalConnected ? "#1a3a2a" : "#3a1a1a"
+                                    border.color: appSettings.portalConnected ? "#4ecca3" : "#e94560"
+                                    border.width: 1
+
+                                    Text {
+                                        id: portalBadgeText
+                                        anchors.centerIn: parent
+                                        text: appSettings.portalConnected ? "Connected" : "Not Connected"
+                                        font.pixelSize: 11
+                                        font.bold: true
+                                        color: appSettings.portalConnected ? "#4ecca3" : "#e94560"
+                                    }
+                                }
+                            }
+
+                            // Portal URL
+                            RowLayout {
+                                Layout.fillWidth: true
+                                spacing: 16
+
+                                ColumnLayout {
+                                    Layout.preferredWidth: 200
+                                    spacing: 4
+
+                                    Text {
+                                        text: "Portal URL"
+                                        font.pixelSize: 13
+                                        font.bold: true
+                                        color: "#e0e0e0"
+                                    }
+
+                                    Text {
+                                        text: "Endpoint of your Auton8 portal"
+                                        font.pixelSize: 11
+                                        color: "#666"
+                                    }
+                                }
+
+                                Item { Layout.fillWidth: true }
+
+                                Rectangle {
+                                    width: 300
+                                    height: 36
+                                    radius: 6
+                                    color: "#0f3460"
+                                    border.color: portalUrlInput.activeFocus ? "#4ecca3" : "#1a2a45"
+
+                                    TextInput {
+                                        id: portalUrlInput
+                                        anchors.fill: parent
+                                        anchors.margins: 10
+                                        font.pixelSize: 13
+                                        color: "#e0e0e0"
+                                        text: appSettings.portalUrl
+                                        selectByMouse: true
+                                        verticalAlignment: TextInput.AlignVCenter
+
+                                        Text {
+                                            anchors.fill: parent
+                                            verticalAlignment: Text.AlignVCenter
+                                            text: "https://your-portal.auton8.io"
+                                            font.pixelSize: 13
+                                            color: "#555"
+                                            visible: !portalUrlInput.text && !portalUrlInput.activeFocus
+                                        }
+
+                                        onTextChanged: appSettings.portalUrl = text
+                                    }
+                                }
+                            }
+
+                            // Login status / actions
+                            RowLayout {
+                                Layout.fillWidth: true
+                                spacing: 16
+
+                                ColumnLayout {
+                                    Layout.preferredWidth: 200
+                                    spacing: 4
+
+                                    Text {
+                                        text: appSettings.portalConnected ? "Logged in as" : "Authentication"
+                                        font.pixelSize: 13
+                                        font.bold: true
+                                        color: "#e0e0e0"
+                                    }
+
+                                    Text {
+                                        text: appSettings.portalConnected ? appSettings.portalUserEmail : "Login to sync with portal"
+                                        font.pixelSize: 11
+                                        color: appSettings.portalConnected ? "#4ecca3" : "#666"
+                                    }
+                                }
+
+                                Item { Layout.fillWidth: true }
+
+                                // Logout button (when connected)
+                                Rectangle {
+                                    width: 100
+                                    height: 36
+                                    radius: 6
+                                    color: portalLogoutArea.containsMouse ? "#a32e17" : "#c73e1d"
+                                    visible: appSettings.portalConnected
+
+                                    Text {
+                                        anchors.centerIn: parent
+                                        text: "Logout"
+                                        font.pixelSize: 13
+                                        font.bold: true
+                                        color: "#fff"
+                                    }
+
+                                    MouseArea {
+                                        id: portalLogoutArea
+                                        anchors.fill: parent
+                                        hoverEnabled: true
+                                        cursorShape: Qt.PointingHandCursor
+                                        onClicked: controller.portal_logout()
+                                    }
+                                }
+
+                                // Login button (when disconnected)
+                                Rectangle {
+                                    width: 140
+                                    height: 36
+                                    radius: 6
+                                    color: {
+                                        if (!appSettings.portalUrl) return "#2a3a50"
+                                        return portalLoginArea.containsMouse ? "#3a5a90" : "#0f3460"
+                                    }
+                                    visible: !appSettings.portalConnected
+                                    opacity: appSettings.portalUrl ? 1.0 : 0.5
+
+                                    Text {
+                                        anchors.centerIn: parent
+                                        text: "Login to Portal"
+                                        font.pixelSize: 13
+                                        font.bold: true
+                                        color: appSettings.portalUrl ? "#4ecca3" : "#666"
+                                    }
+
+                                    MouseArea {
+                                        id: portalLoginArea
+                                        anchors.fill: parent
+                                        hoverEnabled: true
+                                        cursorShape: appSettings.portalUrl ? Qt.PointingHandCursor : Qt.ArrowCursor
+                                        enabled: appSettings.portalUrl !== ""
+                                        onClicked: portalLoginDialog.open()
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     // Appearance Settings Section
                     Rectangle {
                         Layout.fillWidth: true
@@ -3405,6 +3966,258 @@ ApplicationWindow {
                 onClicked: {
                     controller.delete_workflow(deleteConfirmDialog.workflowPath)
                     deleteConfirmDialog.close()
+                }
+            }
+        }
+    }
+
+    // Portal Login Dialog
+    Dialog {
+        id: portalLoginDialog
+        modal: true
+        width: 440
+        height: 380
+        anchors.centerIn: parent
+
+        property bool isLoggingIn: false
+        property string errorMessage: ""
+
+        onOpened: {
+            portalLoginEmail.text = appSettings.portalUserEmail || ""
+            portalLoginPassword.text = ""
+            portalLoginDialog.errorMessage = ""
+            portalLoginDialog.isLoggingIn = false
+            if (portalLoginEmail.text) {
+                portalLoginPassword.forceActiveFocus()
+            } else {
+                portalLoginEmail.forceActiveFocus()
+            }
+        }
+
+        background: Rectangle {
+            radius: 12
+            color: "#16213e"
+            border.color: "#4ecca3"
+            border.width: 2
+        }
+
+        header: Rectangle {
+            height: 50
+            color: "#16213e"
+            radius: 12
+
+            Text {
+                anchors.centerIn: parent
+                text: "Portal Login"
+                font.pixelSize: 18
+                font.bold: true
+                color: "#e0e0e0"
+            }
+        }
+
+        contentItem: ColumnLayout {
+            spacing: 16
+
+            // Connecting to URL
+            Text {
+                text: "Connecting to: " + appSettings.portalUrl
+                font.pixelSize: 12
+                color: "#888"
+                elide: Text.ElideMiddle
+                Layout.fillWidth: true
+            }
+
+            // Email field
+            ColumnLayout {
+                Layout.fillWidth: true
+                spacing: 6
+
+                Text {
+                    text: "Email"
+                    font.pixelSize: 13
+                    font.bold: true
+                    color: "#e0e0e0"
+                }
+
+                Rectangle {
+                    Layout.fillWidth: true
+                    height: 40
+                    radius: 6
+                    color: "#0f3460"
+                    border.color: portalLoginEmail.activeFocus ? "#4ecca3" : "#1a2a45"
+
+                    TextInput {
+                        id: portalLoginEmail
+                        anchors.fill: parent
+                        anchors.margins: 12
+                        font.pixelSize: 14
+                        color: "#e0e0e0"
+                        selectByMouse: true
+                        verticalAlignment: TextInput.AlignVCenter
+                        enabled: !portalLoginDialog.isLoggingIn
+
+                        Text {
+                            anchors.fill: parent
+                            verticalAlignment: Text.AlignVCenter
+                            text: "user@example.com"
+                            font.pixelSize: 14
+                            color: "#555"
+                            visible: !portalLoginEmail.text && !portalLoginEmail.activeFocus
+                        }
+
+                        Keys.onReturnPressed: portalLoginPassword.forceActiveFocus()
+                    }
+                }
+            }
+
+            // Password field
+            ColumnLayout {
+                Layout.fillWidth: true
+                spacing: 6
+
+                Text {
+                    text: "Password"
+                    font.pixelSize: 13
+                    font.bold: true
+                    color: "#e0e0e0"
+                }
+
+                Rectangle {
+                    Layout.fillWidth: true
+                    height: 40
+                    radius: 6
+                    color: "#0f3460"
+                    border.color: portalLoginPassword.activeFocus ? "#4ecca3" : "#1a2a45"
+
+                    TextInput {
+                        id: portalLoginPassword
+                        anchors.fill: parent
+                        anchors.margins: 12
+                        font.pixelSize: 14
+                        color: "#e0e0e0"
+                        echoMode: TextInput.Password
+                        selectByMouse: true
+                        verticalAlignment: TextInput.AlignVCenter
+                        enabled: !portalLoginDialog.isLoggingIn
+
+                        Text {
+                            anchors.fill: parent
+                            verticalAlignment: Text.AlignVCenter
+                            text: "Enter password"
+                            font.pixelSize: 14
+                            color: "#555"
+                            visible: !portalLoginPassword.text && !portalLoginPassword.activeFocus
+                        }
+
+                        Keys.onReturnPressed: {
+                            if (portalLoginEmail.text && portalLoginPassword.text) {
+                                portalLoginDialog.isLoggingIn = true
+                                portalLoginDialog.errorMessage = ""
+                                controller.portal_login(appSettings.portalUrl, portalLoginEmail.text, portalLoginPassword.text)
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Error message
+            Text {
+                text: portalLoginDialog.errorMessage
+                font.pixelSize: 12
+                color: "#e94560"
+                wrapMode: Text.WordWrap
+                Layout.fillWidth: true
+                visible: portalLoginDialog.errorMessage !== ""
+            }
+
+            // Loading indicator
+            Text {
+                text: "Logging in..."
+                font.pixelSize: 13
+                color: "#4ecca3"
+                visible: portalLoginDialog.isLoggingIn
+                Layout.alignment: Qt.AlignHCenter
+            }
+        }
+
+        footer: Rectangle {
+            height: 56
+            color: "#16213e"
+
+            RowLayout {
+                anchors.fill: parent
+                anchors.margins: 12
+                spacing: 12
+
+                Item { Layout.fillWidth: true }
+
+                // Cancel button
+                Rectangle {
+                    width: 90
+                    height: 36
+                    radius: 6
+                    color: portalCancelArea.containsMouse ? "#2a4a70" : "#0f3460"
+
+                    Text {
+                        anchors.centerIn: parent
+                        text: "Cancel"
+                        font.pixelSize: 14
+                        color: "#e0e0e0"
+                    }
+
+                    MouseArea {
+                        id: portalCancelArea
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        cursorShape: Qt.PointingHandCursor
+                        onClicked: portalLoginDialog.close()
+                    }
+                }
+
+                // Login button
+                Rectangle {
+                    width: 100
+                    height: 36
+                    radius: 6
+                    color: {
+                        if (portalLoginDialog.isLoggingIn || !portalLoginEmail.text || !portalLoginPassword.text) return "#2a3a50"
+                        return portalDoLoginArea.containsMouse ? "#3a8a73" : "#4ecca3"
+                    }
+                    opacity: (portalLoginDialog.isLoggingIn || !portalLoginEmail.text || !portalLoginPassword.text) ? 0.5 : 1.0
+
+                    Text {
+                        anchors.centerIn: parent
+                        text: portalLoginDialog.isLoggingIn ? "Logging in..." : "Login"
+                        font.pixelSize: 14
+                        font.bold: true
+                        color: "#16213e"
+                    }
+
+                    MouseArea {
+                        id: portalDoLoginArea
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        cursorShape: (!portalLoginDialog.isLoggingIn && portalLoginEmail.text && portalLoginPassword.text) ? Qt.PointingHandCursor : Qt.ArrowCursor
+                        enabled: !portalLoginDialog.isLoggingIn && portalLoginEmail.text !== "" && portalLoginPassword.text !== ""
+                        onClicked: {
+                            portalLoginDialog.isLoggingIn = true
+                            portalLoginDialog.errorMessage = ""
+                            controller.portal_login(appSettings.portalUrl, portalLoginEmail.text, portalLoginPassword.text)
+                        }
+                    }
+                }
+            }
+        }
+
+        // Listen for login result from controller
+        Connections {
+            target: controller
+            function onPortalLoginResult(success, message) {
+                portalLoginDialog.isLoggingIn = false
+                if (success) {
+                    portalLoginDialog.close()
+                } else {
+                    portalLoginDialog.errorMessage = message
                 }
             }
         }

@@ -13,7 +13,7 @@ import asyncio
 import logging
 import threading
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional, Callable, List, Dict, Any
 from urllib.parse import urlparse
 from pathlib import Path
@@ -45,6 +45,9 @@ class StepResult:
     error: Optional[str] = None
     timestamp: str = ""
     verification_details: Optional[dict] = None
+    original_selector: str = ""
+    tier_attempts: List[Dict[str, Any]] = field(default_factory=list)
+    healing_details: Optional[Dict[str, Any]] = None
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for QML/UI consumption."""
@@ -60,6 +63,9 @@ class StepResult:
             "timestamp": self.timestamp,
             "tier": self.tier_used,
             "verification": self.verification_details,
+            "originalSelector": self.original_selector,
+            "tierAttempts": self.tier_attempts,
+            "healingDetails": self.healing_details,
         }
 
 
@@ -521,6 +527,23 @@ class StableReplayer:
         exec_result: ExecutionResult
     ) -> StepResult:
         """Build step result from execution result."""
+        # Get original selector from the step's first locator
+        original_selector = ""
+        if step.target and step.target.locators:
+            original_selector = step.target.locators[0].value
+
+        # Build healing details if a healing change occurred
+        healing_details = None
+        if exec_result.healing_change:
+            hc = exec_result.healing_change
+            healing_details = {
+                "originalSelector": hc.original_selector,
+                "healedSelector": hc.healed_selector,
+                "strategy": hc.strategy,
+                "confidence": hc.confidence,
+                "reason": hc.reason,
+            }
+
         return StepResult(
             index=index,
             step_id=step.id,
@@ -532,7 +555,10 @@ class StableReplayer:
             locator_used=exec_result.locator_used.value[:80] if exec_result.locator_used else "",
             error=exec_result.error,
             timestamp=time.strftime("%H:%M:%S"),
-            verification_details=exec_result.verification.details if exec_result.verification else None
+            verification_details=exec_result.verification.details if exec_result.verification else None,
+            original_selector=original_selector,
+            tier_attempts=exec_result.tier_attempts,
+            healing_details=healing_details,
         )
 
     def _create_skip_result(self, index: int, step: Step, reason: str) -> StepResult:

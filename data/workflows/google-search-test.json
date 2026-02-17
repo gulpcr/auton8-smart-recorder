@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "name": "Google Search Test",
+    "description": "Recorded test on google.com",
+    "baseUrl": "https://www.google.com",
+    "version": 1
+  },
+  "steps": [
+    {
+      "id": "ed6298c3-2280-441a-a8d4-ddbfcdd0b34c",
+      "name": "click TEXTAREA Search",
+      "type": "click",
+      "target": {
+        "locators": [
+          {
+            "type": "aria",
+            "value": "[aria-label=\"Search\"]",
+            "score": 0.9
+          },
+          {
+            "type": "id",
+            "value": "#APjFqb",
+            "score": 0.85
+          },
+          {
+            "type": "name",
+            "value": "[name=\"q\"]",
+            "score": 0.82
+          },
+          {
+            "type": "css",
+            "value": "#APjFqb",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"APjFqb\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"APjFqb\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "domContext": {
+        "text_content": "",
+        "tag_name": "TEXTAREA",
+        "aria_label": "Search"
+      },
+      "timestamp": 1770417124449
+    },
+    {
+      "id": "0df32687-d196-4965-8629-de2f167480f2",
+      "name": "click SPAN Suryakumar Yadav",
+      "type": "click",
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "div#sBQTL > div.wM6W7d > span",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"sBQTL\"]/span/div",
+            "score": 0.65
+          },
+          {
+            "type": "text",
+            "value": "Suryakumar Yadav",
+            "score": 0.6
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[2]/div[4]/form/div/div/div[2]/div[4]/div[2]/div/div/ul/li[5]/div/div[2]/div/div/span",
+            "score": 0.4
+          }
+        ]
+      },
+      "domContext": {
+        "text_content": "Suryakumar Yadav",
+        "tag_name": "SPAN",
+        "aria_label": ""
+      },
+      "timestamp": 1770417129969
+    },
+    {
+      "id": "9b013c52-c08c-422f-b996-b29e7e3fb763",
+      "name": "click DIV",
+      "type": "click",
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "span#recaptcha-anchor > div.recaptcha-checkbox-border",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"recaptcha-anchor\"]/div",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "/html/body/div[2]/div[3]/div/div/div/span/div",
+            "score": 0.4
+          }
+        ]
+      },
+      "domContext": {
+        "text_content": "",
+        "tag_name": "DIV",
+        "aria_label": ""
+      },
+      "timestamp": 1770417134211
+    },
+    {
+      "id": "0bc01b10-01dd-4ff0-9043-b52874066b4c",
+      "name": "click IMG dimg_BGyGaeOUBMqI9u8P1cnJ0Q8_17",
+      "type": "click",
+      "target": {
+        "locators": [
+          {
+            "type": "id",
+            "value": "#dimg_BGyGaeOUBMqI9u8P1cnJ0Q8_17",
+            "score": 0.85
+          },
+          {
+            "type": "css",
+            "value": "#dimg_BGyGaeOUBMqI9u8P1cnJ0Q8_17",
+            "score": 0.7
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dimg_BGyGaeOUBMqI9u8P1cnJ0Q8_17\"]",
+            "score": 0.65
+          },
+          {
+            "type": "xpath",
+            "value": "//*[@id=\"dimg_BGyGaeOUBMqI9u8P1cnJ0Q8_17\"]",
+            "score": 0.4
+          }
+        ]
+      },
+      "domContext": {
+        "text_content": "",
+        "tag_name": "IMG",
+        "aria_label": ""
+      },
+      "timestamp": 1770417161264
+    }
+  ]
+}

@@ -87,6 +87,7 @@ class ExecutionResult:
     healing_change: Optional[HealingChange] = None
     skipped: bool = False  # NEW: Step was skipped due to condition
     skip_reason: Optional[str] = None  # NEW: Why step was skipped
+    tier_attempts: List[Dict[str, Any]] = field(default_factory=list)  # Per-tier attempt history
 
 
 class TieredExecutor:
@@ -1177,13 +1178,22 @@ class TieredExecutor:
             logger.warning(f"Step {context.step_index + 1}: Page not fully stable, proceeding with caution")
 
         # Step 2: Try each tier in order
+        tier_attempts = []
         for tier in ExecutionTier:
             if tier.value > self._max_tier.value:
                 break
 
             result = await self._execute_at_tier(tier, context)
 
+            tier_attempts.append({
+                "tier": tier.name,
+                "success": result.success,
+                "error": result.error or "",
+                "locator_tried": result.locator_used.value if result.locator_used else "",
+            })
+
             if result.success:
+                result.tier_attempts = tier_attempts
                 result.duration_ms = int((time.time() - start_time) * 1000)
                 logger.info(
                     f"Step {context.step_index + 1}: SUCCESS at {tier.name} "
@@ -1201,7 +1211,8 @@ class TieredExecutor:
             locator_used=None,
             verification=None,
             duration_ms=duration_ms,
-            error="All execution tiers failed"
+            error="All execution tiers failed",
+            tier_attempts=tier_attempts
         )
 
     async def _execute_no_locator_action(
