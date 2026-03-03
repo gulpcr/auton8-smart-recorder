@@ -37,5 +37,9 @@ data/screenshots/
 *.gguf
 *.zip
 
+# Large test data
+tests/auton8.teststeps.json
+tests/auton8.test_results.json
+
 # Models
 models/
