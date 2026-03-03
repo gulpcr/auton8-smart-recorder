@@ -35,6 +35,7 @@ data/rag_index/
 data/executions/
 data/screenshots/
 *.gguf
+*.zip
 
 # Models
 models/
