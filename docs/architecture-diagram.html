@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auton8 Smart Recorder — System Architecture</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0a0e1a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .header p {
+    color: #64748b;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  /* Layers */
+  .layer {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .layer-label {
+    position: absolute;
+    left: -14px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #475569;
+    white-space: nowrap;
+  }
+
+  /* Connector arrows */
+  .connector {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+  }
+  .connector .arrows {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+  }
+  .connector .arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .connector .arrow-line {
+    width: 2px;
+    height: 24px;
+    background: linear-gradient(to bottom, #334155, #60a5fa);
+  }
+  .connector .arrow-head {
+    width: 0; height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #60a5fa;
+  }
+  .connector-single {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+  }
+  .connector-single .arrow-line {
+    width: 2px;
+    height: 24px;
+    background: linear-gradient(to bottom, #334155, #60a5fa);
+  }
+  .connector-single .arrow-head {
+    width: 0; height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #60a5fa;
+    margin: 0 auto;
+  }
+
+  /* Channel Layer — top row */
+  .channels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  .channel-card {
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    border: 1px solid;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .channel-card:hover {
+    transform: translateY(-2px);
+  }
+  .channel-card .icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .channel-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .channel-card .sub {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+  .channel-whatsapp {
+    background: linear-gradient(135deg, rgba(37,211,102,0.08), rgba(37,211,102,0.02));
+    border-color: rgba(37,211,102,0.25);
+    box-shadow: 0 4px 24px rgba(37,211,102,0.06);
+  }
+  .channel-whatsapp h3 { color: #25d366; }
+
+  .channel-sms {
+    background: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(59,130,246,0.02));
+    border-color: rgba(59,130,246,0.25);
+    box-shadow: 0 4px 24px rgba(59,130,246,0.06);
+  }
+  .channel-sms h3 { color: #3b82f6; }
+
+  .channel-web {
+    background: linear-gradient(135deg, rgba(168,85,247,0.08), rgba(168,85,247,0.02));
+    border-color: rgba(168,85,247,0.25);
+    box-shadow: 0 4px 24px rgba(168,85,247,0.06);
+  }
+  .channel-web h3 { color: #a855f7; }
+
+  /* Nginx bar */
+  .nginx-bar {
+    background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.03));
+    border: 1px solid rgba(251,146,60,0.25);
+    border-radius: 16px;
+    padding: 20px 32px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(251,146,60,0.06);
+    transition: transform 0.2s;
+  }
+  .nginx-bar:hover { transform: translateY(-2px); }
+  .nginx-bar h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fb923c;
+    margin-bottom: 6px;
+  }
+  .nginx-bar .features {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .nginx-bar .feature {
+    font-size: 12px;
+    color: #94a3b8;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .nginx-bar .feature::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #fb923c;
+    opacity: 0.6;
+  }
+
+  /* Services row */
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .service-card {
+    border-radius: 16px;
+    padding: 28px;
+    border: 1px solid;
+    transition: transform 0.2s;
+    position: relative;
+  }
+  .service-card:hover { transform: translateY(-2px); }
+  .service-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .service-card .tech {
+    font-size: 13px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+  }
+  .service-card .modules {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .service-card .module {
+    font-size: 11px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  .service-api {
+    background: linear-gradient(135deg, rgba(34,197,94,0.08), rgba(34,197,94,0.02));
+    border-color: rgba(34,197,94,0.25);
+    box-shadow: 0 4px 24px rgba(34,197,94,0.06);
+  }
+  .service-api h3 { color: #22c55e; }
+  .service-api .module {
+    background: rgba(34,197,94,0.1);
+    color: #86efac;
+    border: 1px solid rgba(34,197,94,0.2);
+  }
+
+  .service-messaging {
+    background: linear-gradient(135deg, rgba(14,165,233,0.08), rgba(14,165,233,0.02));
+    border-color: rgba(14,165,233,0.25);
+    box-shadow: 0 4px 24px rgba(14,165,233,0.06);
+  }
+  .service-messaging h3 { color: #0ea5e9; }
+  .service-messaging .module {
+    background: rgba(14,165,233,0.1);
+    color: #7dd3fc;
+    border: 1px solid rgba(14,165,233,0.2);
+  }
+
+  /* Bidirectional arrow between services */
+  .services-wrapper {
+    position: relative;
+  }
+  .bidi-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+  .bidi-arrow .line {
+    width: 16px;
+    height: 2px;
+    background: #475569;
+  }
+  .bidi-arrow .head-left {
+    width: 0; height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 7px solid #475569;
+  }
+  .bidi-arrow .head-right {
+    width: 0; height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 7px solid #475569;
+  }
+
+  /* Data layer */
+  .data-layer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .data-card {
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .data-card:hover { transform: translateY(-2px); }
+  .data-card .icon { font-size: 28px; margin-bottom: 10px; }
+  .data-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+  .data-card .sub { font-size: 12px; opacity: 0.7; }
+
+  .data-postgres {
+    background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(99,102,241,0.02));
+    border-color: rgba(99,102,241,0.25);
+    box-shadow: 0 4px 24px rgba(99,102,241,0.06);
+  }
+  .data-postgres h3 { color: #818cf8; }
+
+  .data-redis {
+    background: linear-gradient(135deg, rgba(239,68,68,0.08), rgba(239,68,68,0.02));
+    border-color: rgba(239,68,68,0.25);
+    box-shadow: 0 4px 24px rgba(239,68,68,0.06);
+  }
+  .data-redis h3 { color: #f87171; }
+
+  /* T24 / planned */
+  .planned-card {
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px dashed rgba(245,158,11,0.4);
+    background: linear-gradient(135deg, rgba(245,158,11,0.05), transparent);
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+    transition: transform 0.2s;
+  }
+  .planned-card:hover { transform: translateY(-2px); }
+  .planned-card h3 { font-size: 16px; font-weight: 700; color: #f59e0b; margin-bottom: 4px; }
+  .planned-card .sub { font-size: 12px; color: #94a3b8; }
+  .planned-badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: rgba(245,158,11,0.15);
+    color: #fbbf24;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid rgba(245,158,11,0.3);
+  }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #64748b;
+  }
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+  }
+  .legend-line {
+    width: 20px; height: 2px;
+    border-top: 2px dashed;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Auton8 Smart Recorder</h1>
+    <p>System Architecture</p>
+  </div>
+
+  <!-- LAYER 1: Client Channels -->
+  <div class="layer">
+    <div class="channels">
+      <div class="channel-card channel-whatsapp">
+        <div class="icon">💬</div>
+        <h3>WhatsApp</h3>
+        <div class="sub">Twilio API</div>
+      </div>
+      <div class="channel-card channel-sms">
+        <div class="icon">📱</div>
+        <h3>SMS</h3>
+        <div class="sub">Twilio API</div>
+      </div>
+      <div class="channel-card channel-web">
+        <div class="icon">🌐</div>
+        <h3>Web / Mobile</h3>
+        <div class="sub">React SPA</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arrow: Channels → Nginx -->
+  <div class="connector">
+    <div class="arrows">
+      <div class="arrow"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+      <div class="arrow"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+      <div class="arrow"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+    </div>
+  </div>
+
+  <!-- LAYER 2: Nginx -->
+  <div class="layer">
+    <div class="nginx-bar">
+      <h3>⚡ nginx — Reverse Proxy</h3>
+      <div class="features">
+        <span class="feature">TLS Termination</span>
+        <span class="feature">Routing</span>
+        <span class="feature">Static Asset Serving</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arrow: Nginx → Services -->
+  <div class="connector">
+    <div class="arrows">
+      <div class="arrow"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+      <div class="arrow"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+    </div>
+  </div>
+
+  <!-- LAYER 3: Services -->
+  <div class="layer">
+    <div class="services-wrapper">
+      <div class="services">
+        <div class="service-card service-api">
+          <h3>Backend API</h3>
+          <div class="tech">FastAPI</div>
+          <div class="modules">
+            <span class="module">DRID</span>
+            <span class="module">AML</span>
+            <span class="module">Auth</span>
+            <span class="module">Receipts</span>
+            <span class="module">Reports</span>
+          </div>
+        </div>
+        <div class="service-card service-messaging">
+          <h3>WhatsApp / SMS Engine</h3>
+          <div class="tech">FastAPI</div>
+          <div class="modules">
+            <span class="module">Conversation State Machine</span>
+            <span class="module">Twilio Webhooks</span>
+          </div>
+        </div>
+      </div>
+      <div class="bidi-arrow">
+        <div class="head-left"></div>
+        <div class="line"></div>
+        <div class="head-right"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arrow: Services → Data -->
+  <div class="connector-single">
+    <div style="display:flex;flex-direction:column;align-items:center;">
+      <div class="arrow-line"></div>
+      <div class="arrow-head"></div>
+    </div>
+  </div>
+
+  <!-- LAYER 4: Data -->
+  <div class="layer">
+    <div class="data-layer">
+      <div class="data-card data-postgres">
+        <div class="icon">🗄️</div>
+        <h3>PostgreSQL</h3>
+        <div class="sub">Persistent Data</div>
+      </div>
+      <div class="data-card data-redis">
+        <div class="icon">⚡</div>
+        <h3>Redis</h3>
+        <div class="sub">Session Cache</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arrow: Data → T24 -->
+  <div class="connector-single">
+    <div style="display:flex;flex-direction:column;align-items:center;">
+      <div class="arrow-line" style="background: linear-gradient(to bottom, #334155, #f59e0b);"></div>
+      <div class="arrow-head" style="border-top-color: #f59e0b;"></div>
+    </div>
+  </div>
+
+  <!-- LAYER 5: T24 (planned) -->
+  <div class="layer">
+    <div class="planned-card">
+      <div class="planned-badge">Planned</div>
+      <h3>🏦 T24 Core Banking</h3>
+      <div class="sub">Temenos Transact</div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-dot" style="background:#22c55e;"></div>
+      Active Service
+    </div>
+    <div class="legend-item">
+      <div class="legend-line" style="border-color:#f59e0b;"></div>
+      Planned Integration
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:#60a5fa;"></div>
+      Data Flow
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

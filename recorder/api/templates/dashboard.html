@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auton8 Portal</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d27;
+    --border: #2a2d3a;
+    --text: #e4e4e7;
+    --muted: #71717a;
+    --accent: #3b82f6;
+    --green: #22c55e;
+    --red: #ef4444;
+    --orange: #f59e0b;
+    --purple: #a855f7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* Header */
+  .header {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .header-left h1 { font-size: 20px; font-weight: 700; }
+  .header-left .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); display: inline-block; }
+  .header-right { display: flex; align-items: center; gap: 16px; font-size: 13px; color: var(--muted); }
+  .header-right label { cursor: pointer; display: flex; align-items: center; gap: 6px; }
+
+  /* Main content */
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; display: flex; flex-direction: column; gap: 24px; }
+
+  /* Section */
+  .section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .section-title { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 16px; }
+
+  /* KPI Row */
+  .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .kpi-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .kpi-card .value { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+  .kpi-card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi-card.green .value { color: var(--green); }
+  .kpi-card.red .value { color: var(--red); }
+  .kpi-card.orange .value { color: var(--orange); }
+  .kpi-card.blue .value { color: var(--accent); }
+  .kpi-card.purple .value { color: var(--purple); }
+
+  /* Clients grid */
+  .clients-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .client-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+  }
+  .client-card .client-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .client-card .client-name { font-weight: 600; font-size: 14px; }
+  .client-card .client-detail { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .status-dot.online { background: var(--green); }
+  .status-dot.offline { background: var(--red); }
+
+  /* Skills grid */
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+  .skill-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .skill-card .skill-header { display: flex; align-items: center; gap: 8px; }
+  .skill-card .skill-name { font-weight: 600; font-size: 13px; }
+  .skill-card .skill-desc { font-size: 11px; color: var(--muted); }
+  .skill-card .skill-meta { font-size: 11px; color: var(--muted); }
+  .skill-card .skill-meta span { color: var(--text); }
+
+  /* Table */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    text-align: left;
+    padding: 10px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+  tbody td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  tbody tr:hover { background: rgba(59, 130, 246, 0.05); }
+  tbody tr:last-child td { border-bottom: none; }
+
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .badge.passed, .badge.completed { background: rgba(34,197,94,0.15); color: var(--green); }
+  .badge.failed { background: rgba(239,68,68,0.15); color: var(--red); }
+  .badge.running, .badge.processing { background: rgba(59,130,246,0.15); color: var(--accent); }
+  .badge.pending { background: rgba(113,113,122,0.15); color: var(--muted); }
+
+  /* Empty state */
+  .empty-state { text-align: center; padding: 32px; color: var(--muted); font-size: 14px; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container { padding: 12px; gap: 16px; }
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .header { padding: 12px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <span class="dot" id="serverDot"></span>
+    <h1>Auton8 Portal</h1>
+  </div>
+  <div class="header-right">
+    <span id="serverVersion">v1.0.0</span>
+    <span id="serverUptime">Uptime: --</span>
+    <label>
+      <input type="checkbox" id="autoRefresh" checked>
+      Auto-refresh
+    </label>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- KPI Stats -->
+  <div class="section">
+    <div class="section-title">Dashboard</div>
+    <div class="kpi-row">
+      <div class="kpi-card blue">
+        <div class="value" id="kpiWorkflows">--</div>
+        <div class="label">Workflows</div>
+      </div>
+      <div class="kpi-card purple">
+        <div class="value" id="kpiRuns">--</div>
+        <div class="label">Total Runs</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="value" id="kpiPassRate">--%</div>
+        <div class="label">Pass Rate</div>
+      </div>
+      <div class="kpi-card red">
+        <div class="value" id="kpiFailed">--</div>
+        <div class="label">Failed Runs</div>
+      </div>
+      <div class="kpi-card orange">
+        <div class="value" id="kpiHealed">--</div>
+        <div class="label">Healed Steps</div>
+      </div>
+      <div class="kpi-card orange">
+        <div class="value" id="kpiHealRate">--%</div>
+        <div class="label">Heal Rate</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Connected Clients -->
+  <div class="section">
+    <div class="section-title">Connected Clients (<span id="clientCount">0</span>)</div>
+    <div class="clients-grid" id="clientsGrid">
+      <div class="empty-state">No recorder clients connected</div>
+    </div>
+  </div>
+
+  <!-- Skills & Engines -->
+  <div class="section">
+    <div class="section-title">Skills & Engines</div>
+    <div class="skills-grid" id="skillsGrid">
+      <div class="empty-state">Loading...</div>
+    </div>
+  </div>
+
+  <!-- Recent Executions -->
+  <div class="section">
+    <div class="section-title">Recent Executions</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Workflow</th>
+            <th>Status</th>
+            <th>Steps</th>
+            <th>Healed</th>
+            <th>Duration</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="executionsBody">
+          <tr><td colspan="6" class="empty-state">No executions yet</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Workflows -->
+  <div class="section">
+    <div class="section-title">Workflows</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Steps</th>
+            <th>Last Run</th>
+            <th>Pass Rate</th>
+            <th>Runs</th>
+          </tr>
+        </thead>
+        <tbody id="workflowsBody">
+          <tr><td colspan="5" class="empty-state">No workflows</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const API = '';  // same origin
+
+// ── Helpers ────────────────────────────────────────────────
+
+async function fetchJSON(path) {
+  try {
+    const r = await fetch(API + path);
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+function formatDuration(ms) {
+  if (!ms && ms !== 0) return '--';
+  if (ms < 1000) return ms + 'ms';
+  if (ms < 60000) return (ms / 1000).toFixed(1) + 's';
+  return (ms / 60000).toFixed(1) + 'm';
+}
+
+function timeAgo(isoStr) {
+  if (!isoStr) return '--';
+  const d = new Date(isoStr);
+  const now = new Date();
+  const diff = (now - d) / 1000;
+  if (diff < 60) return Math.floor(diff) + 's ago';
+  if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+  return Math.floor(diff / 86400) + 'd ago';
+}
+
+function formatUptime(seconds) {
+  if (!seconds && seconds !== 0) return '--';
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  if (h > 0) return h + 'h ' + m + 'm';
+  return m + 'm';
+}
+
+function statusBadge(status) {
+  return `<span class="badge ${status}">${status}</span>`;
+}
+
+// ── Data Fetchers ──────────────────────────────────────────
+
+async function fetchStats() {
+  const data = await fetchJSON('/api/dashboard/stats');
+  if (!data) return;
+  document.getElementById('kpiWorkflows').textContent = data.total_workflows ?? 0;
+  document.getElementById('kpiRuns').textContent = data.total_runs ?? 0;
+  document.getElementById('kpiPassRate').textContent = (data.pass_rate ?? 0).toFixed(0) + '%';
+  document.getElementById('kpiFailed').textContent = data.failed_runs ?? 0;
+  document.getElementById('kpiHealed').textContent = data.healed_steps ?? 0;
+  document.getElementById('kpiHealRate').textContent = (data.healing_rate ?? 0).toFixed(0) + '%';
+}
+
+async function fetchClients() {
+  const data = await fetchJSON('/api/clients');
+  const grid = document.getElementById('clientsGrid');
+  const countEl = document.getElementById('clientCount');
+
+  if (!data || !data.clients || data.clients.length === 0) {
+    grid.innerHTML = '<div class="empty-state">No recorder clients connected</div>';
+    countEl.textContent = '0';
+    return;
+  }
+
+  const online = data.clients.filter(c => c.status === 'online').length;
+  countEl.textContent = online + ' online';
+
+  grid.innerHTML = data.clients.map(c => `
+    <div class="client-card">
+      <div class="client-header">
+        <span class="client-name">${esc(c.machine_id)}</span>
+        <span class="status-dot ${c.status}"></span>
+      </div>
+      <div class="client-detail">${esc(c.ip || '--')}</div>
+      <div class="client-detail">${esc(c.skill_mode || 'hybrid')} mode</div>
+      <div class="client-detail">${esc(c.os || '--')}</div>
+      <div class="client-detail">Last seen: ${timeAgo(c.last_seen)}</div>
+    </div>
+  `).join('');
+}
+
+async function fetchSkills() {
+  const [skillsData, mlData] = await Promise.all([
+    fetchJSON('/api/skills/status'),
+    fetchJSON('/api/ml/status'),
+  ]);
+
+  const grid = document.getElementById('skillsGrid');
+  const skills = skillsData?.skills || [];
+
+  if (skills.length === 0) {
+    grid.innerHTML = '<div class="empty-state">No skills data</div>';
+    return;
+  }
+
+  // Enrich with ML status details
+  const mlMap = mlData || {};
+
+  grid.innerHTML = skills.map(s => {
+    const dot = s.available
+      ? '<span class="status-dot online"></span>'
+      : '<span class="status-dot offline"></span>';
+
+    let meta = '';
+    if (s.name === 'healing' && mlMap.healing_engine) {
+      const h = mlMap.healing_engine;
+      meta = h.trained ? 'Trained' : `${h.samples || 0} samples`;
+    } else if (s.name === 'selector_gen' && mlMap.selector_engine) {
+      const se = mlMap.selector_engine;
+      meta = se.trained ? 'Trained' : `${se.samples || 0} samples`;
+    } else if (s.name === 'rag' && mlMap.rag_engine) {
+      meta = `${mlMap.rag_engine.documents || 0} docs`;
+    } else if (s.name === 'llm' && mlMap.llm_engine) {
+      meta = mlMap.llm_engine.model || '';
+    }
+
+    return `
+      <div class="skill-card">
+        <div class="skill-header">${dot} <span class="skill-name">${esc(s.name)}</span></div>
+        <div class="skill-desc">${esc(s.description || '')}</div>
+        ${meta ? `<div class="skill-meta"><span>${esc(meta)}</span></div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+async function fetchExecutions() {
+  const data = await fetchJSON('/api/executions?page_size=20');
+  const tbody = document.getElementById('executionsBody');
+
+  if (!data || !data.executions || data.executions.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="6" class="empty-state">No executions yet</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = data.executions.map(e => `
+    <tr>
+      <td>${esc(e.workflow_name || e.workflow_id || '--')}</td>
+      <td>${statusBadge(e.status || 'pending')}</td>
+      <td>${e.passed_steps ?? 0}/${e.total_steps ?? 0}/${e.failed_steps ?? 0}</td>
+      <td>${e.healed_steps ?? 0}</td>
+      <td>${formatDuration(e.duration_ms)}</td>
+      <td>${timeAgo(e.started_at || e.completed_at)}</td>
+    </tr>
+  `).join('');
+}
+
+async function fetchWorkflows() {
+  const data = await fetchJSON('/api/workflows');
+  const tbody = document.getElementById('workflowsBody');
+
+  if (!data || !data.workflows || data.workflows.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty-state">No workflows</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = data.workflows.map(w => {
+    const name = w.name || w.filename || '--';
+    const steps = w.step_count ?? w.steps?.length ?? '--';
+    const lastRun = timeAgo(w.last_run_at);
+    const passRate = w.pass_rate != null ? (w.pass_rate * 100).toFixed(0) + '%' : '--';
+    const runs = w.total_runs ?? '--';
+    return `
+      <tr>
+        <td>${esc(name)}</td>
+        <td>${steps}</td>
+        <td>${lastRun}</td>
+        <td>${passRate}</td>
+        <td>${runs}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+async function fetchServerInfo() {
+  const data = await fetchJSON('/health');
+  const dot = document.getElementById('serverDot');
+  const uptimeEl = document.getElementById('serverUptime');
+
+  if (data && data.status === 'healthy') {
+    dot.style.background = 'var(--green)';
+    if (data.uptime_seconds != null) {
+      uptimeEl.textContent = 'Uptime: ' + formatUptime(data.uptime_seconds);
+    }
+  } else {
+    dot.style.background = 'var(--red)';
+    uptimeEl.textContent = 'Offline';
+  }
+}
+
+// ── XSS Protection ─────────────────────────────────────────
+
+function esc(s) {
+  if (s == null) return '';
+  const d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+
+// ── Main Loop ──────────────────────────────────────────────
+
+async function fetchAll() {
+  await Promise.all([
+    fetchServerInfo(),
+    fetchStats(),
+    fetchClients(),
+    fetchSkills(),
+    fetchExecutions(),
+    fetchWorkflows(),
+  ]);
+}
+
+// Initial load
+fetchAll();
+
+// Auto-refresh
+let interval = setInterval(fetchAll, 5000);
+document.getElementById('autoRefresh').addEventListener('change', function() {
+  if (this.checked) {
+    interval = setInterval(fetchAll, 5000);
+  } else {
+    clearInterval(interval);
+  }
+});
+</script>
+</body>
+</html>
