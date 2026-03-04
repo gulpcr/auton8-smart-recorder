@@ -4,14 +4,23 @@ services:
   auton8-server:
     build: .
     ports:
-      - "8000:8000"
+      - "8010:8010"
     volumes:
       - ./data:/app/data
     environment:
-      - LOG_LEVEL=INFO
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@localhost}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - CORS_ORIGINS=${CORS_ORIGINS:-*}
+      - DATA_DIR=/app/data
+      - LLM_MODEL_PATH=${LLM_MODEL_PATH:-}
+      - AUTON8_MODELS_DIR=${AUTON8_MODELS_DIR:-}
+      - LLM_N_CTX=${LLM_N_CTX:-4096}
+      - LLM_N_THREADS=${LLM_N_THREADS:-4}
+      - LLM_N_GPU_LAYERS=${LLM_N_GPU_LAYERS:-0}
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8010/health')"]
       interval: 30s
       timeout: 5s
       retries: 3

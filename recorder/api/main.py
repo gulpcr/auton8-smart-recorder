@@ -4,6 +4,10 @@ from __future__ import annotations
 
 import logging
 import asyncio
+import hashlib
+import os
+import secrets
+import time
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from datetime import datetime, timezone
@@ -11,32 +15,50 @@ import uuid
 
 from fastapi import FastAPI, File, UploadFile, HTTPException, BackgroundTasks, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, HTMLResponse
 from pydantic import BaseModel, Field
 
 from recorder.ml.selector_engine import MultiDimensionalSelectorEngine, create_fingerprint_from_dom
 from recorder.ml.healing_engine import SelectorHealingEngine
-from recorder.ml.llm_engine import LocalLLMEngine, LLMConfig
+from recorder.ml.llm_engine import LocalLLMEngine, LLMConfig, get_default_model_path
 from recorder.ml.rag_engine import RAGEngine
 from recorder.audio.transcription_engine import TranscriptionEngine
 from recorder.services import workflow_store
 
 logger = logging.getLogger(__name__)
 
+# Absolute path to the data directory.
+# Resolves relative to this file so the server works regardless of the
+# working directory it is started from.
+# Override with DATA_DIR env var for custom volume mounts (e.g. Docker).
+DATA_DIR: Path = (
+    Path(os.environ["DATA_DIR"]).resolve()
+    if os.environ.get("DATA_DIR")
+    else Path(__file__).resolve().parent.parent.parent / "data"
+)
+
 # Initialize FastAPI app
 app = FastAPI(
-    title="Call Intelligence API",
-    description="Production API for browser automation and call analysis",
+    title="Auton8 Portal API",
+    description="Central server for browser automation, ML healing, and analytics",
     version="1.0.0"
 )
 
-# Add CORS middleware
-# Note: allow_credentials=True is incompatible with allow_origins=["*"]
-# per the CORS spec. Browsers will refuse to send credentials.
+# CORS origins — comma-separated list in CORS_ORIGINS env var.
+# Defaults to "*" for local dev; always set this in production.
+# Example: CORS_ORIGINS=http://192.168.1.10,http://192.168.1.11
+_raw_origins = os.environ.get("CORS_ORIGINS", "*").strip()
+if _raw_origins == "*":
+    _cors_origins = ["*"]
+    _cors_credentials = False
+else:
+    _cors_origins = [o.strip() for o in _raw_origins.split(",") if o.strip()]
+    _cors_credentials = True
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify allowed origins
-    allow_credentials=False,
+    allow_origins=_cors_origins,
+    allow_credentials=_cors_credentials,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -142,22 +164,43 @@ class JobStatusResponse(BaseModel):
 @app.on_event("startup")
 async def startup_event():
     """Initialize components on startup."""
-    global selector_engine, healing_engine, rag_engine, transcription_engine
-    
+    global selector_engine, healing_engine, llm_engine, rag_engine, transcription_engine
+
     logger.info("Initializing API components...")
-    
-    # Initialize selector and healing engines
+
+    # Selector and healing engines
     selector_engine = MultiDimensionalSelectorEngine()
     healing_engine = SelectorHealingEngine()
-    
-    # Initialize RAG engine
-    rag_engine = RAGEngine()
-    # Try to load existing index
+
+    # LLM engine — requires a GGUF model file.
+    # Set LLM_MODEL_PATH to the exact file, or AUTON8_MODELS_DIR to the
+    # directory that contains .gguf files. Falls back to ~/models automatically.
+    llm_model_path = get_default_model_path()
+    if llm_model_path:
+        try:
+            llm_config = LLMConfig(
+                model_path=str(llm_model_path),
+                n_ctx=int(os.environ.get("LLM_N_CTX", 4096)),
+                n_threads=int(os.environ.get("LLM_N_THREADS", 4)),
+                n_gpu_layers=int(os.environ.get("LLM_N_GPU_LAYERS", 0)),
+            )
+            llm_engine = LocalLLMEngine(llm_config)
+            logger.info(f"LLM engine initialized: {llm_model_path.name}")
+        except Exception as e:
+            logger.warning(f"LLM engine failed to load ({e}) — LLM features disabled")
+    else:
+        logger.info(
+            "No LLM model found. Set LLM_MODEL_PATH or AUTON8_MODELS_DIR env var "
+            "to enable LLM features (intent classification, recovery planning)."
+        )
+
+    # RAG engine with absolute index path
+    rag_engine = RAGEngine(index_path=DATA_DIR / "rag_index")
     rag_engine.load_index()
-    
-    # Initialize transcription engine
+
+    # Transcription engine
     transcription_engine = TranscriptionEngine(model_size="base")
-    
+
     logger.info("API components initialized")
 
 
@@ -305,7 +348,7 @@ async def upload_audio(
         job_id = str(uuid.uuid4())
         
         # Save uploaded file
-        upload_dir = Path("data/uploads")
+        upload_dir = DATA_DIR / "uploads"
         upload_dir.mkdir(parents=True, exist_ok=True)
 
         # Sanitize filename to prevent path traversal
@@ -525,7 +568,7 @@ async def get_workflow(workflow_id: str):
     if safe_id != workflow_id or ".." in workflow_id:
         raise HTTPException(status_code=400, detail="Invalid workflow ID")
 
-    workflow_path = Path(f"data/workflows/{safe_id}")
+    workflow_path = DATA_DIR / "workflows" / safe_id
 
     if not workflow_path.exists():
         raise HTTPException(status_code=404, detail="Workflow not found")
@@ -545,7 +588,7 @@ async def replay_workflow(
     if safe_id != request.workflow_id or ".." in request.workflow_id:
         raise HTTPException(status_code=400, detail="Invalid workflow ID")
 
-    workflow_path = Path(f"data/workflows/{safe_id}")
+    workflow_path = DATA_DIR / "workflows" / safe_id
 
     if not workflow_path.exists():
         raise HTTPException(status_code=404, detail="Workflow not found")

@@ -72,7 +72,11 @@ class RAGEngine:
         self.faiss_index: Optional[faiss.Index] = None
         self.bm25_index: Optional[BM25Okapi] = None
         self.documents: List[Document] = []
-        self.index_path = Path(index_path) if index_path else Path("data/rag_index")
+        self.index_path = (
+            Path(index_path).resolve()
+            if index_path
+            else Path(__file__).resolve().parent.parent.parent / "data" / "rag_index"
+        )
         self.index_path.mkdir(parents=True, exist_ok=True)
         
         self._initialize_embedding_model()

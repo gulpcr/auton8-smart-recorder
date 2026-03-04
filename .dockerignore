@@ -1,0 +1,61 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Runtime data — mounted as a volume, never baked into image
+data/
+
+# Desktop UI — not needed on server
+ui/
+
+# Browser injection — not needed on server (used by tester machines)
+instrumentation/
+
+# CLI replayer — not part of the API server
+replay/
+
+# Dev/test
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Docs and scripts
+docs/
+examples/
+guides/
+*.md
+install.sh
+install.bat
+
+# Client-only requirements files (server uses requirements-server.txt)
+requirements-minimal.txt
+requirements-core.txt
+requirements-ml-advanced.txt
+requirements-audio.txt
+
+# Environment secrets
+.env
+*.env
+
+# IDE
+.vscode/
+.cursor/
+*.iml
