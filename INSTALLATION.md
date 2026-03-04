@@ -6,14 +6,16 @@
 2. [Requirements](#2-requirements)
 3. [Server Deployment (Docker)](#3-server-deployment-docker)
 4. [Server Deployment (Manual / No Docker)](#4-server-deployment-manual--no-docker)
-5. [Tester Machine Setup — Windows](#5-tester-machine-setup--windows)
-6. [Tester Machine Setup — Linux / macOS](#6-tester-machine-setup--linux--macos)
-7. [Connect Tester Machines to the Server](#7-connect-tester-machines-to-the-server)
-8. [Running the Recorder](#8-running-the-recorder)
-9. [Recording a Workflow](#9-recording-a-workflow)
-10. [Replaying a Workflow](#10-replaying-a-workflow)
-11. [Verifying Everything Works](#11-verifying-everything-works)
-12. [Troubleshooting](#12-troubleshooting)
+5. [Server Deployment — RHEL 9 / CentOS Stream 9](#5-server-deployment--rhel-9--centos-stream-9)
+6. [Tester Machine Setup — Windows](#6-tester-machine-setup--windows)
+7. [Tester Machine Setup — Linux / macOS](#7-tester-machine-setup--linux--macos)
+8. [Tester Machine Setup — RHEL 9](#8-tester-machine-setup--rhel-9)
+9. [Connect Tester Machines to the Server](#9-connect-tester-machines-to-the-server)
+10. [Running the Recorder](#10-running-the-recorder)
+11. [Recording a Workflow](#11-recording-a-workflow)
+12. [Replaying a Workflow](#12-replaying-a-workflow)
+13. [Verifying Everything Works](#13-verifying-everything-works)
+14. [Troubleshooting](#14-troubleshooting)
 
 ---
 
@@ -339,7 +341,238 @@ journalctl -u auton8 -f
 
 ---
 
-## 5. Tester Machine Setup — Windows
+## 5. Server Deployment — RHEL 9 / CentOS Stream 9
+
+RHEL 9 uses `dnf` instead of `apt-get`, has different package names, and requires additional repositories for some dependencies. Follow this section instead of Section 3 or 4 if you are on RHEL 9, Rocky Linux 9, or AlmaLinux 9.
+
+### Option A — Docker on RHEL 9 (Recommended)
+
+The Docker container is Debian-based internally, so all system dependencies inside the container install correctly. You only need to install Docker on the host.
+
+#### Step 1 — Install Docker CE
+
+```bash
+# Add Docker's official repo for RHEL
+sudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+
+# Install Docker and Compose plugin
+sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# Start and enable Docker
+sudo systemctl enable --now docker
+
+# Allow your user to run Docker without sudo
+sudo usermod -aG docker $USER
+newgrp docker
+
+# Verify
+docker --version
+docker compose version
+```
+
+> If Docker CE is not available for RHEL in your region, use Podman with the `podman-compose` alternative below.
+
+#### Step 2 — Clone and configure
+
+```bash
+git clone https://github.com/gulpcr/auton8-smart-recorder.git /opt/auton8
+cd /opt/auton8
+cp .env.example .env
+nano .env   # Set ADMIN_EMAIL and ADMIN_PASSWORD
+```
+
+#### Step 3 — Open firewall port
+
+```bash
+sudo firewall-cmd --permanent --add-port=8010/tcp
+sudo firewall-cmd --reload
+```
+
+#### Step 4 — Build and start
+
+```bash
+docker compose up -d --build
+curl http://localhost:8010/health
+```
+
+---
+
+### Option B — Podman + podman-compose on RHEL 9
+
+RHEL 9 ships with Podman as the default container runtime.
+
+```bash
+# Install podman-compose
+sudo dnf install -y podman podman-compose
+
+# Clone the project
+git clone https://github.com/gulpcr/auton8-smart-recorder.git /opt/auton8
+cd /opt/auton8
+cp .env.example .env
+nano .env
+
+# Build and run
+podman-compose up -d --build
+
+# Verify
+curl http://localhost:8010/health
+```
+
+---
+
+### Option C — Manual Install on RHEL 9 (No containers)
+
+#### Step 1 — Enable required repositories
+
+```bash
+# EPEL (Extra Packages for Enterprise Linux)
+sudo dnf install -y epel-release
+
+# RPM Fusion — needed for ffmpeg
+sudo dnf install -y \
+  https://download1.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm \
+  https://download1.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm
+
+# Enable CodeReady Linux Builder (provides some build dependencies)
+sudo subscription-manager repos --enable codeready-builder-for-rhel-9-x86_64-rpms
+# OR on Rocky/Alma Linux:
+sudo dnf config-manager --set-enabled crb
+```
+
+#### Step 2 — Install system dependencies
+
+```bash
+sudo dnf install -y \
+    python3.11 \
+    python3.11-pip \
+    python3.11-devel \
+    tesseract \
+    tesseract-langpack-eng \
+    mesa-libGL \
+    glib2 \
+    ffmpeg \
+    git \
+    gcc \
+    gcc-c++ \
+    make \
+    cmake \
+    pkg-config \
+    libffi-devel \
+    openssl-devel
+```
+
+> **Package name differences vs Ubuntu:**
+> | Ubuntu | RHEL 9 |
+> |--------|--------|
+> | `tesseract-ocr` | `tesseract` |
+> | `libgl1-mesa-glx` | `mesa-libGL` |
+> | `libglib2.0-0` | `glib2` |
+> | `python3.11-venv` | included in `python3.11` |
+> | `ffmpeg` (main repo) | `ffmpeg` (RPM Fusion required) |
+
+#### Step 3 — Create virtual environment
+
+```bash
+cd /opt/auton8
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip setuptools wheel
+```
+
+#### Step 4 — Install server Python dependencies
+
+```bash
+pip install -r requirements-server.txt
+```
+
+If `whisperx` fails to install (git dependency), install it separately:
+
+```bash
+pip install openai-whisper
+pip install git+https://github.com/m-bain/whisperX.git
+```
+
+#### Step 5 — Download spaCy model
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
+#### Step 6 — Handle SELinux (if enforcing)
+
+RHEL 9 runs SELinux in enforcing mode by default. Allow the server to bind to port 8010:
+
+```bash
+# Allow Python to bind to port 8010
+sudo semanage port -a -t http_port_t -p tcp 8010
+
+# If semanage is not installed:
+sudo dnf install -y policycoreutils-python-utils
+sudo semanage port -a -t http_port_t -p tcp 8010
+```
+
+If you see "Permission denied" errors accessing files in `/opt/auton8/data`:
+
+```bash
+sudo chcon -R -t httpd_sys_content_t /opt/auton8/data
+# Or temporarily set permissive to diagnose:
+sudo setenforce 0
+```
+
+#### Step 7 — Open firewall port
+
+```bash
+sudo firewall-cmd --permanent --add-port=8010/tcp
+sudo firewall-cmd --reload
+```
+
+#### Step 8 — Set environment variables and start
+
+```bash
+export ADMIN_EMAIL="admin@yourorg.com"
+export ADMIN_PASSWORD="strong-password"
+export CORS_ORIGINS="*"
+export DATA_DIR="/opt/auton8/data"
+
+source .venv/bin/activate
+python -m recorder.api.main
+```
+
+#### Step 9 — Create a systemd service
+
+```bash
+sudo tee /etc/systemd/system/auton8.service > /dev/null <<EOF
+[Unit]
+Description=Auton8 Recorder Server
+After=network.target
+
+[Service]
+Type=simple
+User=$USER
+WorkingDirectory=/opt/auton8
+ExecStart=/opt/auton8/.venv/bin/python -m recorder.api.main
+Restart=on-failure
+RestartSec=5
+Environment=ADMIN_EMAIL=admin@yourorg.com
+Environment=ADMIN_PASSWORD=strong-password
+Environment=CORS_ORIGINS=*
+Environment=DATA_DIR=/opt/auton8/data
+Environment=LOG_LEVEL=INFO
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now auton8
+sudo systemctl status auton8
+```
+
+---
+
+## 6. Tester Machine Setup — Windows
+
+Run these steps on every Windows machine that will record or replay workflows.
 
 Run these steps on every Windows machine that will record or replay workflows.
 
@@ -401,7 +634,7 @@ Verify: `tesseract --version`
 
 ---
 
-## 6. Tester Machine Setup — Linux / macOS
+## 7. Tester Machine Setup — Linux / macOS
 
 ### Step 1 — Install Python 3.11
 
@@ -451,9 +684,116 @@ brew install tesseract
 
 ---
 
-## 7. Connect Tester Machines to the Server
+## 8. Tester Machine Setup — RHEL 9
 
-Do this on every tester machine after completing Section 5 or 6.
+Use this section if your tester machines run RHEL 9, Rocky Linux 9, or AlmaLinux 9.
+
+### Step 1 — Install Python 3.11
+
+RHEL 9 ships with Python 3.9 by default. Python 3.11 is available in the AppStream repository:
+
+```bash
+sudo dnf install -y python3.11 python3.11-pip
+```
+
+Verify:
+
+```bash
+python3.11 --version
+```
+
+### Step 2 — Install Playwright system dependencies
+
+Playwright on RHEL 9 needs several X11 and graphics libraries:
+
+```bash
+sudo dnf install -y \
+    nss \
+    nspr \
+    atk \
+    at-spi2-atk \
+    libX11 \
+    libXcomposite \
+    libXdamage \
+    libXext \
+    libXfixes \
+    libXrandr \
+    libgbm \
+    libxcb \
+    libxkbcommon \
+    mesa-libGL \
+    pango \
+    cairo \
+    cups-libs \
+    dbus-libs \
+    alsa-lib
+```
+
+### Step 3 — Install project dependencies
+
+```bash
+cd /path/to/auton8/recorder
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements-minimal.txt
+```
+
+### Step 4 — Install Playwright browser
+
+```bash
+playwright install chromium
+
+# If the above fails due to missing deps, run:
+playwright install-deps chromium
+playwright install chromium
+```
+
+If `playwright install-deps` fails on RHEL (it tries to use apt internally), install the deps manually using Step 2 above and then run `playwright install chromium` again.
+
+### Step 5 — Install Tesseract OCR (optional)
+
+```bash
+# Enable EPEL first
+sudo dnf install -y epel-release
+sudo dnf install -y tesseract tesseract-langpack-eng
+```
+
+### Step 6 — Handle SELinux for file access
+
+If the recorder cannot write screenshots or workflow files:
+
+```bash
+sudo chcon -R -t user_home_t /path/to/auton8/recorder/data
+```
+
+Or add the project directory to the SELinux allow list:
+
+```bash
+sudo semanage fcontext -a -t user_home_t "/path/to/auton8/recorder/data(/.*)?"
+sudo restorecon -R /path/to/auton8/recorder/data
+```
+
+### Step 7 — Run the recorder
+
+```bash
+source .venv/bin/activate
+python -m recorder.app_enhanced
+```
+
+> **Note on display:** If running on a headless RHEL server as a tester (no GUI), you need a virtual display:
+> ```bash
+> sudo dnf install -y xorg-x11-server-Xvfb
+> Xvfb :99 -screen 0 1920x1080x24 &
+> export DISPLAY=:99
+> python -m recorder.app_enhanced
+> ```
+
+---
+
+## 9. Connect Tester Machines to the Server
+
+Do this on every tester machine after completing Section 6, 7, or 8.
 
 ### Step 1 — Open `data/settings.json`
 
@@ -523,7 +863,7 @@ You should see this machine listed with `"status": "online"`.
 
 ---
 
-## 8. Running the Recorder
+## 10. Running the Recorder
 
 ### Start the app
 
@@ -548,7 +888,7 @@ python -m recorder.app_enhanced
 
 ---
 
-## 9. Recording a Workflow
+## 11. Recording a Workflow
 
 1. Open the recorder app
 2. Click **New Recording**
@@ -562,7 +902,7 @@ The workflow is automatically synced to the server if `portalUrl` is configured.
 
 ---
 
-## 10. Replaying a Workflow
+## 12. Replaying a Workflow
 
 ### From the UI
 
@@ -597,7 +937,7 @@ curl http://YOUR_SERVER_IP:8010/api/jobs/JOB_ID \
 
 ---
 
-## 11. Verifying Everything Works
+## 13. Verifying Everything Works
 
 ### Server health
 
@@ -632,7 +972,7 @@ Open `http://YOUR_SERVER_IP:8010` in a browser — shows execution stats, pass r
 
 ---
 
-## 12. Troubleshooting
+## 14. Troubleshooting
 
 ### Server won't start
 
